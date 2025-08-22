@@ -1,3 +1,8 @@
+---
+layout: default
+title: R. Block Nation – BD Packet
+---
+
 # R. Block Nation | BD & Compliance Packet
 
 Welcome to the official BD and Compliance resource site for **R. Block Nation**.  
