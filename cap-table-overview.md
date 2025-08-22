@@ -9,13 +9,13 @@
 
 ---
 
-## 🧱 Capital Structure Summary
+## 🧱 Capital Structure Summary (Founder-Issuer)
 
-| Share Class | Description                | Voting Rights | Notes                            |
-|-------------|----------------------------|---------------|----------------------------------|
-| Class A     | Founder equity             | ✅ Yes        | Retained minimum 51% ownership  |
-| Class B     | Reg CF investor equity     | ❌ No         | Up to 23.08% offered in Reg CF  |
-| Class C     | Future strategic partners  | ⚠️ TBD        | May include voting/convertible  |
+| Share Class | Description                | Voting Rights | Notes                                 |
+|-------------|----------------------------|---------------|---------------------------------------|
+| Class A     | Founder equity             | ✅ Yes        | Retained minimum 51% ownership        |
+| Class B     | Reg CF investor equity     | ❌ No         | Non-voting tokenized equity (RBCB)    |
+| Class C     | Reserved for future use    | ⚠️ Optional   | May include strategic, convertible, or BD equity |
 
 ---
 
@@ -41,27 +41,29 @@
 
 ---
 
-## 🔐 Founder Control Logic
+## 🧩 Platform Flexibility for Other Issuers
 
-- The **Class A stake remains untouched** during the Reg CF raise
-- Class B (non-voting) units are issued as **equity tokens (RBCB)** on-chain
-- Founder retains **full governance rights** and majority control through Class A
+While this cap table reflects the founder’s structure, **R. Block Nation is designed to support a wide variety of issuer types**, including:
+
+- Voting or non-voting equity offerings  
+- Revenue-share token models (creator economy, startups, services)  
+- Tokenized debt or real estate assets  
+- Reg CF, Reg A+, or Reg D campaigns
+
+Each issuer defines its own equity/token terms. The platform facilitates compliant onboarding, cap table tracking, and investor communications — but does **not enforce a uniform capital structure**.
 
 ---
 
-## 🔄 Future Considerations
+## 🔐 Founder Control Logic
 
-- **Class C** shares may be introduced for:
-  - Broker-dealer equity partners
-  - Strategic alliances
-  - Future convertible offerings (Reg A+, Reg D)
-
-- Cap table updates will be tokenized and managed via Kore + blockchain contracts
+- The **Class A stake remains untouched** during the Reg CF raise  
+- Class B (non-voting) tokens are issued to investors  
+- Founder retains full **governance control and management authority**  
+- Long-term growth is driven by **acquisition and tokenization of revenue-producing assets** under R. Block Nation
 
 ---
 
 ## 📝 Disclaimer
 
-This cap table overview is a planning document and is not a legal representation of equity issuance. Final percentages and classes may vary based on investment received and legal structuring.
-
+This cap table overview is a planning document and is not a legal representation of equity issuance. Final percentages and classes may vary based on funding, legal review, and platform evolution.
 
