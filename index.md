@@ -32,5 +32,4 @@ Do not distribute without written consent from **R. Block Share Holdings, LLC**.
 
 For questions or access to additional documents, contact:  
 📧 **lester@rblockshareholdings.com**
-ø
 
