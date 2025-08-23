@@ -2,73 +2,63 @@
 
 ## 💼 Overview
 
-This pricing model outlines how issuers (companies raising capital on the R. Block Nation platform) are onboarded, what services they pay for, and how R. Block generates sustainable revenue while maintaining investor and issuer alignment.
+This document outlines how R. Block Nation structures pricing and monetization for startups, franchises, and creator-backed issuers launching offerings on the platform. Pricing is designed to remain accessible while supporting platform sustainability, token lifecycle management, and long-term ecosystem value.
 
 ---
 
-## 🧾 Core Pricing Structure
+## 🧩 Core Issuer Services
 
-| Service Tier        | Description                                      | Fee Model         | Notes                                 |
-|---------------------|--------------------------------------------------|-------------------|---------------------------------------|
-| Basic Onboarding    | Reg CF support, KYC/AML, escrow setup            | $0 upfront        | Included in Free Forever + carry      |
-| White-Label Package | Issuer-branded UI, onboarding workflow, hosting | $1,500 flat fee   | Optional upgrade                      |
-| Smart Contract Issuance | Equity token contract, wallet sync         | Included          | One contract per raise                |
-| Post-CF Token Listing | ATS-ready setup for secondary market           | TBD (by partner)  | Optional / pending BD-ATS partnership |
-
----
-
-## 💰 Revenue Streams (Platform)
-
-| Source                | Description                                   | Model                |
-|-----------------------|-----------------------------------------------|----------------------|
-| Issuer Success Fee    | % of funds raised through platform            | 5% – 7% (target)     |
-| Equity Carry          | Platform retains equity in issuers onboarded  | 1% – 2% Class B (CF) |
-| Subscription Upsell   | Optional tools, dashboards, analytics         | TBD (phase 2)        |
-| Reg A+ / D Upgrade    | Services to help migrate to next exemptions   | Flat or tiered       |
+| Feature                    | Description                                                             | Price                     |
+|----------------------------|-------------------------------------------------------------------------|---------------------------|
+| Campaign Onboarding        | End-to-end onboarding with Kore + North Capital compliance stack        | $0–$2,500 (based on raise size) |
+| Token Issuance             | Smart contract deployment + equity/rev-share token creation              | Included (with markup option)   |
+| White-Label UI (optional)  | Issuer-branded investor portal, private labeled KoreConX interface       | $1,500+ (one-time setup)  |
+| Rev-Share Model Support    | Custom contract + token structure for creators, franchises, or services  | Revenue-based (see below) |
+| Kore + NC Integration      | KYC/AML, escrow, disbursement, and post-raise investor management        | Included                  |
+| Cap Table + Governance     | Full issuer portal for tracking tokens, equity classes, and updates      | Included                  |
 
 ---
 
-## ⚙️ Infrastructure Model (Phase 1)
+## 🪙 Revenue Share & Equity Token Models
 
-- **KoreConX** powers UI, cap table, compliance, and white-label onboarding
-- **North Capital** handles escrow, investor KYC/AML, and account setup
-- **Smart Contracts** issue equity tokens (RBCB) on-chain via Sepolia
-- **FINRA-regulated funding portal** handles investment flow for Reg CF
-- Platform operates as **issuer support & onboarding interface**, not as BD
+Issuers may choose to offer:
 
----
+- **Non-voting equity tokens** (Reg CF, Reg A, or Reg D)
+- **Rev-share tokens** (creator economy, franchises, or service-based models)
+- **Debt or hybrid instruments** (tokenized notes, etc.)
 
-## 🔄 Roadmap to Full Compliance (Phase 2)
+R. Block Nation supports **custom pricing per model**, including:
 
-Following the Reg CF raise:
+| Model Type          | Platform Share (Token Allocation) | Notes                                  |
+|---------------------|------------------------------------|----------------------------------------|
+| Equity Token        | 1%–5% platform treasury allocation | Founder-defined cap table class        |
+| Rev-Share Token     | 2.5%–7% of net rev flows to platform | Based on smart contract parameters     |
+| Debt / Hybrid       | TBD — based on terms               | Compliant structure reviewed per deal  |
 
-- **Engage proper legal counsel** for Reg A/D expansion
-- Work with or acquire a **registered Broker-Dealer**
-- Bring compliance infrastructure **in-house**
-- Support **multiple JOBS Act exemptions**, secondary trading, and multiple investor classes
-
----
-
-## 🎯 Philosophy
-
-- Lower upfront friction → attract SMBs and creator-led businesses
-- Retain equity → long-term upside from issuer success
-- Build reputation with investors → platform brand trust
-- Scale with automation → minimize custom legal costs per raise
+All token allocations are **transparent, non-governance-based**, and structured to preserve investor alignment.
 
 ---
 
-## 📈 Future Additions
+## 💳 Post-Raise Services (Optional Add-Ons)
 
-- Tiered subscription plans (issuer dashboards, investor CRM)
-- Rev-share with BD / compliance partners
-- Support for non-equity models (rev-share tokens, convertible debt, etc.)
-- Integrated Reg A+ / D service packages with in-house BD oversight
-- Cross-offering analytics for multi-issuer discovery
+| Service                        | Description                                                  | Price / Terms         |
+|-------------------------------|--------------------------------------------------------------|------------------------|
+| Franchise Management Support  | Platform may manage post-raise ops (pending franchisor approval) | Revenue-share or service fee |
+| Post-raise reporting + audits | Token circulation, treasury accounting, investor updates     | Included (baseline)    |
+| In-house BD support (future)  | Once BD is secured, offerings may flow directly through RBN   | TBD (Reg A, D)         |
+
+---
+
+## 🧭 Guiding Principles
+
+- Issuers maintain **control of brand and offering structure**
+- Platform remains **compliant-first, modular, and transparent**
+- Pricing adapts based on raise size, complexity, and strategic fit
+- Ecosystem alignment is achieved via **optional platform treasury stakes**
 
 ---
 
 ## 📝 Disclaimer
 
-This model is a working draft and subject to change. Pricing will evolve based on regulatory feedback, platform maturity, and investor preferences.
+All pricing and token structures are subject to legal review, compliance approval, and exemption type. R. Block Nation reserves the right to revise pricing for regulatory or operational reasons.
 
