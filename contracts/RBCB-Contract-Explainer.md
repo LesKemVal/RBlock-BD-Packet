@@ -1,0 +1,98 @@
+# RBCB Contract | Technical Explainer for Compliance Review
+
+This document summarizes the key features of the **RBCB (Reg CF Class B)** equity token contract deployed by **R. Block Share Holdings, LLC**, in alignment with Regulation CF.
+
+> Smart Contract Name: `RegCFToken`  
+> Contract Type: ERC-20 (with custom compliance extensions)  
+> Deployment Network: Sepolia Testnet  
+> Source: [R.BlockShares GitHub – reg-cf-token-contract](https://github.com/LesKemVal/R.BlockShares)
+
+---
+
+## 🔐 Summary: What This Token Is
+
+- Represents **Class B Non-Voting Membership Units** in the issuer
+- Each token = 1 unit (or 0.01 units if decimals = 2)
+- Tokens are only minted **after KYC + escrow approval**
+- Compliant with Reg CF 12-month lockup and exceptions
+- Transfers are **KYC-gated**, and restricted during lockup
+
+---
+
+## ⚙️ Core Features
+
+### ✅ Non-Governance Token
+
+- **No voting**, delegation, or proposal features included
+- Designed to preserve **Class A majority control (51%)** for the issuer
+
+### ✅ Mint-Only By Admin Role
+
+- Tokens minted manually by addresses with `ADMIN_ROLE`
+- No public or automatic minting
+- Ensures tokens match verified subscriptions
+
+### ✅ KYC-Gated Transfers
+
+- Transfers only allowed between **whitelisted addresses**
+- KYC status controlled via `updateKYCStatus()`  
+  → Synced from KoreConX or equivalent
+
+### ✅ 12-Month Lockup Enforcement (Reg CF)
+
+Tokens are locked from transfer for **1 year from issuance**, unless:
+
+- Sent to:
+  - Admin (for redemption or buyback)
+  - Accredited investor
+  - Trust entity controlled by the holder
+- Special pair exemption (e.g. estate transfer, divorce)
+
+Issuer may **enable global transfers** after 12 months if all holders are still KYC-compliant.
+
+### ✅ Cap Table & Holder Export
+
+- Token tracks all current holders
+- Functions available:
+  - `holderCount()`
+  - `holderAt(index)`
+  - `holders(offset, limit)`
+- Supports **dashboard syncing or CSV export**
+
+---
+
+## 📎 Contract Admin Roles
+
+| Role Name            | Purpose                            |
+|----------------------|-------------------------------------|
+| `ADMIN_ROLE`         | Mint/burn, pause/unpause            |
+| `KYC_MANAGER_ROLE`   | Set KYC allowlist                   |
+| `EXEMPT_SETTER_ROLE` | Mark accredited/trust/special pairs |
+
+> Admins should use role-restricted multisigs or delegated authority models for production use.
+
+---
+
+## 🔐 Security & Compliance Notes
+
+- Uses OpenZeppelin’s battle-tested contracts:
+  - `ERC20`, `AccessControl`, `Pausable`
+- All minting, transfers, and lockups gated by contract logic
+- Designed with guidance from:
+  - JOBS Act Reg CF provisions
+  - Broker-Dealer and Transfer Agent expectations
+- **Still requires legal + TA review** before mainnet launch
+
+---
+
+## 📝 Final Notes
+
+This token is the **anchor contract** for R. Block Nation's first Reg CF raise.
+
+Additional token types (Rev-Share, Debt, Real Estate) will be derived from this base.
+
+For questions or access to the deployed contract:
+
+📧 [lester@rblockshareholdings.com](mailto:lester@rblockshareholdings.com)
+
+
