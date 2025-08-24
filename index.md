@@ -12,19 +12,19 @@ This portal provides structured access to critical documents for broker-dealers,
 
 ## 📄 Document Index
 
-- [Valuation Roadmap](./valuation-roadmap.md)
-- [Reg CF Use of Proceeds](./cf-use-of-proceeds.md)
-- [North Capital Brief](./bd-north-capital-brief.md)
-- [Kore Onboarding Brief](./kore-brief.md)
-- [Kore Onboarding Checklist](./KoreOnboardingChecklist.md)
-- [BD Intro Letter](./BDIntroLetter.md)
-- [Issuer Pipeline Overview](./IssuerPipeline.md)
-- [Revenue Model](./RevenueModel.md)
-- [RBCB Contract Explainer](./contracts/RBCB-Contract-Explainer.md)
-- [Multi-Token Architecture](./contracts/MultiToken-Architecture.md)
-- [Form C (Draft)](./FormC-Draft.md)
-- [Articles of Organization (PDF)](./ArticlesOfOrg.pdf)
-- [EIN Letter (PDF)](./EINLetter.pdf)
+- [Valuation Roadmap](TokenDocs/valuation-roadmap.md)
+- [Reg CF Use of Proceeds](TokenDocs/cf-use-of-proceeds.md)
+- [North Capital Brief](PartnerBriefs/bd-north-capital-brief.md)
+- [Kore Onboarding Brief](Kore/kore-brief.md)
+- [Kore Onboarding Checklist](Kore/KoreOnboardingChecklist.md)
+- [BD Intro Letter](Kore/BDIntroLetter.md)
+- [Issuer Pipeline Overview](IssuerPipeline.md)
+- [Revenue Model](BusinessModel/RevenueModel.md)
+- [RBCB Contract Explainer](TokenDocs/contracts/RBCB-Contract-Explainer.md)
+- [Multi-Token Architecture](TokenDocs/contracts/MultiToken-Architecture.md)
+- [Form C (Draft)](Legal/FormC-Draft.md)
+- [Articles of Organization (PDF)](Legal/ArticlesOfOrg.pdf)
+- [EIN Letter (PDF)](Legal/EINLetter.pdf)
 
 ---
 
