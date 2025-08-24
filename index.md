@@ -28,7 +28,7 @@ This portal provides structured access to critical documents for broker-dealers,
 
 ---
 
-## 🔒 Note
+## 🔒 Notice
 
 These materials are for internal partner review only.  
 Do not distribute without written consent from **R. Block Share Holdings, LLC**.

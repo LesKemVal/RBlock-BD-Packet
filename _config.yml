@@ -1,4 +1,6 @@
-title: RBlock Nation – BD & Compliance Packet
+title: R. Block Nation – BD Packet
+description: BD & Compliance Packet for Reg CF Evaluation
 theme: minima
 markdown: kramdown
+baseurl: "/RBlock-BD-Packet" # This must match the repository name
 
