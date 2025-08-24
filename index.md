@@ -12,8 +12,6 @@ This portal provides structured access to critical documents for broker-dealers,
 
 ## 📄 Document Index
 
-## 📄 Document Index
-
 - [Valuation Roadmap](TokenDocs/valuation-roadmap.md)
 - [Reg CF Use of Proceeds](TokenDocs/cf-use-of-proceeds.md)
 - [North Capital Brief](PartnerBriefs/bd-north-capital-brief.md)
