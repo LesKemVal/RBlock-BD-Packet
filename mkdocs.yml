@@ -1,0 +1,44 @@
+site_name: R. Block Nation – Funding Portal Partnership & Compliance Packet
+site_description: Tokenized Equity Platform | Reg CF Launch Packet
+site_author: Lester Sawyer
+site_url: https://yourusername.github.io/RBlock-BD-Packet/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  - Issuer Pipeline: IssuerPipeline.md
+
+  - Business Model:
+      - Revenue Model: BusinessModel/RevenueModel.md
+      - Platform Roadmap: BusinessModel/PlatformRoadmap.md
+      - Revenue Model (XLSX): BusinessModel/RevenueModel.xlsx
+
+  - Kore Documents:
+      - BD Intro Letter: Kore/BDIntroLetter.md
+      - Onboarding Checklist: Kore/KoreOnboardingChecklist.md
+      - Cap Table CSV: Kore/CapTable.csv
+
+  - Legal:
+      - Articles of Organization: Legal/ArticlesOfOrg.md
+      - EIN Letter: Legal/EINLetter.md
+      - Form C (Draft): Legal/FormC-Draft.md
+
+  - Token Docs:
+      - Bonding Curve: TokenDocs/BondingCurveExplainer.md
+      - Tokenomics Summary: TokenDocs/TokenomicsSummary.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+
