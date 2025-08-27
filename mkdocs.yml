@@ -1,7 +1,7 @@
 site_name: R. Block Nation – Funding Portal Partnership & Compliance Packet
 site_description: Tokenized Equity Platform | Reg CF Launch Packet
 site_author: Lester Sawyer
-site_url: https://yourusername.github.io/RBlock-BD-Packet/
+site_url: https://leskemval.github.io/RBlock-BD-Packet/
 
 theme:
   name: material
@@ -34,6 +34,23 @@ nav:
   - Token Docs:
       - Bonding Curve: TokenDocs/BondingCurveExplainer.md
       - Tokenomics Summary: TokenDocs/TokenomicsSummary.md
+      - Valuation Strategy Goal: TokenDocs/valuation-goal.md
+
+  - Issuer Onboarding:
+      - Overview: IssuerOnboarding/overview.md
+      - Required Documents: IssuerOnboarding/required-documents.md
+      - Reg CF vs Reg A vs Reg D: IssuerOnboarding/cf-vs-regA-vs-regD.md
+      - Issuer Agreement Template: IssuerOnboarding/issuer-agreement-template.md
+      - Escalation Procedures: IssuerOnboarding/portal-escalation-procedures.md
+
+  - Alternative Raise Plan:
+      - Dual Raise Overview: AlternativeRaisePlan/index.md
+      - Reg A+ Timeline: AlternativeRaisePlan/RegA-timeline.md
+      - Reg A+ Use of Proceeds: AlternativeRaisePlan/RegA-use-of-proceeds.md
+      - Reg A+ Marketing Strategy: AlternativeRaisePlan/RegA-marketing-strategy.md
+
+  - Partner Briefs:
+      - Valuation Strategy Brief: PartnerBriefs/valuation-strategy-brief.md
 
 markdown_extensions:
   - toc:

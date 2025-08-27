@@ -74,3 +74,10 @@ All launches will be guided by:
 
 > 🛡️ Long-term goal: Maximize tokenized platform value while protecting early CF investors and enabling future secondary liquidity.
 
+---
+
+> **Disclaimer:**  
+> This document is provided for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities.  
+> Nothing herein should be construed as legal, investment, or tax advice.  
+> All prospective investments must be made through a registered funding portal or broker-dealer in compliance with applicable securities regulations.
+

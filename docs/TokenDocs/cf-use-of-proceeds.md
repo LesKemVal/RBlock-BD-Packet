@@ -29,3 +29,10 @@ This use-of-proceeds plan reflects a **gross raise of up to $1.2M** via Regulati
 
 > All numbers are subject to change based on portal, legal, or market changes prior to launch.
 
+---
+
+> **Disclaimer:**  
+> This document is provided for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities.  
+> Nothing herein should be construed as legal, investment, or tax advice.  
+> All prospective investments must be made through a registered funding portal or broker-dealer in compliance with applicable securities regulations.
+
