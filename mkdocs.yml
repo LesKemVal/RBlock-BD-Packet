@@ -21,11 +21,6 @@ nav:
       - Platform Roadmap: BusinessModel/PlatformRoadmap.md
       - Revenue Model (XLSX): BusinessModel/RevenueModel.xlsx
 
-  - Kore Documents:
-      - BD Intro Letter: Kore/BDIntroLetter.md
-      - Onboarding Checklist: Kore/KoreOnboardingChecklist.md
-      - Cap Table CSV: Kore/CapTable.csv
-
   - Legal:
       - Articles of Organization: Legal/ArticlesOfOrg.md
       - EIN Letter: Legal/EINLetter.md
@@ -33,24 +28,36 @@ nav:
 
   - Token Docs:
       - Bonding Curve: TokenDocs/BondingCurveExplainer.md
-      - Tokenomics Summary: TokenDocs/TokenomicsSummary.md
-      - Valuation Strategy Goal: TokenDocs/valuation-goal.md
+      - Cap Table Overview: TokenDocs/cap-table-overview.md
+      - Valuation Roadmap: TokenDocs/valuation-roadmap.md
 
-  - Issuer Onboarding:
-      - Overview: IssuerOnboarding/overview.md
-      - Required Documents: IssuerOnboarding/required-documents.md
-      - Reg CF vs Reg A vs Reg D: IssuerOnboarding/cf-vs-regA-vs-regD.md
-      - Issuer Agreement Template: IssuerOnboarding/issuer-agreement-template.md
-      - Escalation Procedures: IssuerOnboarding/portal-escalation-procedures.md
+  - For Investors:
+      - Tokenomics Summary: ForInvestors/TokenomicsSummary.md
+      - Use of Proceeds: ForInvestors/cf-use-of-proceeds.md
+      - Valuation Goal: ForInvestors/valuation-goal.md
+      - Platform Expansion Strategy:
+          - Dual Raise Overview: ForInvestors/dual-raise-overview.md
+          - Reg A+ Timeline: ForInvestors/RegA-timeline.md
+          - Reg A+ Use of Proceeds: ForInvestors/RegA-use-of-proceeds.md
+          - Reg A+ Marketing Strategy: ForInvestors/RegA-marketing-strategy.md
+          - Revenue Forecast: ForInvestors/revenue-forecast.md
+          - Valuation Strategy: ForInvestors/valuation-strategy.md
+          - Capital Stack Comparison: ForInvestors/capital-stack-comparison.md
+          - Compliance Stack Overview: ForInvestors/compliance-stack.md
+      - Offering Frameworks: ForInvestors/cf-vs-regA-vs-regD.md
+      - Platform Overview: ForInvestors/overview.md
 
-  - Alternative Raise Plan:
-      - Dual Raise Overview: AlternativeRaisePlan/index.md
-      - Reg A+ Timeline: AlternativeRaisePlan/RegA-timeline.md
-      - Reg A+ Use of Proceeds: AlternativeRaisePlan/RegA-use-of-proceeds.md
-      - Reg A+ Marketing Strategy: AlternativeRaisePlan/RegA-marketing-strategy.md
-
-  - Partner Briefs:
-      - Valuation Strategy Brief: PartnerBriefs/valuation-strategy-brief.md
+  - For Partners:
+# ✅ NEW (corrected)
+      - BD Intro Letter: ForPartners/BDIntroLetter.md
+      - Onboarding Checklist: ForPartners/KoreOnboardingChecklist.md
+      - Cap Table CSV: ForPartners/CapTable.csv
+      - Partner Brief: ForPartners/bd-north-capital-brief.md
+      - Valuation Strategy Brief: ForPartners/valuation-strategy-brief.md
+      - Issuer Agreement Template: ForPartners/issuer-agreement-template.md
+      - Escalation Procedures: ForPartners/portal-escalation-procedures.md
+      - Required Docs: ForPartners/required-documents.md
+      - Issuer Packet Summary: ForPartners/packet-summary.md
 
 markdown_extensions:
   - toc:

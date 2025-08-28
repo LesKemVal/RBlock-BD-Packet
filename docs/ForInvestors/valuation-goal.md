@@ -60,4 +60,8 @@ Because Reg CF tokens are priced at an early-stage valuation cap (~$4.33M), CF i
 
 > 📌 This strategy is speculative and based on current projections. Actual outcomes may vary. Please consult official offering documents and funding portal for updated terms.
 
+---
+
+> **Disclaimer:**  
+> This document is provided for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. Nothing herein should be construed as legal, investment, or tax advice. All prospective investments must be made through a registered funding portal or broker-dealer in compliance with applicable securities laws.
 
