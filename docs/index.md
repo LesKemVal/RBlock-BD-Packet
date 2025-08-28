@@ -26,11 +26,11 @@ This portal provides structured access to key documents for **funding portal par
 ## 📄 Document Index
 
 - [Valuation Roadmap](TokenDocs/valuation-roadmap.md)
-- [Reg CF Use of Proceeds](TokenDocs/cf-use-of-proceeds.md)
-- [North Capital Brief](PartnerBriefs/bd-north-capital-brief.md)
-- [Kore Onboarding Brief](Kore/kore-brief.md)
-- [Kore Onboarding Checklist](Kore/KoreOnboardingChecklist.md)
-- [BD Intro Letter](Kore/BDIntroLetter.md)
+- [Reg CF Use of Proceeds](ForInvestors/cf-use-of-proceeds.md)
+- [North Capital Brief](ForPartners/PartnerBriefs/bd-north-capital-brief.md)
+- [Kore Onboarding Brief](ForPartners/kore-brief.md)
+- [Kore Onboarding Checklist](ForPartners/Kore/KoreOnboardingChecklist.md)
+- [BD Intro Letter](ForPartners/Kore/BDIntroLetter.md)
 - [Issuer Pipeline Overview](IssuerPipeline.md)
 - [Revenue Model](BusinessModel/RevenueModel.md)
 - [RBCB Contract Explainer](TokenDocs/contracts/RBCB-Contract-Explainer.md)
@@ -56,11 +56,11 @@ This portal provides structured access to key documents for **funding portal par
 - **Advisor Equity:** Up to 5% from founder’s pool
 - **Minimum Founder Control:** Founder retains ≥ 51% post-raise
 
-### Platform Roadmap & Future Offerings
+### Platform Roadmap & Future Offerings 
 
-- Reg CF raise is the first live campaign on the platform
-- System is designed to support **future Reg A and Reg D** offerings
-- Settlemint manages smart contracts + token operations
+- Reg CF raise is the first live campaign on the platform  
+- System is designed to support **future Reg A and Reg D** offerings  
+- Settlemint manages smart contracts + token operations  
 - Kore provides compliance, cap table, and shareholder tools
 
 ---
