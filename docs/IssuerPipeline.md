@@ -1,74 +1,108 @@
 # Issuer Pipeline – R. Block Nation
 
-This document outlines the issuer onboarding flow and platform roadmap for **R. Block Nation**, a tokenized funding platform designed to serve founders across equity, revenue share, and debt models.
+This document outlines the issuer onboarding flow and platform roadmap for **R. Block Nation**, a tokenized funding platform built for founders launching equity, revenue share, and debt-based offerings.
 
 ---
 
 ## 🎯 Platform Objective
 
-R. Block Nation provides a streamlined, compliant interface for companies to launch offerings directly to retail and private investors, while abstracting regulatory complexity.
+R. Block Nation enables compliant, transparent capital formation using a white-labeled, tokenized architecture. Built with modularity and regulatory alignment, the platform supports:
 
-The platform is launching with a Reg CF raise for **R. Block Share Holdings, LLC**, and will scale to support additional issuers via Reg CF, Reg A+, and Reg D exemptions.
-
----
-
-## 🔁 Phase 1: R. Block Nation CF Raise (Live)
-
-| Stage                | Stack Partner         | Description |
-|---------------------|-----------------------|-------------|
-| **Funding Portal**  | FINRA-regulated (e.g. CrowdCheck/North Capital) | Files Form C and hosts compliance layer |
-| **Compliance Ops**  | Kore (Free Plan → $200/mo) | Cap table, Form C prep, onboarding docs |
-| **Token Backend**   | Settlemint ($5K–$6K/mo est.) | Smart contracts, wallet infra, tokenization |
-| **Escrow Services** | North Capital         | Escrow account, bad actor checks, transaction handling |
-| **Frontend (UI)**   | R. Block Nation (proprietary) | Embedded investment experience at own domain |
-
-> ⚠️ Investors invest via a white-labeled funding portal embedded in the R. Block Nation website.
+- **Retail and private investor access**
+- **Reg CF (Tier 1), Reg A+ (Tier 2), and Reg D** offerings
+- **Token-native compliance & lifecycle management**
 
 ---
 
-## 🚀 Phase 2: Multi-Issuer Scale-Up
+## 🔁 Phase 1: R. Block Nation Reg CF Raise (Live)
 
-After the close of the initial Reg CF raise, R. Block Nation will expand to support new issuers:
+| Stack Partner     | Role                                              |
+|-------------------|---------------------------------------------------|
+| **Funding Portal** | FINRA-regulated (e.g., North Capital or CrowdCheck) |
+| **Compliance Ops**| Kore (Form C prep, onboarding docs, cap table mgmt) |
+| **Token Backend** | Settlemint (initial backend – token logic, smart contracts) |
+| **Escrow**        | North Capital (KYC/AML, escrow handling)           |
+| **Frontend (UI)** | R. Block Nation (embedded funding portal)          |
 
-| Use Case              | Offering Type      | Compliance Layer         |
-|-----------------------|--------------------|---------------------------|
-| Minority-owned SMBs   | Revenue Share      | Reg CF + Kore + NC ATS    |
-| Real Estate Syndicates| Equity + RevShare  | Reg D + Reg A + Broker-Dealer Syndication |
-| Franchise Networks    | Tokenized Equity   | Reg A Tier 2 + Multi-Token |
-
-- All new issuers will onboard via Kore (free or premium plan)
-- Smart contracts provisioned via Settlemint
-- Offerings reviewed and hosted via the white-labeled portal
-- Platform compliance stack supports continuous KYC/AML, investor reporting, token distribution
+💡 **Note**: The Reg CF raise is embedded in R. Block Nation's site using a **white-labeled funding portal**. Funds are allocated across tech infrastructure, legal/compliance, marketing, and platform growth.
 
 ---
 
-## 📎 Issuer Requirements (for onboarding)
+## 🔄 Phase 2: Reg A+ or Parallel Raise Pathway
 
-Every issuer onboarding to R. Block Nation must submit the following:
+If additional capital is required — or to accelerate platform scaling — R. Block Nation may execute a **concurrent Reg A+ raise**, either as:
 
-- Articles of Organization / EIN Letter
-- Cap Table (CSV or XLSX)
-- Principal Government ID(s)
-- KYC for all control persons
-- Use of Proceeds statement
-- Business summary or pitch deck
-- Revenue model or pricing strategy
-- Any prior securities offering history
+- A fallback raise (if CF target is not met), or  
+- A parallel raise targeting higher-net-worth retail investors
 
-These materials are reviewed via Kore, submitted to the funding portal, and stored securely in the issuer dashboard.
+**Token logic for Reg A+** incorporates advanced mechanics:
 
----
+- **Smart contract-enforced funding window**
+- **Bonding curve toggle** for dynamic pricing (optional)
+- **Escrow wallet control** for investor protections
+- **On-chain revenue recognition + pro-rata distribution**
 
-## 📈 Platform Differentiators
-
-- 🔐 **Compliance-first**: Built from day one with JOBS Act legal guidance and FINRA-aligned integrations
-- 💡 **Investor-centric**: Offers both traditional and tokenized ownership opportunities
-- ⚙️ **Modular onboarding**: Founders can start under Reg CF and graduate to larger offerings (Reg A+, Reg D)
-- 🧱 **Token native**: Smart contracts enforce rev share and equity logic while enabling transparency
+✔️ Supports long-term flexibility for revenue sharing and secondary liquidity (pending ATS support)
 
 ---
 
-> 📌 R. Block Nation is designed to be the **home for next-gen ownership** — unlocking access to capital for founders and giving everyday investors access to real commerce and returns.
+## 🧾 Issuer Onboarding Requirements
+
+Every issuer onboarding to R. Block Nation must provide:
+
+- Articles of Organization / EIN Letter  
+- Cap Table (.CSV or .XLSX format)  
+- Principal government ID(s)  
+- KYC for all control persons  
+- Business plan or summary deck  
+- Revenue model or pricing strategy  
+- Use of proceeds statement  
+- Disclosure of prior securities offerings (if any)
+
+---
+
+## 🚀 Multi-Issuer Roadmap (Post-Initial Raise)
+
+After the close of the initial Reg CF raise, R. Block Nation opens the platform to external issuers:
+
+| Use Case             | Offering Type            | Legal Structure                          |
+|----------------------|--------------------------|-------------------------------------------|
+| Minority-owned SMBs  | Revenue Share            | Reg CF + Kore + NC ATS                    |
+| Real Estate Syndicates| Equity + Rev Share      | Reg D + Reg A + Broker-Dealer Syndication |
+| Franchise Networks   | Tokenized Equity         | Reg A Tier 2 + Multi-Token Model          |
+
+All issuers onboard via **Kore** for compliance, while smart contracts are either:
+
+- **Provisioned via Settlemint**
+- **Developed in-house (to reduce cost in Y2 and beyond)**
+
+---
+
+## 📉 Fiscal Responsibility
+
+The platform is designed for cost efficiency:
+
+| Year | Notes |
+|------|-------|
+| **Year 1** | Higher vendor spend (Settlemint, marketing, legal, onboarding) |
+| **Year 2** | Replace backend vendor (Settlemint) with in-house smart contracts (already prototyped) |
+|          | Marketing shifts to influencer- and network-driven content (lower spend) |
+|          | Compliance ops scale predictably with issuer count |
+
+Platform expenses decrease **20–30% in Y2** under current projections — while valuation and investor network grow significantly.
+
+---
+
+## 🔐 Platform Differentiators
+
+- **Compliance-First:** Built with FINRA-aligned integrations and JOBS Act best practices
+- **Investor-Centric:** Enables tokenized and traditional asset exposure
+- **Modular Entry Points:** Founders can begin under Reg CF and graduate into larger raises
+- **Token Native:** Smart contracts enforce compliance and investor protections
+- **Social & Viral Growth:** Platform encourages portfolio-building among investors and sharing across networks
+
+---
+
+R. Block Nation is designed to make equity, revenue, and ownership more **accessible, transparent, and powerful** — for both founders and retail investors.
 
 
