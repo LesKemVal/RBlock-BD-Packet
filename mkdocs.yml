@@ -48,12 +48,12 @@ nav:
       - Platform Overview: ForInvestors/overview.md
 
   - For Partners:
-# ✅ NEW (corrected)
       - BD Intro Letter: ForPartners/BDIntroLetter.md
       - Onboarding Checklist: ForPartners/KoreOnboardingChecklist.md
-      - Cap Table CSV: ForPartners/CapTable.csv
+      - Cap Table: ForPartners/CapTable.md
       - Partner Brief: ForPartners/bd-north-capital-brief.md
       - Valuation Strategy Brief: ForPartners/valuation-strategy-brief.md
+      - Kore Onboarding Brief: ForPartners/kore-brief.md
       - Issuer Agreement Template: ForPartners/issuer-agreement-template.md
       - Escalation Procedures: ForPartners/portal-escalation-procedures.md
       - Required Docs: ForPartners/required-documents.md
