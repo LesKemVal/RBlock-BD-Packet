@@ -1,0 +1,61 @@
+docs
+├── AlternativeRaisePlan
+├── BusinessModel
+│   ├── IssuerPipeline.md
+│   ├── PlatformRoadmap.md
+│   ├── PlatformRoadmap.pdf
+│   ├── RevenueModel.md
+│   └── RevenueModel.xlsx
+├── ForInvestors
+│   ├── capital-stack-comparison.md
+│   ├── cf-use-of-proceeds.md
+│   ├── cf-vs-regA-vs-regD.md
+│   ├── compliance-stack.md
+│   ├── dual-raise-overview.md
+│   ├── index.md
+│   ├── overview.md
+│   ├── RegA-marketing-strategy.md
+│   ├── RegA-timeline.md
+│   ├── RegA-use-of-proceeds.md
+│   ├── revenue-forecast.md
+│   ├── TokenomicsSummary.md
+│   ├── valuation-goal.md
+│   └── valuation-strategy.md
+├── ForPartners
+│   ├── bd-north-capital-brief.md
+│   ├── BDIntroLetter.md
+│   ├── CapTable.csv
+│   ├── CapTable.md
+│   ├── issuer-agreement-template.md
+│   ├── kore-brief.md
+│   ├── KoreOnboardingChecklist.md
+│   ├── packet-summary.md
+│   ├── PartnerHome.md
+│   ├── portal-escalation-procedures.md
+│   ├── required-documents.md
+│   └── valuation-strategy-brief.md
+├── index.md
+├── Internal
+│   ├── issuer-pricing-model.md
+│   ├── post-raise-roadmap.md
+│   └── start-here.md
+├── IssuerOnboarding
+├── IssuerPipeline.md
+├── Legal
+│   ├── ArticlesOfOrg.md
+│   ├── ArticlesOfOrg.pdf
+│   ├── EINLetter.md
+│   ├── EINLetter.pdf
+│   └── FormC-Draft.md
+├── OfferingDeck
+│   └── subscription-pitch.md
+└── TokenDocs
+    ├── BondingCurveExplainer.md
+    ├── BondingCurveExplainer.pdf
+    ├── cap-table-overview.md
+    ├── contracts
+    │   ├── MultiToken-Architecture.md
+    │   └── RBCB-Contract-Explainer.md
+    └── valuation-roadmap.md
+
+11 directories, 48 files

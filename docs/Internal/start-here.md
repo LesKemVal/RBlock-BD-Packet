@@ -26,12 +26,12 @@ We are running **two legally distinct offerings**:
 
 ## 📄 Key Documents
 
-- [Valuation Roadmap](TokenDocs/valuation-roadmap.md)
-- [Form C Draft](Legal/FormC-Draft.md)
-- [Reg CF Use of Proceeds](TokenDocs/cf-use-of-proceeds.md)
-- [Tokenomics Summary](TokenDocs/TokenomicsSummary.md)
-- [Reg A+ Timeline](AlternativeRaisePlan/RegA-timeline.md)
-- [Reg A+ Marketing Strategy](AlternativeRaisePlan/RegA-marketing-strategy.md)
+- [Valuation Roadmap](../TokenDocs/valuation-roadmap.md)
+- [Form C Draft](../Legal/FormC-Draft.md)
+- [Reg CF Use of Proceeds](../ForInvestors/cf-use-of-proceeds.md)
+- [Tokenomics Summary](../ForInvestors/TokenomicsSummary.md)
+- [Reg A+ Timeline](../ForInvestors/RegA-timeline.md)
+- [Reg A+ Marketing Strategy](../ForInvestors/RegA-marketing-strategy.md)
 
 ---
 

@@ -30,6 +30,8 @@ nav:
       - Bonding Curve: TokenDocs/BondingCurveExplainer.md
       - Cap Table Overview: TokenDocs/cap-table-overview.md
       - Valuation Roadmap: TokenDocs/valuation-roadmap.md
+      - RBCB Contract Explainer: TokenDocs/contracts/RBCB-Contract-Explainer.md
+      - Multi-Token Architecture: TokenDocs/contracts/MultiToken-Architecture.md
 
   - For Investors:
       - Tokenomics Summary: ForInvestors/TokenomicsSummary.md
