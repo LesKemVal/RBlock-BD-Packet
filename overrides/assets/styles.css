@@ -1,0 +1,24 @@
+/* overrides/assets/styles.css */
+:root {
+  --md-primary-fg-color: #d4af37;  /* soft gold */
+  --md-primary-bg-color: #000000;  /* black background */
+  --md-default-bg-color: #000000;  /* full page background */
+  --md-typeset-color: #ffffff;     /* text color */
+}
+
+.md-header {
+  background-color: #000 !important;
+}
+
+.md-footer {
+  background-color: #000 !important;
+}
+
+.md-nav__title, .md-nav__item {
+  color: #d4af37 !important;
+}
+
+a {
+  color: #d4af37;
+}
+
