@@ -1,45 +1,43 @@
-# 👋 Welcome to R. Block Nation
+# Welcome to R. Block Nation
 
-**R. Block Nation** is a JOBS Act-compliant investment platform built for **retail-first capital formation**, launching with multiple Regulation CF offerings and expanding toward Reg A+ and Reg D raises.
-
-We start by funding our own platform and franchise/startup projects using **tokenized Reg CF equity**, and plan to host multiple issuers with flexible terms. Tokens are issued using smart contracts (REGCFToken, BFTKN), and every offering integrates escrow, cap table, and investor onboarding via **North Capital** and **KoreConX**.
-
-This site serves as our live documentation hub for investors, partners, and issuers.
+> **Powered by R. Block Share Holdings, LLC**  
+> Unlocking capital access for overlooked investors and communities
 
 ---
 
-## 🧭 Who Are You?
+### 💡 Mission
 
-### 🧩 I’m a Funding Portal or Broker-Dealer
+R. Block Nation exists to open investment opportunities to those historically left out of private markets — including BIPOC investors and individuals from low-to-moderate income communities. 
 
-View our BD intro letter, token structure, compliance stack, and dual-raise roadmap.
-
-➡️ [Partner Overview »](ForPartners/PartnerHome.md)
+We aim to break the mold of exclusionary accreditation rules by leveraging **Reg CF** to power ownership, participation, and growth. Our tokenized platform is built to democratize finance and offer **real stakes in real businesses**.
 
 ---
 
-### 🧠 I’m an Issuer (Franchise, Startup, or Operator)
+### 📈 Platform Vision & Strategy
 
-Learn how to raise capital using our Reg CF and (optional) Reg A+ infrastructure.  
-Includes costs, smart contract logic, and how to onboard to our platform.
+Our platform is launching its first raise through a **tokenized Reg CF offering** — not just as a capital event, but as proof of a scalable, compliance-ready model.
 
-➡️ *(Coming soon: Issuer Onboarding section)*
+- 💼 **Entity:** R. Block Share Holdings, LLC (Wyoming)
+- 🏛️ **Initial Raise Goal:** $1.2M gross
+- 🎯 **Target Platform Valuation:** $100M
+- 🪙 **Token:** RBCB (Class B equity with 12-month lock)
 
----
-
-### 📈 I’m an Investor
-
-Understand how R. Block Nation structures its raises, what rights you receive, and how we support compliant, tokenized investing.
-
-➡️ [Investor Overview »](ForInvestors/overview.md)
+This early-stage raise supports our product development, legal buildout, marketing operations, and platform expansion into **Reg A+ and Reg D** pathways.
 
 ---
 
-## ⚖️ Disclaimer
+### 🔍 Learn More
 
-> This platform facilitates exempt securities offerings under Regulation Crowdfunding (Reg CF), Regulation A+, and Regulation D. Tokens issued under Reg CF represent equity and are subject to transfer restrictions. Tokens under Reg A+ may be structured as non-dilutive revenue-share instruments.
->
-> **All offerings are conducted in collaboration with KoreConX (compliance) and North Capital (escrow, KYC/AML).**
->
-> This material does not constitute legal, tax, or investment advice. Investments are speculative, illiquid, and may result in loss of capital.
+Explore investor materials, cap table logic, partner documentation, smart contract details, and roadmap plans — all below.
+
+Your journey into the **future of ownership** starts here.
+
+---
+
+!!! warning "Disclaimer"
+    This site is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities.  
+    Investments under Regulation CF involve risk, including the loss of capital and illiquidity.  
+    Offers are made pursuant to a registered intermediary and compliant with SEC regulations.
+
+    R. Block Share Holdings, LLC is not a broker-dealer. All securities offerings are conducted through a FINRA/SEC-registered funding portal or broker-dealer.
 
