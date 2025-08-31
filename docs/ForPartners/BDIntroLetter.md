@@ -1,43 +1,89 @@
 # Introduction – R. Block Share Holdings, LLC
 
-Dear [Broker-Dealer / KoreConX Partner],
+Dear \[Broker-Dealer / KoreConX / Funding Portal Partner],
 
-My name is Mr. L. Sawyer, and I’m the founder of **R. Block Share Holdings, LLC**, a Wyoming-registered company developing **Our Block Nation** — a platform that enables startups and small businesses to raise capital via tokenized revenue shares, under Reg CF, Reg A+, and Reg D frameworks.
+My name is **Mr. L. Sawyer**, and I’m the founder of **R. Block Share Holdings, LLC**, a Wyoming-registered entity building **R. Block Nation** — a platform designed to power tokenized capital formation under the JOBS Act.
 
-This letter introduces our current **Reg CF raise**, where we are offering a revenue-sharing token that entitles investors to a portion of the platform’s minting fees, subscriptions, and transaction revenue.
+This letter introduces our inaugural **Regulation CF raise**, hosted via a white-labeled stack that preserves platform brand, domain, and user experience. The raise is structured as a live investment opportunity **and** a proof-of-concept for supporting broader tokenization use cases.
 
-## What We’ve Done
-- Incorporated as a Wyoming LLC
-- Developed a Kore-compliant ERC-20 smart contract (see attached)
-- Structured investor protections (bonding curve, pro-rata payouts, 12-month lockup)
-- Integrated with Settlemint for smart contract management
-- Fully prepared offering documents, Git repo, and raise materials
-- Set up auto-revenue distribution to token holders weekly via smart contract
+---
 
-## Raise Overview
-- **Goal**: $530,000 under Reg CF
-- **Instrument**: Revenue-share token (no equity/governance)
-- **Minimum Investment**: TBD (likely $100–$250)
-- **Use of Funds**: Platform dev, BD onboarding, Kore fees, legal, investor tools
-- **Revenue Streams**: Minting fees, subscriptions, 2.5% transaction fees
-- **Exit Plan**: Platform expansion to Reg A+ / D issuers with ATS integration
+## 🚧 What’s Been Built
 
-## Ask
-We are seeking a broker-dealer to:
-- File Form C and manage KYC/AML
-- Hold investor funds in escrow
-- Assist with compliance monitoring
+* Formed a Wyoming LLC with full operating agreement and EIN
+* Integrated **North Capital** (FINRA-regulated) for **escrow + KYC/AML**
+* Established **KoreConX** account (Free Forever tier) for cap table + investor onboarding
+* Deployed Kore-ready **ERC-20 smart contract** (RBCB token) via **Settlemint**
+* Published structured compliance docs and public GitHub site (MkDocs-powered)
+* Token includes built-in investor protections: 12-month lockup, pro-rata logic, mint control
+* Created fully auditable offering packet with partner documentation + investor materials
 
-We prefer to work with a partner willing to **defer upfront payment** and instead earn a **success fee (e.g. 5–8%)**. We are also open to discussing **revenue share incentives or token-based participation** in future offerings.
+---
 
-All key documentation is prepared and available upon request.
+## 🔍 Raise Details (Reg CF)
 
-Looking forward to discussing next steps.
+* **Offering Type**: Non-voting, tokenized Class B equity (RBCB token)
+* **Raise Goal**: \$1.2M gross / \~\$1M net
+* **Valuation Cap**: \~\$4.33M
+* **Cap Table Allocation**: 23.08% to Reg CF investors
+* **Revenue Model**: Subscriptions, minting fees, transaction % on platform
+* **Exit Plan**: Expansion to Reg A+/D raises on same stack (multi-issuer roadmap)
 
-Sincerely,  
-Mr. L. Sawyer  
-Founder, R. Block Share Holdings, LLC  
-(operating as Our Block Nation)  
-contact@rblockshareholdings.com | 224-280-3818  
-EIN: 33-4657277
+> 📌 This raise is **ready to file**. Offering documents, Form C draft, cap table, and compliance logic are prepared and ready for submission.
+
+---
+
+## 🤝 What We’re Seeking
+
+We are seeking a broker-dealer or funding portal willing to:
+
+* File our Form C and oversee KYC/AML (North Capital can assist)
+* Act as intermediary and escrow holder
+* Allow us to **retain our own UI/UX, domain, and workflow** (private-label model preferred)
+* **Defer upfront costs**, compensated via a **success fee (5–8%)**
+* Optionally discuss revenue share or token participation in future offerings
+
+---
+
+## 🌱 Strategy for Scale
+
+This initial Reg CF raise is the first live offering. The platform is being built to:
+
+* Tokenize multiple offerings under Reg CF, Reg A+, and Reg D
+* Support **retail and accredited** investors with robust onboarding tools
+* Transition to full private-label KoreConX plan post-raise
+* Establish BD and compliance partnerships that scale with the platform
+* Onboard legal counsel and in-house dev team after capital raise
+
+The Reg CF raise helps us validate this model with a real offering, while preparing the infrastructure for a **multi-offering investment platform** with revenue participation.
+
+---
+
+## 📁 Due Diligence Materials
+
+The following documents are available via our GitHub-hosted portal or upon request:
+
+* [Issuer Pipeline Overview](../IssuerPipeline.md)
+* [Valuation Roadmap](../TokenDocs/valuation-roadmap.md)
+* [Revenue Model](../BusinessModel/RevenueModel.md)
+* [Cap Table Overview (.csv)](../ForPartners/CapTable.csv)
+* [Form C Draft](../Legal/FormC-Draft.md)
+* [Token Explainer](../TokenDocs/contracts/RBCB-Contract-Explainer.md)
+* [Multi-Token Architecture](../TokenDocs/contracts/MultiToken-Architecture.md)
+* EIN confirmation, Articles of Org, platform roadmap, and more
+
+---
+
+## 🔒 Notice
+
+These materials are for internal partner review only and must not be shared or distributed without written consent from **R. Block Share Holdings, LLC**.
+
+---
+
+Sincerely,
+**Mr. L. Sawyer**
+Founder, R. Block Share Holdings, LLC
+📧 [contact@rblockshareholdings.com](mailto:contact@rblockshareholdings.com) ☎️ 224-280-3818
+**EIN:** 33-4657277
+(Operating as: R. Block Nation)
 
