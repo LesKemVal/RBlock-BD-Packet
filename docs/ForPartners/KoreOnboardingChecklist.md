@@ -1,73 +1,58 @@
-# Kore Onboarding Checklist – R. Block Nation
+# ✅ Kore Onboarding Checklist (Reg CF First Phase)
 
-A step-by-step onboarding workflow for Reg CF issuers using Kore in coordination with R. Block Nation’s investor onboarding stack.
-
-> 💡 R. Block Nation is conducting a Reg CF raise through a FINRA-regulated **funding portal** embedded into its **own platform UI and domain**. While the **funding portal will file Form C**, the issuer is responsible for preparing all required documentation in advance.
+This checklist outlines the steps required to onboard R. Block Nation onto the KoreConX platform using a **Reg CF first** approach. Reg A+ onboarding will follow only after the platform has demonstrated traction and scalability during and after initial Reg CF raise(s).
 
 ---
 
-## 📋 Required Company Documents
+## 🛠️ Phase 1: Reg CF Raise (via Funding Portal)
 
-- [x] Articles of Organization (converted to Markdown)
-- [x] EIN Letter (IRS confirmation)
-- [x] Cap Table (.CSV or Excel format)
-- [x] Operating Agreement (internal use)
-- [x] Business Address + Contact Information
-- [x] Company Overview / Subscription Pitch
-
----
-
-## 🔒 Compliance Disclosures
-
-- [x] KYC Info for All Control Persons
-- [x] Bad Actor Checks (via North Capital)
-- [x] AML Disclosures (portal-assisted)
-- [x] Ownership Breakdown & Capital Structure
-- [x] Prior Securities Offerings (if any)
-- [x] Control Persons’ Government ID(s)
+| Step | Task | Responsible Party |
+|------|------|-------------------|
+| 1    | Platform signs up on KoreConX as issuer | Lester Sawyer |
+| 2    | Select **Funding Portal** as intermediary for Reg CF raise (Form C filing + escrow) | Lester Sawyer |
+| 3    | Integrate KoreConX tools (Cap Table, Portfolio, Personal Profile, BoardRoom) | Kore Team + Issuer |
+| 4    | Upload required issuer documents to Kore system (Form C draft, Articles, EIN) | Lester Sawyer |
+| 5    | Enable KYC/AML & investor onboarding flow | Kore / Escrow |
+| 6    | Setup wallet logic (via Kore’s supported providers or externally managed solution) | TBD |
+| 7    | Confirm escrow integration (North Capital) | Lester Sawyer |
+| 8    | Cap Table reviewed and finalized with 12-month lock-in for CF token | Kore + Issuer |
+| 9    | Upload BD Compliance Packet (GitHub link) for record | Lester Sawyer |
+| 10   | Approve investor UI for Reg CF launch | Kore / Lester |
 
 ---
 
-## 🧾 Legal & Financial Documents
+## 🚀 Trigger Point: Post-Raise Evaluation
 
-- [x] Form C Draft  
-  _(Prepared by issuer, filed by the funding portal)_
-- [x] Use of Proceeds Summary  
-  _(Based on $1.2M gross / ~$1M net target)_
-- [x] Risk Disclosures  
-  _(Market, technical, legal, governance)_
-- [x] Revenue Model  
-  _(Includes projected platform activity and monetization channels)_
-- [x] CPA-Reviewed Financials  
-  _(Required for raises > $124,000)_
+Once R. Block Nation hits MVP + raise milestones (defined in valuation roadmap), the platform will initiate Reg A+ onboarding.
 
 ---
 
-## 🧰 Platform + Portal Setup
+## 🧱 Phase 2: Reg A+ Expansion (Conditional)
 
-- [x] Kore Account Setup (Free Forever Plan)
-- [x] Cap Table Upload
-- [x] Escrow Setup via North Capital
-- [x] Assign Kore Admin Roles (Founder, Legal, CFO)
-- [x] Upload Required Docs to Kore Vault
-- [x] Payment Authorization Form submitted for escrow fees
-
----
-
-## 🎯 Final Review + Launch Steps
-
-- [x] Confirm all disclosures, documents, and financials
-- [x] Final Form C review with funding portal
-- [x] Escrow terms approved and active
-- [x] Investor-facing UI linked to portal API
-- [x] Offering page goes live
-- [x] Roadshow + marketing begins
+| Step | Task | Responsible Party |
+|------|------|-------------------|
+| A1   | Begin Form 1-A filing via Kore (or BD/legal) | TBD |
+| A2   | Set new token logic (Reg A+ shares or rev-share) | Lester Sawyer |
+| A3   | Upgrade UI (white-label version of Kore or platform-hosted frontend) | Lester Sawyer |
+| A4   | Enable unrestricted liquidity paths (ATS) | Kore + Escrow |
+| A5   | Update investor onboarding tiers (Reg CF, Reg A+, Reg D if applicable) | Lester Sawyer |
 
 ---
 
-> ✅ All checklist items must be completed and approved by the funding portal prior to launch.
->
-> 🔗 For more information, visit: [https://kore.inc](https://kore.inc)
+## Notes
 
-📧 Questions? Email: **lester@rblockshareholdings.com**
+- Kore's “Free Forever” plan will be used during Phase 1.
+- Upgrade to Private Label UI ($200/mo) will be considered after raise.
+- North Capital will remain escrow/KYC agent for both phases.
+
+---
+
+---
+
+## ⚠️ Disclaimers
+
+- This document is provided for informational purposes only and does not constitute an offer to sell or the solicitation of an offer to buy any securities.
+- R. Block Share Holdings, LLC (DBA: R. Block Nation) is currently planning a Regulation CF raise through a FINRA-registered funding portal. Final terms will be disclosed in the Form C filing submitted by the portal.
+- Any reference to KoreConX in this checklist does not imply endorsement or a legal partnership. KoreConX is a technology provider selected for onboarding, compliance, and investor management tools.
+- Final investment decisions should be made only after reviewing official offering documents filed with the SEC and hosted on the selected funding portal.
 
