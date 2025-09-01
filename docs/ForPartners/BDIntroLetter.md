@@ -1,89 +1,42 @@
-# Introduction – R. Block Share Holdings, LLC
+# 📩 Broker-Dealer Intro Letter
 
-Dear \[Broker-Dealer / KoreConX / Funding Portal Partner],
+Dear [Broker-Dealer Name],
 
-My name is **Mr. L. Sawyer**, and I’m the founder of **R. Block Share Holdings, LLC**, a Wyoming-registered entity building **R. Block Nation** — a platform designed to power tokenized capital formation under the JOBS Act.
+I’m reaching out to explore a strategic collaboration between your FINRA-regulated entity and **R. Block Nation**, a tokenized investment platform designed for phased expansion across **Reg CF**, **Reg A+**, and **Reg D** offerings. Our initial raise leverages the **Reg CF** framework via a **registered funding portal** partner, with the intent to validate product-market fit, UI/UX workflows, investor interest, and core stack readiness.
 
-This letter introduces our inaugural **Regulation CF raise**, hosted via a white-labeled stack that preserves platform brand, domain, and user experience. The raise is structured as a live investment opportunity **and** a proof-of-concept for supporting broader tokenization use cases.
-
----
-
-## 🚧 What’s Been Built
-
-* Formed a Wyoming LLC with full operating agreement and EIN
-* Integrated **North Capital** (FINRA-regulated) for **escrow + KYC/AML**
-* Established **KoreConX** account (Free Forever tier) for cap table + investor onboarding
-* Deployed Kore-ready **ERC-20 smart contract** (RBCB token) via **Settlemint**
-* Published structured compliance docs and public GitHub site (MkDocs-powered)
-* Token includes built-in investor protections: 12-month lockup, pro-rata logic, mint control
-* Created fully auditable offering packet with partner documentation + investor materials
+Our tokenized equity product — backed by a compliant, white-labeled tech stack — will enable a range of deal types, including franchise, real estate, and IP-based opportunities. The goal is to build trust, deliver liquidity, and expand inclusive ownership.
 
 ---
 
-## 🔍 Raise Details (Reg CF)
+## ✅ Why This Collaboration Matters
 
-* **Offering Type**: Non-voting, tokenized Class B equity (RBCB token)
-* **Raise Goal**: \$1.2M gross / \~\$1M net
-* **Valuation Cap**: \~\$4.33M
-* **Cap Table Allocation**: 23.08% to Reg CF investors
-* **Revenue Model**: Subscriptions, minting fees, transaction % on platform
-* **Exit Plan**: Expansion to Reg A+/D raises on same stack (multi-issuer roadmap)
-
-> 📌 This raise is **ready to file**. Offering documents, Form C draft, cap table, and compliance logic are prepared and ready for submission.
+- **Reg CF Phase (Months 0–6)**: We are launching on a Reg CF portal and using this phase to prove traction. Funds raised will support MVP and compliance stack buildout.
+- **Reg A+ Phase (Months 6–18)**: Upon traction and readiness, we plan to file Form 1-A to open access to larger capital flows via your BD relationship.
+- **Reg D (Sidecar Optionality)**: High-net-worth and accredited investor tranches can be integrated concurrently with Reg CF or Reg A+, with your guidance.
 
 ---
 
-## 🤝 What We’re Seeking
+## 🔍 What We Seek in a BD Partner
 
-We are seeking a broker-dealer or funding portal willing to:
-
-* File our Form C and oversee KYC/AML (North Capital can assist)
-* Act as intermediary and escrow holder
-* Allow us to **retain our own UI/UX, domain, and workflow** (private-label model preferred)
-* **Defer upfront costs**, compensated via a **success fee (5–8%)**
-* Optionally discuss revenue share or token participation in future offerings
+- Full-service BD operations for Reg A+ (filing, compliance, oversight)
+- Compatibility with **North Capital** (escrow/KYC) or equivalent
+- Collaboration during the CF → A+ transition to streamline issuer onboarding
+- Success-fee-based model preferred
 
 ---
 
-## 🌱 Strategy for Scale
+## 🔗 View Supporting Docs
 
-This initial Reg CF raise is the first live offering. The platform is being built to:
+- [Cap Table Overview](../TokenDocs/cap-table-overview.md)
+- [Valuation Strategy Brief](valuation-strategy-brief.md)
+- [Revenue Model](../../BusinessModel/RevenueModel.md)
+- [Reg CF Issuer Pipeline](../../BusinessModel/IssuerPipeline.md)
 
-* Tokenize multiple offerings under Reg CF, Reg A+, and Reg D
-* Support **retail and accredited** investors with robust onboarding tools
-* Transition to full private-label KoreConX plan post-raise
-* Establish BD and compliance partnerships that scale with the platform
-* Onboard legal counsel and in-house dev team after capital raise
+We believe a partnership with your team will help us move confidently toward scale while maintaining regulatory fidelity. I’d be happy to discuss alignment and next steps at your convenience.
 
-The Reg CF raise helps us validate this model with a real offering, while preparing the infrastructure for a **multi-offering investment platform** with revenue participation.
-
----
-
-## 📁 Due Diligence Materials
-
-The following documents are available via our GitHub-hosted portal or upon request:
-
-* [Issuer Pipeline Overview](../IssuerPipeline.md)
-* [Valuation Roadmap](../TokenDocs/valuation-roadmap.md)
-* [Revenue Model](../BusinessModel/RevenueModel.md)
-* [Cap Table Overview (.csv)](../ForPartners/CapTable.csv)
-* [Form C Draft](../Legal/FormC-Draft.md)
-* [Token Explainer](../TokenDocs/contracts/RBCB-Contract-Explainer.md)
-* [Multi-Token Architecture](../TokenDocs/contracts/MultiToken-Architecture.md)
-* EIN confirmation, Articles of Org, platform roadmap, and more
-
----
-
-## 🔒 Notice
-
-These materials are for internal partner review only and must not be shared or distributed without written consent from **R. Block Share Holdings, LLC**.
-
----
-
-Sincerely,
-**Mr. L. Sawyer**
-Founder, R. Block Share Holdings, LLC
-📧 [contact@rblockshareholdings.com](mailto:contact@rblockshareholdings.com) ☎️ 224-280-3818
-**EIN:** 33-4657277
-(Operating as: R. Block Nation)
+Warm regards,  
+**Lester Sawyer**  
+Founder, R. Block Nation  
+📧 lestersawyer@rblocknation.com  
+🌐 [R. Block BD Packet](https://leskemval.github.io/RBlock-BD-Packet/)
 
