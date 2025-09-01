@@ -1,42 +1,24 @@
-# 📩 Broker-Dealer Intro Letter
-
-Dear [Broker-Dealer Name],
-
-I’m reaching out to explore a strategic collaboration between your FINRA-regulated entity and **R. Block Nation**, a tokenized investment platform designed for phased expansion across **Reg CF**, **Reg A+**, and **Reg D** offerings. Our initial raise leverages the **Reg CF** framework via a **registered funding portal** partner, with the intent to validate product-market fit, UI/UX workflows, investor interest, and core stack readiness.
-
-Our tokenized equity product — backed by a compliant, white-labeled tech stack — will enable a range of deal types, including franchise, real estate, and IP-based opportunities. The goal is to build trust, deliver liquidity, and expand inclusive ownership.
-
 ---
 
-## ✅ Why This Collaboration Matters
+## 🤝 Partnership Opportunities
 
-- **Reg CF Phase (Months 0–6)**: We are launching on a Reg CF portal and using this phase to prove traction. Funds raised will support MVP and compliance stack buildout.
-- **Reg A+ Phase (Months 6–18)**: Upon traction and readiness, we plan to file Form 1-A to open access to larger capital flows via your BD relationship.
-- **Reg D (Sidecar Optionality)**: High-net-worth and accredited investor tranches can be integrated concurrently with Reg CF or Reg A+, with your guidance.
+In addition to acting as the intermediary for our Reg CF raise, we’re also open to:
 
----
+- **Hosting third-party issuer deals** from your platform within our branded investor experience  
+- **Offering commission-sharing** on hosted deals (terms negotiable)
+- **Remaining brand-forward**, with all raises conducted through your rails but displayed on our site  
+  - Our **domain, UI, and investor onboarding** will be powered by **KoreConX** (white-label)
 
-## 🔍 What We Seek in a BD Partner
+We believe this intermediary-only approach benefits both parties: you maintain regulatory control, and we maintain long-term investor relationships and UX continuity.
 
-- Full-service BD operations for Reg A+ (filing, compliance, oversight)
-- Compatibility with **North Capital** (escrow/KYC) or equivalent
-- Collaboration during the CF → A+ transition to streamline issuer onboarding
-- Success-fee-based model preferred
+We’d love to walk you through our cap table, platform logic, and partnership model.
 
----
-
-## 🔗 View Supporting Docs
-
-- [Cap Table Overview](../TokenDocs/cap-table-overview.md)
-- [Valuation Strategy Brief](valuation-strategy-brief.md)
-- [Revenue Model](../../BusinessModel/RevenueModel.md)
-- [Reg CF Issuer Pipeline](../../BusinessModel/IssuerPipeline.md)
-
-We believe a partnership with your team will help us move confidently toward scale while maintaining regulatory fidelity. I’d be happy to discuss alignment and next steps at your convenience.
-
-Warm regards,  
+Sincerely,  
 **Lester Sawyer**  
 Founder, R. Block Nation  
-📧 lestersawyer@rblocknation.com  
-🌐 [R. Block BD Packet](https://leskemval.github.io/RBlock-BD-Packet/)
+[https://leskemval.github.io/RBlock-BD-Packet/](https://leskemval.github.io/RBlock-BD-Packet/)
+
+---
+
+> 🛡️ *Disclaimer: This letter does not constitute an offer to sell securities. It is a project overview for potential intermediary partners. All final offerings will be conducted through a registered funding portal or broker-dealer in compliance with U.S. securities law.*
 
