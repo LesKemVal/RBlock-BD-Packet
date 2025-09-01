@@ -1,65 +1,63 @@
-# Reg CF vs. Reg A vs. Reg D – Offering Comparison Guide
+# Offering Frameworks: Reg CF vs. Reg A+ vs. Reg D
 
-This guide explains the key differences between Regulation CF, Regulation A+, and Regulation D — the three primary securities exemptions available to issuers on R. Block Nation.
-
----
-
-## 🔍 Overview
-
-| Feature              | Reg CF                      | Reg A+ (Tier 2)                  | Reg D (Rule 506c)               |
-|----------------------|-----------------------------|----------------------------------|----------------------------------|
-| **Max Raise**        | $5M per 12 months           | $75M per 12 months               | Unlimited                       |
-| **Investors**        | Accredited & Non-accredited | Accredited & Non-accredited      | Accredited Only                |
-| **SEC Filing**       | Form C                      | Form 1-A                         | Form D                         |
-| **Pre-Sale Marketing** | Limited ("Tombstone" only) | Permitted with filing            | Permitted                      |
-| **Portal Required?** | Yes (must use funding portal) | No (can self-host or use BD)     | No (but BD recommended)       |
-| **Audit Required?**  | Not for raises < $124K      | Yes (full financial audit)       | No                             |
-| **State Law Compliance** | Preempted                | Preempted                        | Not preempted (Blue Sky laws apply) |
-| **Resale Restrictions** | 12 months                | Freely tradable (if qualified)   | 6-12 months restricted         |
-| **Cost to Launch**   | $5K–$30K                    | $75K–$200K+                      | $10K–$50K                      |
-| **Legal Risk**       | Low to Medium               | Medium to High                   | Medium                         |
+This file explains how R. Block Nation plans to leverage three complementary JOBS Act-based frameworks: **Regulation CF**, **Regulation A+**, and **Regulation D**, each at different stages of the platform’s lifecycle.
 
 ---
 
-## ✅ When to Use Each Exemption
+## 🚀 Phase 1: Regulation CF
 
-### ✅ **Reg CF (Regulation Crowdfunding)**
-- Best for: Startups, local businesses, early traction
-- Ideal for: $250K–$5M raises with community-driven momentum
-- Requirements: Must raise via a FINRA-registered funding portal
-- Key Benefit: Reach non-accredited investors early
-- Lockup Period: 12 months
+Reg CF is the **initial launch vehicle** for platform validation and MVP buildout.
 
----
+- Max raise: $5M
+- Uses: Fund MVP development, legal/compliance stack, early marketing
+- Submitted via: **Funding Portal** (no BD needed)
+- Intermediary: FINRA-regulated funding portal
+- Voting rights: None (non-governance equity token)
+- Token: RBCB – tokenized Class B units, 12-month lockup
 
-### ✅ **Reg A+ (Tier 2)**
-- Best for: Mature companies ready to scale nationally
-- Ideal for: $2M–$75M raises with retail investor appeal
-- Requirements: Full financial audit, SEC review, legal oversight
-- Key Benefit: Freely tradable securities (can list on ATS or DEX)
-- Lockup Period: None (if qualified)
+This raise establishes product-market fit, traction, and compliance readiness.
 
 ---
 
-### ✅ **Reg D (Rule 506c)**
-- Best for: Private placements and accredited-only raises
-- Ideal for: Fast raises with institutional backers or VC
-- Requirements: Accredited investor verification (e.g. via Kore)
-- Key Benefit: Faster, fewer disclosures than Reg A+
-- Lockup Period: 6–12 months
+## 📈 Phase 2: Regulation A+ (Only After CF Traction)
+
+Only after meaningful CF traction will a Reg A+ filing be pursued.
+
+- Max raise: $75M/year
+- Uses: National expansion, onboarding 3rd-party issuers, platform scaling
+- Submitted via: Funding Portal or Broker-Dealer
+- Token: May offer optional voting rights
+- Filing: Form 1-A, qualified by SEC
+- Liquidity: Tradable immediately via ATS (once qualified)
+
+Reg A+ is **contingent on CF success** and infrastructure readiness.
 
 ---
 
-## 🤝 Platform Roadmap Alignment
+## 🧩 Optional Sidecar: Regulation D
 
-| Phase                      | Preferred Exemption       |
-|---------------------------|---------------------------|
-| Platform Launch           | Reg CF (R. Block Nation raise) |
-| First External Issuers    | Reg CF, Reg D             |
-| Scale to National Market  | Reg A+ (Tier 2)           |
+Used for **private placements** to accredited investors, possibly alongside Reg CF or Reg A+ raises.
+
+- No raise cap (Rule 506)
+- No SEC qualification required
+- Must file Form D
+- No public solicitation unless using 506(c)
+- Use case: Strategic partners, advanced investors, platform equity sales
+
+This allows institutional or large checks while staying JOBS Act-compliant.
 
 ---
 
-> 📌 Note: All offerings on R. Block Nation are subject to internal compliance review before onboarding. Issuers should consult with their own legal counsel before selecting an exemption.
+## 💡 Summary
+
+| Category             | Reg CF               | Reg A+                        | Reg D                        |
+|----------------------|----------------------|-------------------------------|------------------------------|
+| Raise Cap            | $5M                  | $75M                          | Unlimited                    |
+| Investor Type        | Public / Retail      | Public / Retail               | Accredited Only              |
+| Intermediary         | Funding Portal       | Funding Portal or BD          | None required                |
+| Voting Rights        | None (RBCB token)    | Optional (issuer-defined)     | Optional (custom structuring)|
+| Filing Requirement   | Form C               | Form 1-A                      | Form D                       |
+| Liquidity            | 12-month lock        | ATS post-qualification        | Usually no secondary market  |
+| Use Case             | Platform MVP         | National Scale                | Institutional Access         |
 
 
