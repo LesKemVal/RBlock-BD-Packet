@@ -83,6 +83,7 @@ nav:
       - Revenue Model (Spreadsheet): BusinessModel/RevenueModel.xlsx
 
   - Token Docs:
+      - Token Overview: TokenDocs/TokenOverview.md
       - Bonding Curve Explainer: TokenDocs/BondingCurveExplainer.md
       - Cap Table Logic: TokenDocs/cap-table-overview.md
       - Valuation Roadmap: TokenDocs/valuation-roadmap.md
