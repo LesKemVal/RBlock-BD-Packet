@@ -83,7 +83,6 @@ nav:
       - Revenue Model (Spreadsheet): BusinessModel/RevenueModel.xlsx
 
   - Token Docs:
-      - Token Overview: TokenDocs/TokenOverview.md
       - Bonding Curve Explainer: TokenDocs/BondingCurveExplainer.md
       - Cap Table Logic: TokenDocs/cap-table-overview.md
       - Valuation Roadmap: TokenDocs/valuation-roadmap.md
@@ -94,11 +93,6 @@ nav:
       - Form C (Draft): Legal/FormC-Draft.md
       - Articles of Organization: Legal/ArticlesOfOrg.md
       - EIN Letter: Legal/EINLetter.md
-
-  - Internal (Hidden):
-      - CI Workflow: .github/workflows/mkdocs.yml
-      - Site Config: mkdocs.yml
-      - PDF Stylesheet: docs/assets/pdf.css
 
 markdown_extensions:
   - toc:
