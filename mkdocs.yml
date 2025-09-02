@@ -6,6 +6,10 @@ site_url: https://leskemval.github.io/RBlock-BD-Packet/
 theme:
   name: material
   favicon: assets/favicon.ico
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light blue
   features:
     - navigation.tabs
     - navigation.top
@@ -15,6 +19,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Start Here: start-here.md
   - Issuer Pipeline: IssuerPipeline.md
 
   - Business Model:
@@ -35,33 +40,47 @@ nav:
       - Multi-Token Architecture: TokenDocs/contracts/MultiToken-Architecture.md
 
   - For Investors:
-      - Token Overview:
-          - REGCFToken: ForInvestors/RegCFToken.md
-          - BFTKN (Reg A+): ForInvestors/BFTKN.md
-          - Tokenomics Summary: ForInvestors/TokenomicsSummary.md
-          - Token Comparison: ForInvestors/TokenComparison.md
-          - Cap Table: ForInvestors/CapTable.md
-      - Investment Process:
-          - CF Overview: ForInvestors/CF-Overview.md
-          - Investment Highlights: ForInvestors/InvestmentHighlights.md
+      - Start Here:
+          - Overview: ForInvestors/overview.md
           - Investor FAQs: ForInvestors/InvestorFAQs.md
-          - Investor Checklist: ForInvestors/OnboardingChecklist.md
-          - Subscription Agreement: ForInvestors/SubscriptionAgreement.md
-          - Subscription Preview: ForInvestors/SubscriptionAgreementPreview.md
+          - Onboarding Checklist: ForInvestors/OnboardingChecklist.md
+          - Investment Highlights: ForInvestors/InvestmentHighlights.md
           - Investor Flow: ForInvestors/investor-flow.md
-      - Platform Expansion Strategy:
+
+      - Offering Frameworks:
+          - Offering Breakdown: ForInvestors/offering-breakdown.md
+          - CF vs. Reg A vs. Reg D: ForInvestors/cf-vs-regA-vs-regD.md
+          - Raise Strategy: ForInvestors/RaiseStrategy.md
           - Dual Raise Overview: ForInvestors/dual-raise-overview.md
+
+      - Reg CF Offering:
+          - CF Overview: ForInvestors/CF-Overview.md
+          - Use of Proceeds: ForInvestors/cf-use-of-proceeds.md
+          - REGCFToken Overview: ForInvestors/RegCFToken.md
+          - Subscription Agreement: ForInvestors/SubscriptionAgreement.md
+          - Subscription Agreement (Preview): ForInvestors/SubscriptionAgreementPreview.md
+
+      - Reg A+ Expansion Strategy:
           - Reg A+ Timeline: ForInvestors/RegA-timeline.md
           - Reg A+ Use of Proceeds: ForInvestors/RegA-use-of-proceeds.md
           - Reg A+ Marketing Strategy: ForInvestors/RegA-marketing-strategy.md
           - Revenue Forecast: ForInvestors/revenue-forecast.md
+
+      - Valuation & Capital:
           - Valuation Goal: ForInvestors/valuation-goal.md
           - Valuation Strategy: ForInvestors/valuation-strategy.md
           - Capital Stack Comparison: ForInvestors/capital-stack-comparison.md
-          - Compliance Stack: ForInvestors/compliance-stack.md
-      - Offering Frameworks: ForInvestors/cf-vs-regA-vs-regD.md
-      - Risks and Disclaimers: ForInvestors/RisksAndDisclaimers.md
-      - Platform Overview: ForInvestors/overview.md
+          - Cap Table: ForInvestors/CapTable.md
+          - Compliance Stack Overview: ForInvestors/compliance-stack.md
+
+      - Token Economics:
+          - Tokenomics Summary: ForInvestors/TokenomicsSummary.md
+          - Deep Dive: ForInvestors/Tokenomics.md
+          - BFTKN Overview: ForInvestors/BFTKN.md
+          - Token Comparison: ForInvestors/TokenComparison.md
+
+      - Risks & Disclaimers:
+          - Risks and Disclaimers: ForInvestors/RisksAndDisclaimers.md
 
   - For Partners:
       - BD Intro Letter: ForPartners/BDIntroLetter.md
