@@ -5,6 +5,7 @@ site_url: https://leskemval.github.io/RBlock-BD-Packet/
 
 theme:
   name: material
+  favicon: assets/favicon.ico  # optional favicon
   features:
     - navigation.tabs
     - navigation.top
@@ -34,6 +35,11 @@ nav:
       - Multi-Token Architecture: TokenDocs/contracts/MultiToken-Architecture.md
 
   - For Investors:
+      - REGCFToken: ForInvestors/REGCFToken.md
+      - BFTKN (Reg A+): ForInvestors/BFTKN.md
+      - Investor FAQs: ForInvestors/InvestorFAQs.md
+      - Investor Checklist: ForInvestors/InvestorChecklist.md
+      - Cap Table: ForInvestors/CapTable.md
       - Tokenomics Summary: ForInvestors/TokenomicsSummary.md
       - Use of Proceeds: ForInvestors/cf-use-of-proceeds.md
       - Valuation Goal: ForInvestors/valuation-goal.md
