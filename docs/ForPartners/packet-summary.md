@@ -27,3 +27,11 @@
 
 📧 Contact: lester@rblockshareholdings.com
 
+---
+
+## Related: Partner Home Dashboard
+
+!!! info "Jump to the Partner Command Center"
+    Access onboarding tools, required docs, and compliance briefings from one place:  
+    → [Visit the Partner Home](PartnerHome.md)
+

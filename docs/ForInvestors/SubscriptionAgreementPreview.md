@@ -56,3 +56,12 @@ By signing the Subscription Agreement, the investor:
 
 © R. Block Share Holdings, LLC — All Rights Reserved
 
+---
+
+## Related: Visual Pitch for This Offering
+
+!!! info "View the Subscription Pitch Deck"
+    For a visual walkthrough of the raise and offering strategy,  
+    → [View the Subscription Pitch Deck](../OfferingDeck/subscription-pitch.md)
+
+

@@ -1,0 +1,40 @@
+/* ✅ Override Material theme's logo size */
+.md-header__title img {
+  height: 96px !important;
+  max-height: none !important;
+  width: auto !important;
+  margin-right: 1rem;
+}
+
+/* Prevent title from wrapping and misaligning */
+.md-header__topic {
+  white-space: nowrap !important;
+  font-size: 1.3rem !important;
+  line-height: 1 !important;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 600px) {
+  .md-header__title img {
+    height: 72px !important;
+    max-height: 72px !important;
+  }
+
+/* ✅ Properly center the site title both vertically and horizontally */
+
+.md-header__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.md-header__title {
+  text-align: center;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+

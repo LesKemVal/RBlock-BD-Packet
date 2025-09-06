@@ -3,8 +3,11 @@ site_description: Tokenized Equity Platform | Reg CF Launch Packet
 site_author: Lester Sawyer
 site_url: https://leskemval.github.io/RBlock-BD-Packet/
 
+use_directory_urls: true
+
 theme:
   name: material
+  custom_dir: overrides
   favicon: assets/favicon.ico
   palette:
     scheme: slate
@@ -86,20 +89,6 @@ nav:
       - Bonding Curve Explainer: TokenDocs/BondingCurveExplainer.md
       - Cap Table Logic: TokenDocs/cap-table-overview.md
       - Valuation Roadmap: TokenDocs/valuation-roadmap.md
-      - RBCB Contract Explainer: TokenDocs/contracts/RBCB-Contract-Explainer.md
-      - Multi-Token Architecture: TokenDocs/contracts/MultiToken-Architecture.md
-
-  - Legal & Compliance:
-      - Form C (Draft): Legal/FormC-Draft.md
-      - Articles of Organization: Legal/ArticlesOfOrg.md
-      - EIN Letter: Legal/EINLetter.md
-
-markdown_extensions:
-  - toc:
-      permalink: true
-  - admonition
-  - pymdownx.highlight
-  - pymdownx.superfences
 
 plugins:
   - search
@@ -108,4 +97,7 @@ plugins:
       combined: true
       media_type: print
       enabled_if_env: ENABLE_PDF_EXPORT
+
+extra_css:
+  - assets/extra.css
 

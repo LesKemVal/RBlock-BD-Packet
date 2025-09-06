@@ -105,4 +105,11 @@ Platform expenses decrease **20–30% in Y2** under current projections — whil
 
 R. Block Nation is designed to make equity, revenue, and ownership more **accessible, transparent, and powerful** — for both founders and retail investors.
 
+---
+
+## Related: Full Issuer Pipeline Detail
+
+!!! info "View the Full Multi-Issuer Rollout Plan"
+    A deeper breakdown of our onboarding and raise sequencing is available here:  
+    → [See the Full Issuer Pipeline](BusinessModel/IssuerPipeline.md)
 

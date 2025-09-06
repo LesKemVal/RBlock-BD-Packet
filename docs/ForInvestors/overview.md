@@ -88,4 +88,10 @@ R. Block Nation is not just building a launchpad — it's building **infrastruct
 
 **Next Steps:** Participate in our Reg CF raise to help us scale this infrastructure. Investors at this stage are backing not just a company — but a category.
 
+---
+
+## Related: Investor Dashboard Index
+
+!!! info "Looking for the Full Investor Index?"
+    Our [Investor Landing Page](index.md) includes links to onboarding resources, agreement previews, token logic, and risk disclosures.
 

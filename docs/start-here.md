@@ -10,3 +10,11 @@ This site is your compliance and onboarding hub for:
 
 Use the tabs above to navigate or follow the structured guides in each section.
 
+---
+
+## Related: Internal Setup Guide
+
+!!! tip "Private: Internal Setup Instructions"
+    Looking for internal setup tools, folders, and checklist references?  
+    → [View Internal Start Here](Internal/start-here.md)
+

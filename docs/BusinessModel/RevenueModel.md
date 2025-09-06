@@ -43,4 +43,11 @@ This document outlines the revenue model of the R. Block Nation platform. The mo
 
 > ⚖️ All future features will be rolled out strategically, with oversight from legal and compliance counsel.
 
+---
+
+## Related: Issuer Pricing Model (Internal)
+
+!!! info "Detailed Pricing Breakdown"
+    Want to see how we structure revenue from tokenized issuers?  
+    → [View the Internal Issuer Pricing Model](../Internal/issuer-pricing-model.md)
 

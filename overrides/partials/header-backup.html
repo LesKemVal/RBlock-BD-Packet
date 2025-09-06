@@ -1,0 +1,19 @@
+<!-- ✅ CUSTOM HEADER LOADED -->
+{% set logo_path = "assets/images/logo.png" %}
+{% set homepage_url = config.site_url | default('/') %}
+
+<header class="md-header" data-md-component="header">
+  <div class="md-header__inner md-grid" style="display: flex; align-items: center; justify-content: space-between;">
+    <div class="md-header__title" style="display: flex; align-items: center;">
+      <a href="{{ homepage_url }}" title="{{ config.site_name }}" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="{{ logo_path | url }}"
+             alt="R. Block Share Holdings, LLC"
+             style="height: 96px; max-height: none; margin-right: 1rem;">
+           <span class="md-header__topic md-ellipsis" style="font-size: 1.4rem; white-space: nowrap; margin-left: 1rem;">
+          {{ config.site_name }}
+        </span>
+      </a>
+    </div>
+  </div>
+</header>
+
