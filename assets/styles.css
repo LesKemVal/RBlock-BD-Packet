@@ -1,0 +1,79 @@
+/* overrides/assets/styles.css */
+
+:root {
+  --md-primary-fg-color: #d4af37;  /* soft gold */
+  --md-primary-bg-color: #000000;  /* black background */
+  --md-default-bg-color: #000000;  /* full page background */
+  --md-typeset-color: #ffffff;     /* text color */
+}
+
+/* Header and footer background */
+.md-header {
+  background-color: #000 !important;
+}
+.md-footer {
+  background-color: #000 !important;
+}
+
+/* Sidebar and nav items */
+.md-nav__title,
+.md-nav__item {
+  color: #d4af37 !important;
+}
+
+/* Link styling */
+a {
+  color: #d4af37;
+}
+
+/* Heading visibility */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff !important;
+}
+
+/* Emphasize H1 borders in light red (visible in PDF) */
+h1 {
+  border: 3px solid red !important;
+  padding: 0.3em;
+}
+
+/* Body font and spacing for readability */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Fix for PDF-specific print layout */
+@media print {
+  .md-header,
+  .md-footer,
+  .md-sidebar {
+    display: none !important;
+  }
+
+  body {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  a {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+
+  h1 {
+    color: #000 !important;
+    border-color: #000 !important;
+  }
+
+  h2, h3, h4, h5, h6 {
+    color: #000 !important;
+  }
+
+  p {
+    color: #000 !important;
+  }
+}
+

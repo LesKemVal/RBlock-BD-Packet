@@ -1,0 +1,15 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+a {
+  color: #444;
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+
