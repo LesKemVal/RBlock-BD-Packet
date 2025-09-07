@@ -12,7 +12,7 @@ This section provides details on the smart contracts supporting the R. Block inv
 **Network:** Sepolia Testnet  
 **Symbol:** TBD  
 **Decimals:** 0 or 2 (configurable)  
-**Contract Address:** [0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f)
+**Contract Address:** [0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
 
 ### 🔍 Summary
 
