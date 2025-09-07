@@ -48,5 +48,5 @@ All issuers are contractually required to cooperate in good faith with the escal
 ---
 
 📩 Questions or compliance concerns?
-Contact: compliance@rblockshareholdings.com
+Contact: contact@rblockholdings.com
 

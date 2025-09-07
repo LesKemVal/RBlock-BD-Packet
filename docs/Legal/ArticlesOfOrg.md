@@ -36,5 +36,5 @@ This legal entity is responsible for:
 ---
 
 📩 For a copy of the official Articles of Organization PDF, contact:  
-**contact@rblockshareholdings.com**
+**contact@rblockholdings.com**
 

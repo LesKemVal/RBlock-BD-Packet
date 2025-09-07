@@ -45,5 +45,5 @@ We are running **two legally distinct offerings**:
 
 ## 🧾 Contact
 
-- 📧 **lester@rblockshareholdings.com**
+- 📧 **contact@rblockholdings.com**
 

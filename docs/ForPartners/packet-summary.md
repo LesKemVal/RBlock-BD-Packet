@@ -25,7 +25,7 @@
 - Prospective issuers seeking to raise under Reg CF (or future Reg A/D)
 - Broker-dealers, funding portals, and legal teams assessing compliance infrastructure
 
-📧 Contact: lester@rblockshareholdings.com
+📧 Contact: contact@rblockholdings.com
 
 ---
 

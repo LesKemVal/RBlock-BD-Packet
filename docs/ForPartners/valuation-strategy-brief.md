@@ -50,7 +50,7 @@ We are currently executing a **simultaneous Reg CF and Reg A+ raise** through a 
 
 > This brief is intended for compliance, legal, and funding portal partners evaluating partnership terms with R. Block Share Holdings, LLC.
 
-📧 For more info: [lester@rblockshareholdings.com](mailto:lester@rblockshareholdings.com)
+📧 For more info: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
 
 ---
 

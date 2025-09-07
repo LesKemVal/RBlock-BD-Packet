@@ -76,7 +76,7 @@ The following materials are prepared for due diligence and available to authoriz
 - Revenue Model (unit economics + allocation logic)
 
 To request access, contact:  
-📧 **contact@rblockshareholdings.com**
+📧 **contact@rblockholdings.com**
 
 ---
 
@@ -86,7 +86,7 @@ These materials are for internal partner review only.
 Do not distribute without written consent from **R. Block Share Holdings, LLC**.
 
 Questions or requests:  
-📧 **lester@rblockshareholdings.com**
+📧 **contact@rblockholdings.com**
 
 ---
 

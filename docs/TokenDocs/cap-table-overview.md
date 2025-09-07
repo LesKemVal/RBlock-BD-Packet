@@ -62,5 +62,5 @@ Buybacks may be offered after lockup, based on future platform terms. Structured
 ---
 
 📬 **Questions?**  
-Contact: [lester@rblockshareholdings.com](mailto:lester@rblockshareholdings.com)
+Contact: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
 

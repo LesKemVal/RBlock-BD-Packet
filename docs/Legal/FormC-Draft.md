@@ -11,7 +11,7 @@ This draft Form C is intended to help R. Block Nation prepare for official filin
 - **Entity Type:** Limited Liability Company (LLC)  
 - **State of Formation:** [Your State]  
 - **Website:** https://rblocknation.com  
-- **Contact Email:** lester@rblockshareholdings.com  
+- **Contact Email:** contact@rblockholdings.com  
 
 ---
 

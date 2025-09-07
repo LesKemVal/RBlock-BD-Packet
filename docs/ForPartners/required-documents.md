@@ -55,5 +55,5 @@ These documents are collected via Kore (for compliance/KYC) and uploaded securel
 
 > 📌 All required documents must be submitted before your offering can be reviewed by the compliance team or published via the embedded funding portal.
 
-For questions or assistance, contact onboarding@rblockshareholdings.com
+For questions or assistance, contact contact@rblockholdings.com
 
