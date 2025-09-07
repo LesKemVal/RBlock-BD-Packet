@@ -7,27 +7,12 @@ This section provides details on the smart contracts supporting the R. Block inv
 
 ---
 
-## ⚖️ Reg CF Token — Class B Non-Voting Membership Units
-
-**Contract Address:**  
-[`0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f`](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
-
-**Network:** Sepolia Testnet  
-**Symbol:** TBD  
-**Decimals:** 0 or 2 (configurable)  
-
-# Smart Contracts
-
-This section outlines the smart contracts used for our investor tokens, deployed to the Ethereum Sepolia testnet for testing and demonstration.
-
----
-
 ## 📘 Reg CF Token (Class B Non-Voting Units)
 
 **Network:** Sepolia Testnet  
 **Symbol:** TBD  
 **Decimals:** 0 or 2 (configurable)  
-**Contract Address:** [`0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f`](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f)
+**Contract Address:** [0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f)
 
 ### 🔍 Summary
 
