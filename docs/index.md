@@ -1,6 +1,10 @@
 # Welcome to R. Block Nation
 
 > **Powered by R. Block Share Holdings, LLC**  
+
+> ⚖️ **Disclaimer:**  
+> This platform reflects a proposed model for JOBS Act-compliant investing focused on expanding access to non-traditional communities. While the core mission — transparency, community ownership, and regulatory integrity — remains fixed, I am open to adapting aspects of the business model or tech stack to align with a regulated broker-dealer or funding portal relationship. My domain and investor UI are essential components of the brand experience, and I seek partnerships that allow for long-term valuation growth and operational integrity.
+
 > Unlocking capital access and Investment opportunities for CF, A+, D issuers/ Investors
 
 ---
@@ -21,6 +25,7 @@ Our platform is launching its first raise through a **tokenized Reg CF offering*
 - 🪙 **Token:** RBCB (Class B equity with 12-month lock)
 
 This early-stage raise supports our product development, legal buildout, marketing operations, and platform expansion into **Reg A+ and Reg D** pathways.
+👉 [View Smart Contracts](smart-contract.md)
 
 ---
 
