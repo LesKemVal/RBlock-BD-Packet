@@ -66,9 +66,9 @@ To finalize your investment:
 
 If you need assistance:
 
-- Email: [support@rblocknation.com](mailto:support@rblocknation.com)  
-- FAQ: [Investor FAQs](./InvestorFAQs.md)  
-- Compliance: [Cap Table + Token Overview](./CapTable.md)
+- Email: [contact@rblockshares.com](mailto:contact@rblockshares.com)  
+- FAQ: [Investor FAQs](InvestorFAQs.md)
+- Compliance: [Cap Table + Token Overview](CapTable.md)
 
 ---
 
