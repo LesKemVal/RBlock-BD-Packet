@@ -7,46 +7,49 @@ Welcome to the partner summary page for R. Block Nation. This initiative was bui
 ## 🧩 Platform Overview
 
 - Fully branded, white-label-ready investing platform
-- Reg CF compliant from day one (Reg A+ planned)
-- KYC, escrow, and smart contract infrastructure in place
-- Community and cap-table driven fundraising logic
+- Reg CF compliant from day one (Reg A+ planned as milestone)
+- KYC, escrow, and smart contract infrastructure already in place
+- Community-driven and cap-table-integrated fundraising logic
 
 ---
 
 ## 🎯 Capital Strategy
 
-- Dual Reg CF Raises:
-  - Raise A: External issuers
-  - Raise B: Platform development
+- **Initial Raise A (Platform Development):**
+  - Compliance stack, token contracts, investor onboarding, marketing
+- **Subsequent CF Raises (External Issuers):**
+  - Issuer campaigns hosted via white-labeled experience
 - Traction-based roadmap toward Reg A+ and secondary markets
-- Real investor engagement in live product
+- Real-time investor engagement with a live, functioning product — not just a pitch deck
 
 ---
 
 ## 🧠 Technical + Compliance Stack
 
-- Kore: Investor compliance & onboarding
-- North Capital: Escrow & KYC provider
-- Settlemint: Smart contract & token architecture
-- GitHub Pages + MkDocs: Documentation UI
-- Reg CF token: [View on Etherscan](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
+- **KoreConX**: Investor onboarding, compliance & cap table
+- **North Capital**: Escrow + KYC partner
+- **Settlemint**: Smart contract backend + token issuance
+- **Documentation UI**: GitHub Pages + MkDocs for transparency
+- **ERC-20 Reg CF Token**:  
+  [View Smart Contract on Etherscan](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
 
 ---
 
 ## 💰 Monetization Model
 
-- Success fees + subscription models
-- Future Reg A+ campaigns hosted in-house
-- Credit-based investing partnerships (e.g., Fundbox-style)
-- Data, compliance, and infrastructure monetization
+- Success fees and subscription SaaS model
+- Platform revenue-share from hosted issuer raises
+- Reg A+ campaigns planned for in-house hosting after scale
+- Credit-based investing integrations (e.g., Fundbox-style)
+- Data licensing, compliance automation, and infrastructure monetization
 
 ---
 
-## 🔗 Related Docs
+## 📎 Related Docs
 
-- [Valuation Strategy Brief](valuation-strategy-brief.md)
-- [Compliance Stack Overview](../ForInvestors/compliance-stack.md)
-- [REG CF Token Overview](../ForInvestors/RegCFToken.md)
+- [📊 Valuation Strategy Brief](valuation-strategy-brief.md)
+- [🧱 Compliance Stack Overview](../ForInvestors/compliance-stack.md)
+- [🪙 REG CF Token Overview](../ForInvestors/RegCFToken.md)
 
 ---
 
@@ -54,6 +57,14 @@ Welcome to the partner summary page for R. Block Nation. This initiative was bui
 
 We’re seeking a funding portal or BD partner to support this compliant vision while maintaining mission integrity.
 
-📧 Schedule a call or request access:  
-**lester@rblockholdings.com**
+📧 Contact us to schedule a call or request private access:  
+**[contact@rblockholdings.com](mailto:contact@rblockholdings.com)**
+
+---
+
+!!! warning "Disclaimer"
+
+    This document is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy securities.
+
+    All raises will be conducted through a registered funding portal or broker-dealer in full compliance with U.S. securities laws.
 
