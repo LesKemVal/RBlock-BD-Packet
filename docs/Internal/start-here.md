@@ -1,49 +1,45 @@
-# Start Here – Overview for Funding Portal Partners
+# Dual Reg CF Raise Strategy Overview
 
-Welcome to **R. Block Nation’s Compliance & Partnership Packet**. This documentation hub supports both:
+This section outlines a capital formation strategy for R. Block Nation using **simultaneous Reg CF raises** to both (1) fund issuer campaigns and (2) fund the development and expansion of the platform itself.
 
-- 🟢 A **Regulation CF** raise (tokenized equity offering via a white-labeled portal)
-- 🔵 An **alternative Reg A+ raise** (running in parallel as a fallback or co-strategy)
+This model preserves compliance under the JOBS Act while maximizing flexibility, community participation, and brand control — all without requiring Reg A+ at the outset.
 
----
-
-## 🔁 Dual Raise Model Summary
-
-We are running **two legally distinct offerings**:
-
-### 1. Reg CF (Primary)
-- Hosted on a FINRA-regulated funding portal with custom UI integration
-- 12-month lockup
-- Max raise: $1.235M (target: $1M)
-- Kore + North Capital integration (cap table + escrow)
-
-### 2. Reg A+ (Parallel or Fallback)
-- Runs simultaneously with Reg CF
-- Allows us to generate platform revenue and investor engagement even if CF raise underperforms
-- Funds from Reg A+ may support further development and compliance infrastructure
+Unlike traditional startup capital raises, this model provides **proof-of-concept to investors**, who can directly engage with the product they’re investing in: a live, transparent, compliant investment platform designed for long-term JOBS Act alignment.
 
 ---
 
-## 📄 Key Documents
+## 🧭 Overview
 
-- [Valuation Roadmap](../TokenDocs/valuation-roadmap.md)
-- [Form C Draft](../Legal/FormC-Draft.md)
-- [Reg CF Use of Proceeds](../ForInvestors/cf-use-of-proceeds.md)
-- [Tokenomics Summary](../ForInvestors/TokenomicsSummary.md)
-- [Reg A+ Timeline](../ForInvestors/RegA-timeline.md)
-- [Reg A+ Marketing Strategy](../ForInvestors/RegA-marketing-strategy.md)
-
----
-
-## 🤝 Partnerships In Place
-
-- **Kore (Free Forever Plan):** Cap table, onboarding, compliance
-- **North Capital:** Escrow and investor funds flow
-- **Settlemint:** Tokenization and backend smart contract logic
+- **Structure:** Multiple Reg CF raises run concurrently via a white-labeled, FINRA-regulated funding portal
+- **Use of Proceeds:**
+  - Raise A: External issuer capital campaigns
+  - Raise B: Platform development (compliance stack, onboarding, smart contracts, BD integration)
+- **Platform:** Fully branded R. Block Nation UI, investor flows, and documentation site
+- **Compliance Stack:** Kore (issuer onboarding), Settlemint (token backend), North Capital (escrow)
+- **Ownership Model:** Class B tokenized equity, issued per-raise, with 12-month transfer restriction (Reg CF rule)
 
 ---
 
-## 🧾 Contact
+## 🎯 Objectives
 
-- 📧 **contact@rblockholdings.com**
+- Democratize access to private market investment opportunities from day one
+- Use Reg CF exclusively until traction thresholds are met for a possible Reg A+ offering
+- Build a scalable, compliant marketplace for underrepresented investor communities
+- Maintain full control over platform branding, domain, and smart contract logic
+- Build investor trust through a live proof-of-concept, not just pitch materials
+
+---
+
+## 📄 Documents
+
+- [Dual Raise Strategy Summary](dual-raise-overview.md)
+- [Reg CF Timeline](../ForInvestors/Reg-CF-Timeline.md)
+- [Reg CF Use of Proceeds](../ForInvestors/RegCF-use-of-proceeds.md)
+- [Reg CF Marketing Strategy](../ForInvestors/RegCF-marketing-strategy.md)
+
+---
+
+## 🔗 Return to Main Packet
+
+[← Back to Primary Compliance Packet](../index.md)
 
