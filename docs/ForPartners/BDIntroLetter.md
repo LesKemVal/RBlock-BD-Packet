@@ -22,7 +22,7 @@ You maintain regulatory control, and we maintain long-term investor relationship
 
 We’d love to walk you through the following:
 
-- 📊 [Cap Table Logic](../../TokenDocs/cap-table-overview.md) – Class B token issuance and partner-level visibility  
+- 📊 [Cap Table Logic](../TokenDocs/cap-table-overview.md) – Class B token issuance and partner-level visibility
 - ⚙️ [Smart Contract on Etherscan (Sepolia)](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code) – KYC gating, lockup, and cap table enforcement  
 - 📄 [Valuation Strategy Brief](valuation-strategy-brief.md) – How we calculate growth, infrastructure value, and partner upside  
 - 🧾 [Cap Table (Partner View)](CapTable.md)  
