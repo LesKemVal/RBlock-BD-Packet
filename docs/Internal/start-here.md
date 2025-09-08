@@ -32,7 +32,7 @@ Unlike traditional startup capital raises, this model provides **proof-of-concep
 
 ## 📄 Documents
 
-- [Dual Raise Strategy Summary](dual-raise-overview.md)
+- [Dual Raise Strategy Summary](../ForInvestors/dual-raise-overview.md)
 - [Reg CF Timeline](../ForInvestors/Reg-CF-Timeline.md)
 - [Reg CF Use of Proceeds](../ForInvestors/RegCF-use-of-proceeds.md)
 - [Reg CF Marketing Strategy](../ForInvestors/RegCF-marketing-strategy.md)
