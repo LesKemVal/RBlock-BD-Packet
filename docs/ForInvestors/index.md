@@ -9,8 +9,8 @@ Unlike traditional startup capital raises, this model provides **proof-of-concep
 ## 🧭 Overview
 
 - **Structure:** Multiple Reg CF raises run concurrently via a white-labeled, FINRA-regulated funding portal
-- **Use of Proceeds:**  
-  - Raise A: Capital campaigns for external issuers  
+- **Use of Proceeds:**
+  - Raise A: Capital campaigns for external issuers
   - Raise B: Platform development — compliance backend, smart contracts, onboarding stack, marketing
 - **Platform:** Fully branded R. Block Nation UI, investor flows, and documentation site
 - **Compliance Stack:** Kore (issuer onboarding), Settlemint (token backend), North Capital (escrow)
@@ -30,10 +30,10 @@ Unlike traditional startup capital raises, this model provides **proof-of-concep
 
 ## 📄 Documents
 
-- [Dual Raise Strategy Summary](dual-raise-overview.md)  
-- [Reg CF Timeline](../ForInvestors/Reg-CF-Timeline.md)  
-- [Reg CF Use of Proceeds](RegA-use-of-proceeds.md) *(to be renamed)*  
-- [Reg CF Marketing Strategy](RegA-marketing-strategy.md) *(to be renamed)*  
+- [Dual Raise Strategy Summary](../ForInvestors/dual-raise-overview.md)
+- [Reg CF Timeline](../ForInvestors/Reg-CF-Timeline.md)
+- [Reg CF Use of Proceeds](../ForInvestors/RegCF-use-of-proceeds.md)
+- [Reg CF Marketing Strategy](../ForInvestors/RegCF-marketing-strategy.md)
 
 ---
 

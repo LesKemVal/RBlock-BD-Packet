@@ -1,48 +1,53 @@
-# Reg A+ – Use of Proceeds
+# Use of Proceeds – Reg CF Platform Raise
 
-This document outlines the intended use of proceeds from the Regulation A+ raise conducted in parallel with the platform’s Regulation CF offering.
+This page outlines how funds raised through R. Block Nation’s **Regulation CF offering for platform development** will be allocated.
 
-Both raises are launched simultaneously under the same white-labeled funding portal and operate on the issuer’s own platform UI and compliance stack.
+The goal of this raise is to fund the **buildout of a fully compliant, tokenized investment platform** that empowers underrepresented investors and issuers, while proving the business model in real time.
+Final allocation percentages will be reflected in the Form C filing at the time of offering.
+---
+
+## 🧠 Strategic Purpose
+
+- Provide a **live proof-of-concept** for investors and partners
+- Launch the platform with end-to-end compliance, onboarding, and smart contract logic
+- Retain brand, domain, and cap table control while operating under Reg CF
 
 ---
 
-## 🎯 Dual Raise Context
+## 📊 Estimated Allocation of Funds
 
-- Reg A+ and Reg CF raises will run concurrently
-- Proceeds from either raise may be used to fund platform development, operations, and compliance
-- If Reg A+ completes first, it will serve as the fallback funding source to replace or supplement the original CF strategy
+| Category                         | Estimated Allocation (%) |
+|----------------------------------|---------------------------|
+| Compliance Stack (KYC, escrow)   | 20%                       |
+| Smart Contract Dev & Audits      | 15%                       |
+| Platform Build (UI/API/Auth)     | 25%                       |
+| Legal & Regulatory               | 10%                       |
+| Community Marketing & Comms      | 15%                       |
+| General Admin & Ops              | 10%                       |
+| Contingency Buffer               | 5%                        |
 
----
-
-## 💰 Primary Use Categories (Reg A+ Funds)
-
-| Category                         | Estimated Allocation (%) | Notes |
-|----------------------------------|---------------------------|-------|
-| Platform Development & Backend   | 25%                       | Smart contract scaling, Settlemint infrastructure, investor dashboard upgrades |
-| Legal & Compliance (Post-Raise)  | 20%                       | Form 1-A legal, BD planning, jurisdictional expansion |
-| Marketing + Investor Acquisition | 20%                       | Nationwide marketing strategy, influencer content, TikTok/YouTube outreach |
-| BD Planning & Licensing          | 15%                       | Legal consultation, FINRA prep, BD team development |
-| Staffing & Ops                   | 10%                       | Hiring CTO, community lead, regulatory analyst |
-| Contingency Reserve              | 10%                       | Cash buffer for compliance risk, tech setbacks, or extension |
+> 📌 Note: Allocations are subject to adjustment based on investor interest, BD partnership structure, and regulatory updates.
 
 ---
 
-## 🔁 Strategic Reallocation Rules
+## 🔄 Dynamic Deployment Strategy
 
-- If Reg CF raise completes: Reg A+ funds will **extend** scope and support larger operations.
-- If Reg A+ raise completes first: proceeds will be used to **replace or exceed** original CF goals.
-- In both cases, the mission remains unchanged: build a **compliant, multi-issuer platform** under the JOBS Act, with in-house governance and BD capability.
+If funding targets are met early, additional CF raises may be launched for:
 
----
-
-## 🧠 Long-Term Goals Enabled by Reg A+
-
-- Support for larger issuers and asset classes (real estate, royalties, franchises)
-- Launch of dedicated in-house broker-dealer entity
-- Expansion into Reg D syndication, SPVs, and qualified custodianship
-- Onboarding of legal advisory board and investor compliance council
+- Additional feature sets (e.g., investor dashboards, analytics)
+- Secondary market compliance (ATS integration)
+- Legal readiness for future Reg A+ support
 
 ---
 
-This use-of-proceeds plan ensures the platform can continue its core roadmap — regardless of which capital raise completes first.
+## 🔗 Related
+
+- [Reg CF Timeline](Reg-CF-Timeline.md)
+- [Marketing Strategy](RegCF-marketing-strategy.md)
+
+---
+
+## ⚠️ Disclaimer
+
+The information provided here is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. Actual use of proceeds may vary based on operational needs, market conditions, and regulatory requirements. Prospective investors should not rely solely on this document and are encouraged to review official offering materials and disclosures when available.
 
