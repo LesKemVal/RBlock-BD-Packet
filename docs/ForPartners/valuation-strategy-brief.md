@@ -1,6 +1,7 @@
 # Valuation Strategy Brief
 
 This brief outlines how R. Block Nation approaches platform valuation and what informs our long-term value growth strategy — both for internal CF raises and future external partnerships.
+
 We are open to negotiating platform strategy and operational alignment with a funding portal or broker-dealer, provided our core objectives remain protected. These include: maintaining control over brand and UI, scaling toward Reg A+ readiness, prioritizing community-centered ownership models, and ensuring inclusive access for non-traditional — but now fully compliant — investor classes.
 We view valuation not as a static multiple, but as a dynamic function of compliance infrastructure, investor traction, proprietary smart contract logic, and the exclusive financial network we're building through our Reg CF offerings.
 
