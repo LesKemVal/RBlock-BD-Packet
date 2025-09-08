@@ -93,12 +93,14 @@ Every new raise brings in more investors, new data, and compounding platform val
 
 We value the platform based on:
 
-- Verified raise traction
-- Fully compliant smart contract infrastructure
-- Data & portfolio flywheel effects
-- Self-issuance and capital efficiency
-- Strategic path to Reg A+ and secondary markets
-- Future credit-based investing capabilities
+- Verified raise traction  
+- Fully compliant smart contract infrastructure  
+- Data & portfolio flywheel effects  
+- Self-issuance and capital efficiency  
+- Strategic path to Reg A+ and secondary markets  
+- Future credit-based investing capabilities  
+- Robust, ongoing marketing and partnership strategy focused on long-term platform retention  
+- In-house dev expansion planned for Year 2, with a gradual transition to owned OSS infrastructure  
 
 We welcome partner discussions that align with this thesis and support long-term, scalable investor ownership models.
 
