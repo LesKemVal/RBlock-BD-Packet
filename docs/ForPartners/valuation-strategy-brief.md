@@ -3,6 +3,7 @@
 This brief outlines how R. Block Nation approaches platform valuation and what informs our long-term value growth strategy — both for internal CF raises and future external partnerships.
 
 We are open to negotiating platform strategy and operational alignment with a funding portal or broker-dealer, provided our core objectives remain protected. These include: maintaining control over brand and UI, scaling toward Reg A+ readiness, prioritizing community-centered ownership models, and ensuring inclusive access for non-traditional — but now fully compliant — investor classes.
+
 We view valuation not as a static multiple, but as a dynamic function of compliance infrastructure, investor traction, proprietary smart contract logic, and the exclusive financial network we're building through our Reg CF offerings.
 
 ---
@@ -100,4 +101,17 @@ We value the platform based on:
 - Future credit-based investing capabilities
 
 We welcome partner discussions that align with this thesis and support long-term, scalable investor ownership models.
+
+---
+
+## 📄 Related Resources
+
+For partners or stakeholders seeking deeper detail, we’ve included relevant documents and live references:
+
+- [Reg CF Timeline](../ForInvestors/Reg-CF-Timeline.md) — Offering calendar, lockup periods, exemptions
+- [Use of Proceeds](../ForInvestors/RegCF-use-of-proceeds.md) — Internal and external capital allocation model
+- [Marketing Strategy](../ForInvestors/RegCF-marketing-strategy.md) — Brand positioning and investor engagement
+- [Smart Contract (View on Sepolia)](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code) — Live Reg CF token with KYC/lockup logic and cap table visibility
+
+These documents support the valuation model and clarify the long-term growth and monetization logic behind R. Block Nation.
 
