@@ -41,16 +41,10 @@ nav:
 
       - Reg CF Offering:
           - CF Overview: ForInvestors/CF-Overview.md
-          - Use of Proceeds: ForInvestors/cf-use-of-proceeds.md
+          - Use of Proceeds: ForInvestors/RegCF-use-of-proceeds.md
           - REGCFToken Overview: ForInvestors/RegCFToken.md
           - Subscription Agreement (Preview): ForInvestors/SubscriptionAgreementPreview.md
           - Subscription Agreement: ForInvestors/SubscriptionAgreement.md
-
-      - Reg A+ Expansion:
-          - Reg A+ Timeline: ForInvestors/RegA-timeline.md
-          - Reg A+ Use of Proceeds: ForInvestors/RegA-use-of-proceeds.md
-          - Reg A+ Marketing Strategy: ForInvestors/RegA-marketing-strategy.md
-          - Revenue Forecast: ForInvestors/revenue-forecast.md
 
       - Valuation & Capital:
           - Valuation Goal: ForInvestors/valuation-goal.md
@@ -64,6 +58,9 @@ nav:
           - Tokenomics Deep Dive: ForInvestors/Tokenomics.md
           - BFTKN Overview: ForInvestors/BFTKN.md
           - Token Comparison: ForInvestors/TokenComparison.md
+
+      - Marketing & Outreach:
+          - Reg CF Marketing Strategy: ForInvestors/RegCF-marketing-strategy.md
 
       - Risks & Disclaimers:
           - Risks and Disclaimers: ForInvestors/RisksAndDisclaimers.md
@@ -79,7 +76,7 @@ nav:
       - Issuer Agreement Template: ForPartners/issuer-agreement-template.md
       - Required Docs: ForPartners/required-documents.md
       - Escalation Procedures: ForPartners/portal-escalation-procedures.md
-      - Issuer Pipeline: IssuerPipeline.md
+      - Issuer Pipeline: BusinessModel/IssuerPipeline.md
 
   - Business Model:
       - Revenue Model: BusinessModel/RevenueModel.md
