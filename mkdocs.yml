@@ -33,13 +33,11 @@ nav:
           - Investor Flow: ForInvestors/investor-flow.md
           - Reg CF Timeline: ForInvestors/Reg-CF-Timeline.md
 
-      - Offering Strategy:
+      - Capital Strategy:
           - Offering Breakdown: ForInvestors/offering-breakdown.md
           - Raise Strategy: ForInvestors/RaiseStrategy.md
           - Dual Raise Overview: ForInvestors/dual-raise-overview.md
           - CF vs. Reg A vs. Reg D: ForInvestors/cf-vs-regA-vs-regD.md
-
-      - Reg CF Offering:
           - CF Overview: ForInvestors/CF-Overview.md
           - Use of Proceeds: ForInvestors/RegCF-use-of-proceeds.md
           - REGCFToken Overview: ForInvestors/RegCFToken.md
@@ -77,6 +75,7 @@ nav:
       - Required Docs: ForPartners/required-documents.md
       - Escalation Procedures: ForPartners/portal-escalation-procedures.md
       - Issuer Pipeline: BusinessModel/IssuerPipeline.md
+      - Partner Deck Summary: ForPartners/partner-deck.md
 
   - Business Model:
       - Revenue Model: BusinessModel/RevenueModel.md
