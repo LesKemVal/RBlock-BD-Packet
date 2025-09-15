@@ -4,6 +4,16 @@ Welcome to the partner summary page for R. Block Nation. This initiative was bui
 
 > 🔄 **Note:** We are open to negotiating our existing technical and compliance stack to ensure smooth integration with the funding portal’s infrastructure — avoiding duplication and supporting a low-friction partnership model.
 
+## 🔗 Related Docs
+
+For convenience, we've included additional documentation and live resources below:
+
+- 📄 [Valuation Strategy Brief](valuation-strategy-brief.md)
+- 🧱 [Compliance Stack Overview](../ForInvestors/compliance-stack.md)
+- 🧮 [REG CF Token Overview](../ForInvestors/RegCFToken.md)
+- 🪙 [Tokenomics Summary](../ForInvestors/TokenomicsSummary.md)
+- ⚖️ [Smart Contract – View on Etherscan (Sepolia)](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
+
 ---
 
 ## 🧩 Platform Overview
