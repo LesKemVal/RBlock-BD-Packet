@@ -2,6 +2,8 @@
 
 Welcome to the partner summary page for R. Block Nation. This initiative was built to enable compliant, community-first investing in the private capital markets through the JOBS Act.
 
+> 🔄 **Note:** We are open to negotiating our existing technical and compliance stack to ensure smooth integration with the funding portal’s infrastructure — avoiding duplication and supporting a low-friction partnership model.
+
 ---
 
 ## 🧩 Platform Overview
@@ -52,6 +54,25 @@ Welcome to the partner summary page for R. Block Nation. This initiative was bui
 - [🪙 REG CF Token Overview](../ForInvestors/RegCFToken.md)
 
 ---
+
+---
+
+## 🧳 White-Label Strategy & Brand Control
+
+We’re seeking a funding portal partnership that allows:
+
+- Full **domain and UI control** (our branding stays front-facing)
+- You operate as the **compliance backend** (Form C filing, escrow, investor verification)
+- We conduct **community-centered investor onboarding and marketing**
+- You receive a **negotiated equity stake** in our Reg CF raise representing platform buildout
+- We drive traffic and **list your existing issuer deals** within our branded environment
+
+This model benefits both parties:
+- You expand deal exposure with a new front-end and brand
+- We retain long-term investor trust, data, and platform UX
+- Shared content (educational, compliance, marketing) creates a flywheel of investor engagement
+
+📧 Contact: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
 
 ## 🤝 Let’s Talk
 
