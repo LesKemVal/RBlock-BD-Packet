@@ -1,58 +1,69 @@
-# ✅ Kore Onboarding Checklist (Reg CF First Phase)
+# ✅ Technology-Supported Issuer Onboarding Checklist (via RBlock)
 
-This checklist outlines the steps required to onboard R. Block Nation onto the KoreConX platform using a **Reg CF first** approach. Reg A+ onboarding will follow only after the platform has demonstrated traction and scalability during and after initial Reg CF raise(s).
+This document outlines how **RBlock Holdings**, as a technology and data provider, assists Funding Portals (FPs) and Broker-Dealers (BDs) in onboarding issuers to their regulated platforms. The goal is to reduce compliance overhead and deliver well-prepared, pre-vetted issuer candidates through a structured and transparent tech stack.
 
----
-
-## 🛠️ Phase 1: Reg CF Raise (via Funding Portal)
-
-| Step | Task | Responsible Party |
-|------|------|-------------------|
-| 1    | Platform signs up on KoreConX as issuer | Lester Sawyer |
-| 2    | Select **Funding Portal** as intermediary for Reg CF raise (Form C filing + escrow) | Lester Sawyer |
-| 3    | Integrate KoreConX tools (Cap Table, Portfolio, Personal Profile, BoardRoom) | Kore Team + Issuer |
-| 4    | Upload required issuer documents to Kore system (Form C draft, Articles, EIN) | Lester Sawyer |
-| 5    | Enable KYC/AML & investor onboarding flow | Kore / Escrow |
-| 6    | Setup wallet logic (via Kore’s supported providers or externally managed solution) | TBD |
-| 7    | Confirm escrow integration (North Capital) | Lester Sawyer |
-| 8    | Cap Table reviewed and finalized with 12-month lock-in for CF token | Kore + Issuer |
-| 9    | Upload BD Compliance Packet (GitHub link) for record | Lester Sawyer |
-| 10   | Approve investor UI for Reg CF launch | Kore / Lester |
+> 📌 **Important Note:** RBlock is not a funding portal or broker-dealer. All final compliance decisions, regulatory oversight, and transactional processes are the sole responsibility of the partner platform.
 
 ---
 
-## 🚀 Trigger Point: Post-Raise Evaluation
+## 🛠️ Phase 1: Issuer Preparation (via RBlock Platform)
 
-Once R. Block Nation hits MVP + raise milestones (defined in valuation roadmap), the platform will initiate Reg A+ onboarding.
+These steps are completed by the issuer through RBlock’s platform, ensuring documentation and data are standardized before reaching the partner.
 
----
-
-## 🧱 Phase 2: Reg A+ Expansion (Conditional)
-
-| Step | Task | Responsible Party |
-|------|------|-------------------|
-| A1   | Begin Form 1-A filing via Kore (or BD/legal) | TBD |
-| A2   | Set new token logic (Reg A+ shares or rev-share) | Lester Sawyer |
-| A3   | Upgrade UI (white-label version of Kore or platform-hosted frontend) | Lester Sawyer |
-| A4   | Enable unrestricted liquidity paths (ATS) | Kore + Escrow |
-| A5   | Update investor onboarding tiers (Reg CF, Reg A+, Reg D if applicable) | Lester Sawyer |
+| Task | Description | Partner Benefit |
+|------|-------------|-----------------|
+| ✅ Issuer Profile | Company fills out core details via RBlock’s onboarding interface (entity, address, summary, etc.) | Saves admin time, creates structured data |
+| ✅ Document Upload | Articles of Org, EIN Letter, Form C Draft, Cap Table, etc. uploaded to RBlock | Organized due diligence packet for BD/FP |
+| ✅ Financial Data Input | Forecasts, P&L history, use of proceeds (via spreadsheet or form) | Jumpstarts financial review |
+| ✅ Business Plan & Pitch | Issuer uploads presentation deck or business plan | Early insight into issuer viability |
+| ✅ Cap Table Entry | Real-time cap table created or imported by issuer | Visibility for valuation & compliance |
+| ✅ KYC Prep | Investors routed to KYC partner post-raise (North Capital or your preferred vendor) | Clean handoff with pre-labeled leads |
 
 ---
 
-## Notes
+## 🧪 Phase 2: Partner Evaluation (You + RBlock)
 
-- Kore's “Free Forever” plan will be used during Phase 1.
-- Upgrade to Private Label UI ($200/mo) will be considered after raise.
-- North Capital will remain escrow/KYC agent for both phases.
+These are performed by your team, supported by structured data and tools from RBlock.
+
+| Task | Description | RBlock Role |
+|------|-------------|-------------|
+| 🧩 Issuer Qualification | Review issuer’s profile and docs from RBlock | Flag missing data, support Q&A |
+| 📊 Financial + Legal Review | Perform deeper diligence using uploaded docs | RBlock organizes & hosts references |
+| 🔧 Tech Integration Planning | Choose integration model: API, Zapier, White-Label | RBlock adapts to your process |
+| 🟢 Approval | You approve the issuer to move forward | N/A (you maintain compliance authority) |
 
 ---
 
+## 🚀 Phase 3: Regulated Platform Onboarding (Your Team)
+
+This happens entirely within your registered FP/BD environment.
+
+| Task | Description |
+|------|-------------|
+| 📄 Formal Agreement | Issuer signs official agreement with your platform |
+| 🔍 Final Compliance Review | You confirm all legal and regulatory conditions are met |
+| 🌐 Campaign Launch | Offering goes live via your interface (with optional tech support from RBlock) |
+
 ---
 
-## ⚠️ Disclaimers
+## 🧭 Summary Benefits
 
-- This document is provided for informational purposes only and does not constitute an offer to sell or the solicitation of an offer to buy any securities.
-- R. Block Share Holdings, LLC (DBA: R. Block Nation) is currently planning a Regulation CF raise through a FINRA-registered funding portal. Final terms will be disclosed in the Form C filing submitted by the portal.
-- Any reference to KoreConX in this checklist does not imply endorsement or a legal partnership. KoreConX is a technology provider selected for onboarding, compliance, and investor management tools.
-- Final investment decisions should be made only after reviewing official offering documents filed with the SEC and hosted on the selected funding portal.
+- RBlock helps **standardize pre-qualification**
+- You retain **full control of compliance & legal**
+- Issuers arrive **better prepared, faster-to-launch**
+- Technical handoffs are **flexible and secure**
+
+---
+
+## ⚠️ Disclaimer
+
+> This checklist is for demonstration purposes only. RBlock Holdings is **not a funding portal or BD**, and does not conduct securities offerings or file regulatory forms. RBlock provides **technology and data infrastructure** to support partners who do.
+
+---
+
+## 📞 Let’s Talk
+
+Interested in integrating RBlock into your issuer intake process?
+
+📧 Contact us at: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
 

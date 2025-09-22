@@ -1,52 +1,91 @@
-# Portal Escalation Procedures
+# 🛠 Technology Support & Escalation Protocol for Partners
 
-In the event that an issuer’s offering encounters compliance issues or fails to meet regulatory readiness, R. Block Nation follows the escalation protocol below in collaboration with its funding portal, escrow, and legal partners.
+This document outlines the **technology support and escalation procedures** for regulated partners of RBlock Holdings (Funding Portals and Broker-Dealers). Our goal is to support your operational efficiency while clearly respecting the regulatory boundaries that govern your platform.
 
----
-
-## 🔍 Trigger Events
-
-Escalation is triggered if any of the following occurs:
-
-- Incomplete or inaccurate Form C disclosures
-- Failed KYC/AML checks on control persons (via Kore)
-- “Bad Actor” disqualifications
-- Delayed payment authorization for escrow setup (North Capital)
-- Incomplete or non-compliant investor communications
-- Misrepresentation of offering terms in public marketing
+> ⚠️ **Disclaimer**  
+RBlock Holdings is a **technology and data provider**, not a registered funding portal or broker-dealer. This protocol applies only to **technical issues and data access** involving RBlock’s systems and does not extend to regulatory compliance or offering oversight.
 
 ---
 
-## 🔄 Escalation Flow
+## 🔧 1. Scope of Technology Support
 
-### 1. **Initial Notification**
-The issuer is notified in writing of the specific compliance issue, with a required response time of 3–5 business days.
+RBlock provides support for the following areas:
 
-### 2. **Freeze/Delay**
-The campaign is paused or removed from public view until resolution is confirmed. No new investor funds may be accepted during this phase.
+**✅ Covered by RBlock:**
+- API functionality and uptime
+- User interface (UI) and experience (UX) bugs
+- Investor or issuer data delivery from our platform
+- Smart contract integration and wallet UI issues
+- Security issues related to RBlock’s infrastructure
 
-### 3. **Remediation Plan**
-Issuer must submit a remediation plan or updated documentation (e.g. amended Form C, KYC resubmissions, corrected marketing language).
-
-### 4. **Legal Review**
-Platform coordinates with legal counsel and Kore/funding portal partners to verify resolution before reactivation.
-
-### 5. **Resolution or Termination**
-- ✅ If resolved: Campaign is reactivated and may proceed.
-- ❌ If unresolved after 14–30 days: Offering is formally terminated.
-
----
-
-## 📎 Issuer Cooperation Required
-
-All issuers are contractually required to cooperate in good faith with the escalation process. Failure to do so may result in:
-
-- Permanent removal from the platform
-- Formal notification to regulators
-- Loss of escrow privileges
+**❌ Not Covered (Handled by FP/BD):**
+- Regulatory and compliance reviews (Form C, investor verification, etc.)
+- Hosting or approving securities offerings
+- AML/KYC decisions not routed through our API
+- Legal review or SEC filings
+- Escrow functionality (North Capital or partner-controlled)
 
 ---
 
-📩 Questions or compliance concerns?
-Contact: contact@rblockholdings.com
+## 🚦 2. Issue Prioritization Matrix
+
+| Priority | Definition                                                                 | Initial Response Time | Escalation Trigger            |
+|----------|---------------------------------------------------------------------------|------------------------|-------------------------------|
+| P1: Critical | Platform-wide outage, data breach, or core system failure             | 1 hour                 | Escalate to senior leadership if not resolved in 4 hours |
+| P2: High     | Major feature failure or degraded API impacting partner ops           | 4 hours                | Escalate if unresolved in 24 hours                      |
+| P3: Medium   | Minor bugs, UI issues, or one-off user incidents                      | 8 business hours       | Escalate if not resolved in 3 days                     |
+| P4: Low      | Feature requests or cosmetic issues                                   | Next business day      | Discuss during scheduled check-ins                    |
+
+---
+
+## 🔄 3. Escalation Process
+
+### 🧰 Tier 1 Support (Initial Triage)
+- **Contact**: support@rblockholdings.com or shared Slack channel (if enabled)
+- **Action**: RBlock triages the issue, logs it, and assigns a ticket number
+- **Response**: Status updates provided per the issue priority
+
+### 🧠 Tier 2 Escalation (Technical Specialist)
+- Triggered for unresolved P1/P2 issues
+- RBlock engineering team investigates with logs, dev tools, and API diagnostics
+- Regular status updates are provided to partner POC
+
+### 👥 Tier 3 Escalation (Senior Management)
+- Triggered for unresolved critical incidents or partner request
+- RBlock senior team joins a live channel (Zoom/Slack/Phone) with partner
+- Post-mortem issued within 5 business days for all P1 issues
+
+---
+
+## 📡 4. Communication Protocol
+
+- All issues logged with ticket tracking ID (via email or ticket system)
+- Shared Slack or Notion dashboards can be provided for active projects
+- P1 issues are immediately escalated to partner’s designated compliance/tech lead
+- Status updates documented in shared thread or email per preference
+
+---
+
+## 📋 5. Roles & Responsibilities
+
+### RBlock Holdings
+- Maintain infrastructure and APIs per uptime SLAs
+- Ensure secure, compliant data handling practices
+- Respond promptly to support issues within timeframes above
+
+### Partner (Funding Portal / Broker-Dealer)
+- Retain all oversight over regulatory, legal, and transactional duties
+- Notify RBlock of technical issues with specific data (e.g., timestamps, API logs)
+- Ensure RBlock tools are used within your compliance workflow
+
+---
+
+## 🧾 Summary & Contact
+
+This protocol supports our shared goal of frictionless issuer and investor onboarding. By clarifying responsibilities and response timeframes, we help ensure stable technical integration and regulatory alignment.
+
+📬 For escalations or to request a technical walkthrough:
+[contact@rblockholdings.com](mailto:contact@rblockholdings.com)
+
+---
 
