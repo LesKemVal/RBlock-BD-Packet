@@ -18,10 +18,18 @@ For convenience, we've included additional documentation and live resources belo
 
 ## 🧩 Platform Overview
 
-- Fully branded, white-label-ready investing platform
-- Reg CF compliant from day one (Reg A+ planned as milestone)
-- KYC, escrow, and smart contract infrastructure already in place
-- Community-driven and cap-table-integrated fundraising logic
+Fully branded, white-label-ready investing platform designed to support issuer campaigns through a compliant interface.  
+Built to integrate with FINRA-registered intermediaries (funding portals or broker-dealers) for Reg CF and Reg D/A+ offerings.
+
+**Role of Platform vs. Regulated Intermediary:**  
+While the platform (R. Block Holdings) provides user onboarding, content management, and investor education tools, **all investment transactions are executed through a regulated entity**. The platform UI does not host transaction functionality directly — it redirects to the intermediary for escrow, payment processing, and regulatory disclosures.
+
+**Reg CF Compliant from Day One** (Reg A+ support in development)  
+KYC, escrow, and smart contract infrastructure integrated via partners  
+Community-driven campaigns with cap-table-integrated logic  
+Clear separation between marketing, onboarding, and regulated transaction flow
+
+> For Regulation Crowdfunding compliance requirements, visit [SEC.gov](https://www.sec.gov/smallbusiness/exemptofferings/regcrowdfunding).
 
 ---
 
@@ -42,7 +50,7 @@ For convenience, we've included additional documentation and live resources belo
 - **North Capital**: Escrow + KYC partner
 - **Settlemint**: Smart contract backend + token issuance
 - **Documentation UI**: GitHub Pages + MkDocs for transparency
-- **ERC-20 Reg CF Token**:  
+- **ERC-20 Reg CF Token**:
   [View Smart Contract on Etherscan](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
 
 ---
@@ -57,13 +65,10 @@ For convenience, we've included additional documentation and live resources belo
 
 ---
 
-## 📎 Related Docs
-
+## 📎 Related Docs 
 - [📊 Valuation Strategy Brief](valuation-strategy-brief.md)
 - [🧱 Compliance Stack Overview](../ForInvestors/compliance-stack.md)
 - [🪙 REG CF Token Overview](../ForInvestors/RegCFToken.md)
-
----
 
 ---
 
