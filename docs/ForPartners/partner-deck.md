@@ -1,106 +1,117 @@
-# 🚀 R. Block Nation – Partner Deck Summary
+# 🚀 RBlock Holdings | Partner Deck Summary
 
-Welcome to the partner summary page for R. Block Nation. This initiative was built to enable compliant, community-first investing in the private capital markets through the JOBS Act.
+> 📄 This page provides an executive summary of RBlock Holdings' infrastructure, value proposition, and integration model for prospective **Funding Portal (FP)** and **Broker-Dealer (BD)** partners.
 
-> 🔄 **Note:** We are open to negotiating our existing technical and compliance stack to ensure smooth integration with the funding portal’s infrastructure — avoiding duplication and supporting a low-friction partnership model.
+---
 
-## 🔗 Related Docs
+## 🧭 Who We Are
 
-For convenience, we've included additional documentation and live resources below:
+**RBlock Holdings** is a technology and data infrastructure provider offering onboarding, education, cap table tools, and tokenized equity architecture — all designed to **support** and **enhance** regulated intermediaries, not replace them.
+
+We are also a first-party issuer using our own platform as a **proof-of-concept**, with a live Reg CF raise conducted via a FINRA-registered portal.
+
+---
+
+## 🔒 Compliance-First Approach
+
+We are committed to a **clear separation of roles**:
+
+| Role                         | RBlock (Technology)                          | Regulated FP / BD                            |
+|------------------------------|----------------------------------------------|----------------------------------------------|
+| Investor education & UI      | ✅ Yes                                       | Optional                                     |
+| Marketing                    | ✅ (Compliant, partner-aligned)              | ✅ Final oversight                            |
+| Investment transaction       | ❌ Never                                     | ✅ Fully handled via partner rails            |
+| Escrow & KYC                 | ✅ Integrated partner (North Capital)        | ✅ Full regulatory ownership                  |
+| Cap table & tokenization     | ✅ Data provider (via KoreConX)              | ✅ Custodian of official records              |
+| SEC/FINRA filings            | ❌ Not filed by RBlock                       | ✅ Filed by funding portal or BD              |
+
+---
+
+## 🔗 Related Documentation
 
 - 📄 [Valuation Strategy Brief](valuation-strategy-brief.md)
 - 🧱 [Compliance Stack Overview](../ForInvestors/compliance-stack.md)
 - 🧮 [REG CF Token Overview](../ForInvestors/RegCFToken.md)
 - 🪙 [Tokenomics Summary](../ForInvestors/TokenomicsSummary.md)
-- ⚖️ [Smart Contract – View on Etherscan (Sepolia)](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
+- ⚖️ [Smart Contract on Etherscan (Sepolia)](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
 
 ---
 
-## 🧩 Platform Overview
+## 🧩 Platform Architecture
 
-Fully branded, white-label-ready investing platform designed to support issuer campaigns through a compliant interface.  
-Built to integrate with FINRA-registered intermediaries (funding portals or broker-dealers) for Reg CF and Reg D/A+ offerings.
+RBlock provides a **white-label ready front-end** that integrates directly with the regulated rails of our BD/FP partner.
 
-**Role of Platform vs. Regulated Intermediary:**  
-While the platform (R. Block Holdings) provides user onboarding, content management, and investor education tools, **all investment transactions are executed through a regulated entity**. The platform UI does not host transaction functionality directly — it redirects to the intermediary for escrow, payment processing, and regulatory disclosures.
+Key components include:
 
-**Reg CF Compliant from Day One** (Reg A+ support in development)  
-KYC, escrow, and smart contract infrastructure integrated via partners  
-Community-driven campaigns with cap-table-integrated logic  
-Clear separation between marketing, onboarding, and regulated transaction flow
+- Public marketing and investor education portal (MkDocs / GitHub Pages)
+- Pre-verified investor waitlist with opt-in flow
+- Partner-facing onboarding toolkit and issuer documentation
+- API-based integration for cap table and transaction mirroring
 
-> For Regulation Crowdfunding compliance requirements, visit [SEC.gov](https://www.sec.gov/smallbusiness/exemptofferings/regcrowdfunding).
-
----
-
-## 🎯 Capital Strategy
-
-- **Initial Raise A (Platform Development):**
-  - Compliance stack, token contracts, investor onboarding, marketing
-- **Subsequent CF Raises (External Issuers):**
-  - Issuer campaigns hosted via white-labeled experience
-- Traction-based roadmap toward Reg A+ and secondary markets
-- Real-time investor engagement with a live, functioning product — not just a pitch deck
+We serve as a **front-end layer** — all transactions occur through your compliance infrastructure.
 
 ---
 
 ## 🧠 Technical + Compliance Stack
 
-- **KoreConX**: Investor onboarding, compliance & cap table
-- **North Capital**: Escrow + KYC partner
-- **Settlemint**: Smart contract backend + token issuance
-- **Documentation UI**: GitHub Pages + MkDocs for transparency
-- **ERC-20 Reg CF Token**:
-  [View Smart Contract on Etherscan](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
+| Component            | Provider            |
+|---------------------|---------------------|
+| Cap Table & TA      | KoreConX            |
+| Escrow & KYC        | North Capital       |
+| Tokenization Logic  | SettleMint          |
+| Documentation UI    | MkDocs + GitHub     |
+| Reg CF Token (ERC20)| View on Etherscan   |
+
+---
+
+## 🎯 Capital Strategy
+
+We’re launching with a **proof-of-concept Reg CF raise** to validate the platform and infrastructure:
+
+- ✅ Class B Tokenized Equity for platform investors
+- ✅ 12-month lockup; on-chain compliance logic
+- ✅ Future Reg A+ raise contingent on traction
+- ✅ Partner can participate in both capital raise & hosted deal pipeline
+
+---
+
+## 💼 White-Label Model: Win-Win Design
+
+| Benefit for You (FP/BD)       | Benefit for RBlock                     |
+|-------------------------------|----------------------------------------|
+| Expand deal exposure           | Retain front-end branding              |
+| Leverage RBlock traffic        | Direct qualified leads to partner UI  |
+| No need to build tech stack    | Comply via your platform, not ours     |
+| Participate in shared upside   | Raise capital + prove infrastructure   |
+
+> 🔄 *We’re flexible on the integration model and can support white-labeled flows, redirects, or direct issuer onboarding into your system.*
 
 ---
 
 ## 💰 Monetization Model
 
-- Success fees and subscription SaaS model
-- Platform revenue-share from hosted issuer raises
-- Reg A+ campaigns planned for in-house hosting after scale
-- Credit-based investing integrations (e.g., Fundbox-style)
-- Data licensing, compliance automation, and infrastructure monetization
+- SaaS subscriptions for issuers
+- % success fee (via partner rails)
+- Partner equity participation
+- Optional revenue share on hosted deals
+- Infrastructure licensing in future phases
 
 ---
-
-## 📎 Related Docs 
-- [📊 Valuation Strategy Brief](valuation-strategy-brief.md)
-- [🧱 Compliance Stack Overview](../ForInvestors/compliance-stack.md)
-- [🪙 REG CF Token Overview](../ForInvestors/RegCFToken.md)
-
----
-
-## 🧳 White-Label Strategy & Brand Control
-
-We’re seeking a funding portal partnership that allows:
-
-- Full **domain and UI control** (our branding stays front-facing)
-- You operate as the **compliance backend** (Form C filing, escrow, investor verification)
-- We conduct **community-centered investor onboarding and marketing**
-- You receive a **negotiated equity stake** in our Reg CF raise representing platform buildout
-- We drive traffic and **list your existing issuer deals** within our branded environment
-
-This model benefits both parties:
-- You expand deal exposure with a new front-end and brand
-- We retain long-term investor trust, data, and platform UX
-- Shared content (educational, compliance, marketing) creates a flywheel of investor engagement
-
-📧 Contact: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
 
 ## 🤝 Let’s Talk
 
-We’re seeking a funding portal or BD partner to support this compliant vision while maintaining mission integrity.
+We’re seeking a partner to support:
 
-📧 Contact us to schedule a call or request private access:  
-**[contact@rblockholdings.com](mailto:contact@rblockholdings.com)**
+- Reg CF launch and compliance oversight
+- Scaling into Reg A+ and hybrid digital offerings
+- A long-term collaboration between front-end tools and compliance rails
+
+📩 **Reach out:** [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
 
 ---
 
 !!! warning "Disclaimer"
 
-    This document is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy securities.
+    RBlock Holdings is not a registered funding portal or broker-dealer. All securities offerings described here will be conducted via a regulated intermediary in compliance with U.S. securities laws.
 
-    All raises will be conducted through a registered funding portal or broker-dealer in full compliance with U.S. securities laws.
 
