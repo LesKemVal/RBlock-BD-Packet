@@ -1,74 +1,79 @@
-# 📊 Cap Table & Token Allocation Strategy
+# 📊 Cap Table Tools & Data Integration for FP/BD Partners
 
-This cap table outlines our **multi-raise capital formation model**, designed to sequentially activate investor participation through a **Reg CF equity offering** followed by a **Reg A+ revenue-share token raise**, contingent upon platform traction. The strategy is engineered to optimize capital flexibility, ensure compliance, and preserve long-term governance control by founders.
+At RBlock Holdings, our cap table logic is designed to support our **Funding Portal and Broker-Dealer (FP/BD) partners** by enabling structured, transparent, and pre-reviewed equity data prior to onboarding issuers to your regulated platform.
 
----
-
-## 💡 Raise Strategy Overview (Phased Execution)
-
-| Raise Type | Method              | Vehicle                               | Investor Rights  | Cap         | Platform Fee | Notes                                          |
-| ---------- | ------------------- | ------------------------------------- | ---------------- | ----------- | ------------ | ---------------------------------------------- |
-| Reg CF     | Equity              | Class B Units (REGCFToken)            | Equity ownership | \$1.2M      | 6–8%         | First raise; funds platform + validates market |
-| Reg A+     | Revenue-share Token | ERC20: BusinessFranchiseToken (BFTKN) | Revenue share    | Up to \$75M | 0–2%         | Activated only upon post-CF product traction   |
+We do **not offer cap table services directly to the public**. Instead, our tools are part of an integrated, partner-facing infrastructure aimed at simplifying **due diligence**, streamlining **issuer onboarding**, and enhancing the **investor experience** — all while respecting your compliance and supervisory framework.
 
 ---
 
-## 🌟 Allocation Breakdown (Raise-Contingent)
+## 🤝 Why Cap Table Transparency Matters to Our Partners
 
-### 📌 Scenario 1: **Reg CF Only (Minimum Viable Launch)**
+Our cap table tools help ensure that issuers arrive at your platform:
 
-| Stakeholder        | % Ownership (Post-CF) | Notes                                 |
-| ------------------ | --------------------- | ------------------------------------- |
-| Founders (Class A) | ≥ 51%                 | Retain majority control, voting power |
-| Reg CF Investors   | 23.08% (Class B)      | Via REGCFToken w/ 12-mo. lockup       |
-| Platform/Reserves  | \~25.92%              | Ops, dev, partner equity pool         |
+- ✅ With a **clear equity structure** already documented and tested
+- ✅ With **tokenized equity classes** (when applicable) that follow regulatory requirements
+- ✅ Ready to support **disclosures for Form C or Form 1-A** filings
 
-### 📌 Scenario 2: **Post-Traction Dual Raise (CF + A+)**
-
-| Stakeholder         | % Equity Ownership | % Revenue Share | Notes                                               |
-| ------------------- | ------------------ | --------------- | --------------------------------------------------- |
-| Founders (Class A)  | ≥ 51%              | Varies          | Governance control retained across both rounds      |
-| Reg CF Investors    | 23.08%             | Optional        | Class B equity w/ indirect platform exposure        |
-| Reg A+ Tokenholders | 0%                 | Contract-based  | Non-dilutive tokenized access to platform rev-share |
-| Platform/Reserves   | \~25.92%           | Varies          | Token reserve for creator rewards and treasury ops  |
-
-> 🧮 **Note**: BFTKN tokens do **not confer equity** or convertibility and are only available post-CF if traction and SEC qualification criteria are met.
+By providing cap table snapshots, scenario modeling, and structured metadata, we aim to **reduce review friction** for your team and improve the quality of issuer submissions.
 
 ---
 
-## 🪙 BFTKN Token Snapshot (Reg A+ Contingent)
+## 🧠 Integration Options
 
-| Feature            | Value                           |
-| ------------------ | ------------------------------- |
-| Token Name         | BusinessFranchiseToken (BFTKN)  |
-| Symbol             | BFTKN                           |
-| Standard           | ERC20 w/ linear bonding curve   |
-| Issuer             | R. Block Share Holdings, LLC    |
-| Rights             | % revenue share (non-equity)    |
-| Distribution Logic | Escrow wallet → investor wallet |
-| Price Model        | Linear bonding curve            |
-| KYC/AML            | Enforced via allowlist          |
-| Tradability        | SEC-qualified ATS tradable      |
+We offer multiple pathways to share cap table data with our partners:
 
----
+| Integration Model    | Description                                                  |
+|----------------------|--------------------------------------------------------------|
+| **PDF Exports**      | Pre-formatted issuer cap tables ready for internal review    |
+| **API Access**       | Partner-facing endpoints for live cap table sync             |
+| **Partner Dashboard**| Issuer-by-issuer access to equity breakdowns and notes       |
+| **Custom Reporting** | CSV, JSON, or audit trail exports for compliance workflows   |
 
-## 🔐 Legal & Compliance Safeguards
-
-* **REGCFToken** is an equity token offered through a FINRA-registered funding portal with full KYC/AML, 12-month lockup, and cap table integration.
-* **BFTKN** (Reg A+) is a non-dilutive, revenue-share instrument offered contingent on post-CF platform traction and SEC qualification.
-* Offering stack integrates:
-
-  * ✅ **KoreConX** — cap table management, investor onboarding, transfer agent
-  * ✅ **North Capital** — escrow + regulatory KYC/AML compliance
-  * ✅ **SettleMint** — token issuance + bonding curve engine
+All data is permission-controlled and only accessible to verified partner representatives under NDA or integration agreement.
 
 ---
 
-## 📜 Legal Disclaimer
+## 🧾 Cap Table Structure (Example Model)
 
-This document is provided for informational purposes only and **does not constitute an offer to sell or a solicitation of an offer to buy any securities**. All securities offerings described herein are conducted pursuant to exemptions available under the Securities Act of 1933.
+| Class        | Description                          | Governance Rights | Notes                                      |
+|--------------|--------------------------------------|-------------------|--------------------------------------------|
+| **Class A**  | Founder/Common Units                 | Full Voting       | Retains core governance post-raise         |
+| **Class B**  | Reg CF Equity Units (REGCFToken)     | Limited Voting    | Offered via regulated portal; 12-mo lockup |
+| **Reserve**  | Partner, Treasury, Dev Incentives    | None              | Allocated post-raise as needed             |
 
-Participation in any offering is subject to regulatory review, investor eligibility, and full review of applicable offering documents, including the Form C or Form 1-A as filed with the SEC. No assurance can be given that any raise will be completed or that investments will be returned.
+> 📌 All final equity allocations are subject to SEC filings and review by the intermediary platform.
 
-R. Block Share Holdings, LLC reserves the right to amend its capital strategy or token issuance terms based on evolving market conditions or regulatory guidance.
+---
+
+## 🔐 Supporting Reg A+ and Token-Based Structures
+
+For dual-raise scenarios (e.g., Reg CF followed by Reg A+), our cap table tools can also model **non-dilutive, revenue-share instruments** such as:
+
+- **ERC-20 tokens (BFTKN)** with bonding curve logic
+- **Revenue-based distributions** via smart contract
+- **Token-class visibility** for hybrid issuer capital models
+
+> These are only enabled after SEC qualification and upon partner review. Tokens do **not** confer equity unless structured as such.
+
+---
+
+## 🛡️ Compliance Alignment
+
+We work in direct coordination with our FP/BD partners to:
+
+- Align all equity logic and investor documentation with **SEC/FINRA expectations**
+- Provide **transaction-free UI/UX** for issuer onboarding and marketing
+- Ensure all securities offerings occur **exclusively** on the regulated partner’s platform
+
+---
+
+## ⚠️ Legal Disclaimer
+
+RBlock Holdings is **not** a registered funding portal or broker-dealer. This document is intended for our intermediary partners and does **not** constitute an offer to sell or the solicitation of an offer to buy any securities.
+
+All securities offerings described herein are conducted through regulated entities under applicable U.S. laws and exemptions (e.g., Reg CF or Reg A+). Final cap table terms, investor rights, and token structures are subject to review, modification, and approval by our partners and their compliance teams.
+
+---
+
+> For questions or a demo of our cap table tools, contact us at [contact@rblockholdings.com](mailto:contact@rblockholdings.com).
 

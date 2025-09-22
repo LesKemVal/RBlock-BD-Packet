@@ -1,66 +1,89 @@
-# 📊 R. Block Share Holdings – Cap Table Overview
+# 📊 Cap Table Overview – Partner-Ready Data Integration
 
-**Entity**: R. Block Share Holdings, LLC (d/b/a R. Block Nation)  
-**Legal Structure**: Wyoming LLC  
-**Tokenized Equity**: Class B Non-Voting Units (Reg CF Investors)
-
----
-
-## 🎯 Cap Table Strategy
-
-| Objective                             | Description                                                                 |
-|--------------------------------------|-----------------------------------------------------------------------------|
-| 🛡️ Founder Control                   | Founder retains 76.92% post-CF raise (51%+ preserved across future raises) |
-| 🎟️ Reg CF Investor Allocation       | Up to **23.08% equity** offered to Reg CF investors (fully subscribed)     |
-| 🪙 Tokenized Class B Units           | Equity issued as **on-chain tokens**, 12-month Reg CF lockup               |
-| 🔁 Optional Buybacks                 | May offer token redemption post-lockup via smart contracts or platform     |
-| ⚖️ Equity Reserved for Growth        | Remaining 26.92% reserved for strategic growth and future capital raises    |
-| 💼 Influencer/Strategic Allocations | May sell equity to qualified influencers or strategic partners             |
-| 📈 Future Capital Raises (Reg A/D)   | Future issuances under Reg A/D, either tokenized or traditional units      |
-| 🔒 Voting Rights                     | Class B Units = non-voting. Founder retains full governance                |
+**Entity**: R. Block Share Holdings, LLC  
+**Structure**: Wyoming LLC  
+**Tokenized Class**: Class B Non-Voting Units (Reg CF Investors)  
+**Technology Role**: RBlock provides integrated cap table data and tooling to support regulated partners' due diligence, oversight, and reporting.
 
 ---
 
-## 🧮 Illustrative Post-CF Cap Table (Fully Subscribed)
+## 🤝 RBlock as a Technology Partner
 
-| Shareholder / Pool                     | % Ownership     | Notes                                              |
-|----------------------------------------|-----------------|----------------------------------------------------|
-| **Lester Sawyer (Founder)**            | 76.92%          | Retains full managerial and voting control         |
-| **Reg CF Investors (Class B Units)**   | 23.08%          | Tokenized, non-voting, 12-month lockup             |
-| **Reserved for Growth (Strategic, BD)**| Up to 20%+      | From remaining 26.92% pool                         |
-| **Advisory / Future Allocation**       | TBD             | From founder’s equity or growth reserve            |
-| **Total**                              | **100%**        |                                                    |
+RBlock Holdings offers a tokenized cap table solution designed to complement — not replace — the official cap table recordkeeping handled by a registered Funding Portal or Broker-Dealer. Our platform supports:
 
----
+- 📄 Issuer-side cap table preparation  
+- 🔁 Secure API handoff of investor + equity data  
+- 📊 Tools to visualize ownership, dilution, and equity movements  
+- ✅ Configurable reports to assist in Form C and ongoing compliance
 
-## 🔐 Token + Legal Logic
-
-Cap table is synced and managed via **KoreConX**. All equity tokenization rules are enforced via smart contracts.
-
-- `1 token = 1 Class B non-voting unit`
-- Max supply = 23.08% of total units (can expand later under Reg A/D)
-- **Transfer restrictions** (12-month lockup) enforced via contract logic
-
-### 💡 Transfer Exemptions (Permitted Transfers):
-
-- ✅ To the issuer (R. Block Share Holdings, LLC)
-- ✅ To an **accredited investor**
-- ✅ To a **trust** or **estate beneficiary**
-
-### 🔁 Optional Buyback Logic:
-
-Buybacks may be offered after lockup, based on future platform terms. Structured to protect investor rights and maintain fair market value.
+> 🛡️ **Disclaimer**: RBlock Holdings is not a registered broker-dealer or funding portal. We do not facilitate investment transactions. All securities operations are conducted via our regulated partners.
 
 ---
 
-## 📝 Additional Notes
+## ⚙️ How It Works (Workflow Integration)
 
-- **Managerial Control**: Founder is the sole LLC Manager, retaining full control even with new equity issued.
-- **Scaling Vision**: R. Block will eventually support multiple issuers; this cap table logic governs the **core founding entity**.
-- **CF Round = Proof-of-Concept** for tokenized equity and compliance automation.
+| Step | Stage                                | Role of RBlock                      | Role of FP/BD Partner                   |
+|------|--------------------------------------|-------------------------------------|------------------------------------------|
+| 1️⃣   | Issuer Preparation                   | Issuer inputs cap table data        | Partner receives data via integration    |
+| 2️⃣   | Transaction Hosting (Reg CF, etc.)   | —                                   | Handles investor transactions            |
+| 3️⃣   | Real-Time Sync                       | Updates provided via API/dashboard  | Used for compliance + investor records   |
+| 4️⃣   | Post-Raise Oversight                 | Visualization + audit trails        | Maintains regulatory records and filings |
+
+> RBlock’s tools are purpose-built to make partners’ lives easier — not to replace their responsibility.
 
 ---
 
-📬 **Questions?**  
-Contact: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)
+## 🔍 Key Features (With Partner Benefits)
+
+| Feature                        | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| 🔄 Automated Ownership Updates | Live syncing of cap table data as investments close                         |
+| 🧮 Dilution Modeling           | Scenario forecasting for partner due diligence                              |
+| 🔗 Smart Contract Integration  | Blockchain-backed tokens to enhance auditability                            |
+| 📊 PDF + CSV Exports           | Generate reports to support compliance and Form C prep                      |
+| 🔒 Permission-Based Access     | Partner access to issuer-specific data as needed                            |
+
+---
+
+## 🧩 Tokenized Cap Table Summary
+
+| Detail                 | Value                                                |
+|------------------------|------------------------------------------------------|
+| Token Name             | REGCFToken                                           |
+| Token Type             | Class B Non-Voting Unit                              |
+| Governance             | None (founder retains Class A majority)              |
+| Supply Cap             | 23.08% of total units (expandable post-CF)           |
+| Lockup                 | 12 months (per Reg CF rules)                         |
+| Exceptions             | Accrediteds, trusts, issuer transfers (via contract) |
+| Management             | KoreConX / Smart Contract enforced restrictions      |
+
+---
+
+## 📘 Oversight & Compliance Support
+
+- ✅ **KoreConX Integration**: Full compatibility with KoreConX for transfer agent, investor onboarding, and audit logs  
+- ✅ **North Capital + Settlemint**: KYC, escrow, and smart contract token issuance stack  
+- ✅ **Audit Trails**: Immutable record of allocation events, transfers, and stakeholder metadata  
+- ✅ **Partner-Led Governance**: We defer final cap table validation and recordkeeping to you as the regulated intermediary
+
+---
+
+## 🛡️ Disclaimers
+
+**RBlock Holdings provides data and tools.** All regulated activities — including investor onboarding, securities recordkeeping, and transaction management — are handled by our Funding Portal and Broker-Dealer partners.
+
+**We do not provide investment advice or issue securities.** Our goal is to enhance your regulatory operations and help issuers arrive “data-ready” for your platform.
+
+---
+
+## 🔗 Related Docs
+
+- [Valuation Strategy Brief](../ForPartners/valuation-strategy-brief.md)  
+- [BD Intro Letter](../ForPartners/BDIntroLetter.md)  
+- [Compliance Stack Overview](../ForInvestors/compliance-stack.md)
+
+---
+
+📬 **Partner Inquiries**  
+Email: [contact@rblockholdings.com](mailto:contact@rblockholdings.com)  
 
