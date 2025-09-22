@@ -111,5 +111,5 @@ R. Block Nation is designed to make equity, revenue, and ownership more **access
 
 !!! info "View the Full Multi-Issuer Rollout Plan"
     A deeper breakdown of our onboarding and raise sequencing is available here:  
-    → [See the Full Issuer Pipeline](BusinessModel/IssuerPipeline.md)
+    BusinessModel/IssuerPipeline.md [Issuer Pipeline](Internal/IssuerPipeline.md)
 

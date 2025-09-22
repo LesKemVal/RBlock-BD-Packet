@@ -26,17 +26,12 @@ This portal provides structured access to key documents for **funding portal par
 ## 📄 Document Index
 
 - [Valuation Roadmap](../TokenDocs/valuation-roadmap.md)
-- [Reg CF Use of Proceeds](../ForInvestors/cf-use-of-proceeds.md)
+- [Reg CF Use of Proceeds](../ForInvestors/RegCF-use-of-proceeds.md)
 - [North Capital Brief](bd-north-capital-brief.md)
 - [Kore Onboarding Brief](kore-brief.md)
 - [Kore Onboarding Checklist](KoreOnboardingChecklist.md)
 - [BD Intro Letter](BDIntroLetter.md)
 - [Issuer Pipeline Overview](../IssuerPipeline.md)
-- [Revenue Model](../BusinessModel/RevenueModel.md)
-- [RBCB Contract Explainer](../TokenDocs/contracts/RBCB-Contract-Explainer.md)
-- [Multi-Token Architecture](../TokenDocs/contracts/MultiToken-Architecture.md)
-- [Form C (Draft)](../Legal/FormC-Draft.md)
-
 ---
 
 ## 🔐 Reg CF Equity & Token Structure Overview

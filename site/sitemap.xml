@@ -17,18 +17,6 @@
          <lastmod>2025-09-22</lastmod>
     </url>
     <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/BusinessModel/IssuerPipeline/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/BusinessModel/PlatformRoadmap/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/BusinessModel/RevenueModel/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/ForInvestors/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
@@ -105,10 +93,6 @@
          <lastmod>2025-09-22</lastmod>
     </url>
     <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/ForInvestors/cf-use-of-proceeds/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/ForInvestors/cf-vs-regA-vs-regD/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
@@ -149,10 +133,6 @@
          <lastmod>2025-09-22</lastmod>
     </url>
     <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/ForPartners/CapTable/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/ForPartners/KoreOnboardingChecklist/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
@@ -162,10 +142,6 @@
     </url>
     <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/ForPartners/bd-north-capital-brief/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/ForPartners/issuer-agreement-template/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
     <url>
@@ -193,6 +169,26 @@
          <lastmod>2025-09-22</lastmod>
     </url>
     <url>
+         <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/IssuerPipeline/</loc>
+         <lastmod>2025-09-22</lastmod>
+    </url>
+    <url>
+         <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/MultiToken-Architecture/</loc>
+         <lastmod>2025-09-22</lastmod>
+    </url>
+    <url>
+         <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/PlatformRoadmap/</loc>
+         <lastmod>2025-09-22</lastmod>
+    </url>
+    <url>
+         <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/RBCB-Contract-Explainer/</loc>
+         <lastmod>2025-09-22</lastmod>
+    </url>
+    <url>
+         <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/RevenueModel/</loc>
+         <lastmod>2025-09-22</lastmod>
+    </url>
+    <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/issuer-pricing-model/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
@@ -202,18 +198,6 @@
     </url>
     <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/Internal/start-here/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/Legal/ArticlesOfOrg/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/Legal/EINLetter/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/Legal/FormC-Draft/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
     <url>
@@ -230,14 +214,6 @@
     </url>
     <url>
          <loc>https://leskemval.github.io/RBlock-BD-Packet/TokenDocs/valuation-roadmap/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/TokenDocs/contracts/MultiToken-Architecture/</loc>
-         <lastmod>2025-09-22</lastmod>
-    </url>
-    <url>
-         <loc>https://leskemval.github.io/RBlock-BD-Packet/TokenDocs/contracts/RBCB-Contract-Explainer/</loc>
          <lastmod>2025-09-22</lastmod>
     </url>
 </urlset>

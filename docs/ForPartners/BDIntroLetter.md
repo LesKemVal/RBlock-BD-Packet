@@ -46,7 +46,7 @@ We’d love to demo our stack and walk through the documents below:
 - ⚙️ [Smart Contract (Etherscan)](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code) – Lockups, KYC gating, admin control
 - 📄 [Valuation Strategy Brief](valuation-strategy-brief.md) – Partner-aligned valuation logic and capital deployment
 - 📦 [Packet Summary](packet-summary.md) – Issuer stack overview
-- 🧾 [Cap Table (Partner View)](CapTable.md) – Sample equity allocation structure
+- 🧾 [Cap Table Overview](../TokenDocs/cap-table-overview.md) – Sample equity allocation structure
 
 ---
 
