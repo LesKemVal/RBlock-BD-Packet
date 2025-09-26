@@ -63,7 +63,7 @@ BFTKN launch is **contingent on meeting all the following milestones**:
 ## 🔗 Smart Contract Preview
 
 > 🔗 **Preview Smart Contract**:
-> [0xA4FDcBB24Bb75b4500eE183eC53FCeFd3D07245A on Sepolia](https://sepolia.etherscan.io/address/0xA4FDcBB24Bb75b4500eE183eC53FCeFd3D07245A?utm_source=chatgpt.com#code)
+> [0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858 on Sepolia](https://sepolia.etherscan.io/address/0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858?utm_source=chatgpt.com#code)
 
 ---
 

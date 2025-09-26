@@ -46,7 +46,7 @@ This depends on the platform’s success. Class B equity holders may share in di
 
 If this Reg CF raise succeeds and the platform gains traction, we may launch a **non-equity revenue-sharing token** called **BFTKN**. This would allow new participants to benefit from earnings **without diluting ownership**.
 
-* View the BFTKN token contract: [0xA4FDcBB2...](https://sepolia.etherscan.io/address/0xA4FDcBB24Bb75b4500eE183eC53FCeFd3D07245A)
+* View the BFTKN token contract: [0xA4FDcBB2...](https://sepolia.etherscan.io/address/0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858)
 
 ---
 
