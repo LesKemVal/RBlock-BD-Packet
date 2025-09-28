@@ -12,7 +12,7 @@ This plan targets compliant investor acquisition and issuer education with empha
 ---
 
 ## Community & Partnerships (primary channels)
-- **Local partners**: Chambers, HBCUs/MSIs, small-biz groups, workforce & dev orgs.
+- **Local partners**: Chambers,, small-biz groups, workforce & dev orgs.
 - **Civic/faith venues**: churches, community centers, and landlord/merchant networks.
 - **Influencers**: train on disclosures; pre-approved talking points; link **only** to BD-supervised offering pages.
 - **Webinars (with on-platform Q&A)**: Q&A hosted on the platform to auto-archive.

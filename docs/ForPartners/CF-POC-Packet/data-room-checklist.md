@@ -1,6 +1,6 @@
 # Data Room / Diligence Checklist (Reg CF POC)
 
-Use this list when sharing materials with the Broker-Dealer and vendors (Kore, North Capital, SettleMint).
+**Purpose:** This checklist summarizes materials commonly shared with the Broker-Dealer and key vendors (Kore, North Capital, SettleMint).
 
 ## 1) Company & Governance
 - [ ] Articles/Operating Agreement; cap table summary
@@ -52,3 +52,10 @@ Use this list when sharing materials with the Broker-Dealer and vendors (Kore, N
 - [Compliance Readiness Checklist](./compliance-readiness.md)
 - [Raise #1 — Buildout](./raise-1-buildout.md)
 - [Raise #2 — Scale](./raise-2-scale.md)
+
+---
+
+### Smart contract references
+
+- **Reg CF Token (Sepolia):** [`0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f`](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
+- **Reg A Token (BFTKN, Sepolia):** [`0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858`](https://sepolia.etherscan.io/address/0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858#code)
