@@ -62,3 +62,9 @@ We are actively seeking a funding portal or broker-dealer partnership. Our ideal
     R. Block Share Holdings, LLC is not a broker-dealer and does not conduct securities offerings directly.
 
 
+
+---
+
+## For Partners: CF Proof-of-Concept Packet
+👉 **[Open the packet](/ForPartners/CF-POC-Packet/)**
+
