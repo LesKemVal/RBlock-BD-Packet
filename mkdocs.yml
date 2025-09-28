@@ -74,6 +74,14 @@ nav:
       - Escalation Procedures: ForPartners/portal-escalation-procedures.md
       - Partner Deck Summary: ForPartners/partner-deck.md
 
+  - CF Proof-of-Concept Packet:
+      - Overview: ForPartners/CF-POC-Packet/index.md
+      - "Raise #1 — Buildout": ForPartners/CF-POC-Packet/raise-1-buildout.md
+      - "Raise #2 — Scale": ForPartners/CF-POC-Packet/raise-2-scale.md
+      - Roles & Oversight (WSP): ForPartners/CF-POC-Packet/roles-and-oversight.md
+      - Compliance Readiness: ForPartners/CF-POC-Packet/compliance-readiness.md
+      - Data Room / Diligence: ForPartners/CF-POC-Packet/data-room-checklist.md
+
   - Token Docs:
       - Bonding Curve Explainer: TokenDocs/BondingCurveExplainer.md
       - Cap Table Logic: TokenDocs/cap-table-overview.md
