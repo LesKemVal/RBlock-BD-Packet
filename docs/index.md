@@ -1,70 +1,80 @@
-# R. Block Nation
+# R. Block Nation — Broker-Dealer Partner Overview
 
-> **Powered by R. Block Share Holdings, LLC**
-
----
-
-## 🌍 Welcome
-
-R. Block Nation is a digital investment platform designed to expand access to private market opportunities using compliant, tokenized offerings under the JOBS Act. From underrepresented communities to first-time retail investors, we aim to democratize equity ownership through smart contracts, community engagement, and direct access to compliant capital raises.
-
-This site serves as a public documentation portal for potential partners, investors, and regulators to understand our platform’s architecture, compliance stack, raise strategy, and long-term valuation thesis.
+This plan shows how R. Block Nation (R. Block Share Holdings, LLC) will drive compliant investor and issuer acquisition—starting with **Reg CF** and maturing toward **Reg A+** and selective **Reg D**. It emphasizes outreach to underserved communities while keeping a level, compliant playing field for all participants.
 
 ---
 
-## 💡 Mission
-
-We are committed to building a transparent, inclusive, and regulation-compliant investment ecosystem — with a special focus on engaging non-traditional investor classes. Our long-term vision is to support Reg CF, Reg D, and Reg A+ offerings all under one unified, branded platform.
-
----
-
-## 🚀 Launch Strategy
-
-Our first raise is a **tokenized Reg CF offering**, used both to support external issuers and to fund the buildout of the platform itself.
-
-- 💼 **Entity:** R. Block Share Holdings, LLC (Wyoming)
-- 🏛️ **Raise Goal:** $1.2M via Reg CF
-- 🧠 **Valuation Target:** $100M (platform thesis)
-- 🪙 **Token:** RBCB (Class B equity, 12-month transfer lock)
-
-This strategy allows for transparent investor onboarding, tokenized ownership, and early exposure to platform utility — all backed by smart contract logic and FINRA-aligned compliance practices.
-
-👉 [View Smart Contracts on Etherscan](https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code)
+## 1) Objectives
+- **POC (Reg CF)**: Prove funnel + ops on a real raise; capture data for WSPs & due diligence.
+- **Issuer Demand**: Attract small businesses/startups (including BIPOC-led) that fit CF; prepare pipelines for future A+/D.
+- **Investor Growth**: Build a durable base of compliant retail investors (education-first), then scale through referrals/partners.
+- **Compliance-by-Design**: All marketing pushes prospects to **on-platform** pages for disclosures, acknowledgments, archiving, and BD review.
 
 ---
 
-## 🧩 For Partners
+## 2) Audiences & Journeys
+- **Retail (Reg CF)**: Education → Eligibility → On-platform offering page → Acknowledgments → Subscription → Escrow.
+- **Accredited / Sophisticated (Reg D/A+)**: Interest capture → Accreditation/qualification → Data room → Allocation.
+- **Issuers (CF today, A+ ready)**: Simple pre-screen → Compliance readiness checklist → Onboarding via BD/Kore.
 
-We are actively seeking a funding portal or broker-dealer partnership. Our ideal partner supports:
-
-- A white-label or co-branded investor experience
-- Integration of KYC/AML, escrow, and cap table services
-- Flexible BD infrastructure with long-term alignment
-
----
-
-📄 **Review the Partner Summary Deck:**  
-👉 [Partner Deck Summary](ForPartners/partner-deck.md)
-
-📧 **Schedule a call or request access:**  
-**contact@rblockholdings.com**
+> All off-platform touchpoints link back to the **single source of truth**: the offering page (for BD pre-clear and archiving).
 
 ---
 
-!!! warning "Disclaimer"
+## 3) Channels (compliant guardrails)
+- **On-platform content** (primary): FAQs, risk factors, use of proceeds, status updates.  
+- **Email & Social** (traffic only): Teaser + **link back to the offering page** (no off-platform investment instructions).  
+- **Community & Partnerships**: Chambers,, local dev orgs, small-biz groups; webinars with Q&A **hosted on-platform**.
+- **Education Tracks**: “How Reg CF works,” “Risks & locks,” “What to expect post-close.”  
+- **Language Access**: Bilingual summaries that redirect to the same on-platform disclosures.
 
-    This site is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities.
-
-    Investments under Regulation CF involve risk, including the loss of capital and illiquidity.
-
-    All offerings are conducted through a FINRA/SEC-registered funding portal or broker-dealer.
-
-    R. Block Share Holdings, LLC is not a broker-dealer and does not conduct securities offerings directly.
-
-
+**Controls:** BD pre-clears templates; maintain archive (17a-4), use link-backs, track change logs, and capture metrics for WSP evidence.
 
 ---
 
-## For Partners: CF Proof-of-Concept Packet
-👉 **[Open the packet](/ForPartners/CF-POC-Packet/)**
+## 4) Equity & Access Focus (BIPOC communities)
+We market broadly, with **extra outreach** to underserved and under-represented founders/investors:
+- Partner with trusted community orgs; run **teach-ins** on Reg CF.
+- Feature **transparent fees, risks, lockups**, and investor protections.
+- Publish **cap-table and escrow state** updates on-platform (reconciled).
 
+**Why this matters (evidence):**
+- Since inception through **Dec 31, 2024**, **Reg CF has reported over \$1.3B raised** across thousands of offerings—demonstrating a growing retail path for small issuers.   
+- The **racial wealth gap** remains large: in **2022**, median family net worth was about **\$285k (White)** vs **\$44.9k (Black)** and **\$61.6k (Hispanic)**—underscoring the need for equitable access and investor education. 
+
+---
+
+## 5) Messaging Pillars
+- **Compliance first** (BD-supervised, archived, disclosures centralized).
+- **Transparency** (fees, risks, lockups, timelines).
+- **Ownership & outcomes** (what investors actually get; issuer milestones).
+- **Community wealth building** (education + access; open to all eligible investors).
+
+---
+
+## 6) KPIs & Reporting
+- Funnel: unique visits → KYC starts → completed subs → escrow receipts → allocations.
+- Compliance: % pre-cleared creatives, on-platform link rate, archive coverage, exception queue SLA.
+- Inclusion: partner events, geography & language reach; issuer diversity metrics (self-reported).
+
+---
+
+## 7) Tech & Links
+- **CF prototype contract (Sepolia)**:  
+  <https://sepolia.etherscan.io/address/0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f#code>
+- **Reg A(+ ready) token (BFTKN, Sepolia, verified)**:  
+  <https://sepolia.etherscan.io/address/0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858#code>
+
+---
+
+## 8) Compliance Notes (operational)
+- BD **pre-clears** page templates and any material updates; all **marketing links back** to offering pages.
+- All **investor comms archived** (emails, page versions, Q&A).
+- **North Capital escrow** statuses reconciled to on-chain events and cap-table records (Kore).
+- **WSP mapping** maintained; changes are ticketed and reviewed before go-live.
+
+---
+
+## Sources
+- SEC, **Regulation Crowdfunding (CF) Offerings — Statistics (through Dec 31, 2024)**. 
+- Federal Reserve, **Changes in Racial Inequality in the SCF (2022 data)**. 
