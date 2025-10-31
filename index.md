@@ -10,6 +10,20 @@ This portal provides structured access to critical documents for broker-dealers,
 
 ---
 
+## 🤝 Progress in Partnership
+
+R. Block Nation has advanced from concept to a fully supervised environment under a **FINRA-regulated Broker-Dealer relationship with Andes Capital**.  
+This milestone confirms the platform’s readiness for compliant deployment and partnership-level review.
+
+All required methods for **KYC**, **AML**, and **Escrow** have been successfully validated in the sandbox environment.  
+The project is now formally **ready for Pre-Live Certification and Broker-Dealer review**.
+
+### Mission & Focus
+Our mission is to expand compliant access to capital for small businesses and investors across diverse communities.  
+Guided by broker-dealer supervision, we continue to invest in education, transparency, and outreach — dedicating meaningful marketing and learning resources to under-served founders and retail investor markets.
+
+---
+
 ## 📄 Document Index
 
 - [Valuation Roadmap](./valuation-roadmap.md)
