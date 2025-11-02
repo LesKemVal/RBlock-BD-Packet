@@ -72,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#r-block-nation-r-block-holdings-progress-to-date-october-2025" class="md-skip">
+        <a href="#r-block-nation-r-block-holdings-progress-to-date-november-2025" class="md-skip">
           Skip to content
         </a>
       
@@ -632,7 +632,8 @@
 
 
 
-<h1 id="r-block-nation-r-block-holdings-progress-to-date-october-2025">R. Block Nation / R. Block Holdings — Progress To-Date (October 2025)<a class="headerlink" href="#r-block-nation-r-block-holdings-progress-to-date-october-2025" title="Permanent link">&para;</a></h1>
+<h1 id="r-block-nation-r-block-holdings-progress-to-date-november-2025">R. Block Nation / R. Block Holdings — Progress To-Date (November 2025)<a class="headerlink" href="#r-block-nation-r-block-holdings-progress-to-date-november-2025" title="Permanent link">&para;</a></h1>
+<hr />
 <h2 id="1-core-platform-architecture">🧱 1. Core Platform Architecture<a class="headerlink" href="#1-core-platform-architecture" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -645,44 +646,44 @@
 <tbody>
 <tr>
 <td>Backend (SettleMint Asset Tokenization Kit)</td>
-<td>✅ Completed &amp; stable</td>
-<td>Smart contracts, subgraph, and local Docker Graph Node all running successfully.</td>
+<td>✅ Completed &amp; Stable</td>
+<td>Smart contracts, subgraph, and local Docker Graph Node fully operational.</td>
 </tr>
 <tr>
 <td>Smart Contracts</td>
 <td>✅ Deployed on Sepolia</td>
-<td>RegCFToken + BFTKN + Factory verified. Token logic aligned with Reg CF / Reg A+ structure.</td>
+<td><code>RegCFToken</code>, <code>BFTKN</code>, and <code>Factory</code> verified. Upgrading to include <code>TransferAgent</code> and <code>GovernanceBoard</code> for on-chain TA + Cap-Table logic.</td>
 </tr>
 <tr>
 <td>Subgraph</td>
 <td>✅ Operational</td>
-<td>Local endpoint live at <code>http://localhost:8000/subgraphs/name/atk/graphql</code>. Indexed contract events for Reg CF + Reg A tokens.</td>
+<td>Endpoint <code>http://localhost:8000/subgraphs/name/atk/graphql</code> indexes Reg CF + Reg A token events and investor verification updates.</td>
 </tr>
 <tr>
 <td>Frontend (React 18 + Vite + Tailwind + Flowbite)</td>
-<td>✅ MVP complete</td>
-<td>Fully routed, light/dark adaptive UI with Navbar, Sidebar, Breadcrumbs, and Dashboard structure.</td>
+<td>✅ MVP Complete</td>
+<td>Fully routed, theme-adaptive UI with dashboard, AGM portal, and compliance registry sections.</td>
 </tr>
 <tr>
 <td>Compliance Layer (Escrow &amp; KYC/AML)</td>
-<td>✅ Sandbox validated</td>
-<td>Sandbox tested and confirmed functional for all escrow + KYC/AML endpoints.</td>
+<td>✅ Sandbox Validated</td>
+<td>North Capital TransactAPI methods confirmed operational for all endpoints.</td>
 </tr>
 <tr>
 <td>Hosting &amp; DNS</td>
 <td>✅ Configured</td>
-<td>https://www.rblockholdings.com (GoDaddy → Netlify). Docs site at leskemval.github.io/R.BlockShares</td>
+<td>Production → <a href="https://www.rblocknation.com">https://www.rblocknation.com</a><br>Docs → <a href="https://leskemval.github.io/R.BlockShares">https://leskemval.github.io/R.BlockShares</a></td>
 </tr>
 <tr>
 <td>Repositories</td>
 <td>✅ Synced</td>
-<td>LesKemVal/asset-tokenization-kit, LesKemVal/Broker-Dealer-Compliance-Readiness, LesKemVal/R.BlockShares</td>
+<td><code>LesKemVal/asset-tokenization-kit</code> · <code>LesKemVal/Broker-Dealer-Compliance-Readiness</code> · <code>LesKemVal/R.BlockShares</code></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h2 id="2-technical-validation-sandbox">⚙️ 2. Technical Validation (Sandbox)<a class="headerlink" href="#2-technical-validation-sandbox" title="Permanent link">&para;</a></h2>
-<p>All major methods validated via <code>tsx</code> test scripts:</p>
+<p>All major TransactAPI methods validated via TypeScript test scripts.</p>
 <table>
 <thead>
 <tr>
@@ -694,32 +695,32 @@
 </thead>
 <tbody>
 <tr>
-<td>createParty</td>
-<td>PUT …/v3/createParty</td>
+<td><code>createParty</code></td>
+<td>PUT /v3/createParty</td>
 <td>✅ 200 OK</td>
 <td>Party ID created</td>
 </tr>
 <tr>
-<td>performKycAml</td>
-<td>POST …/v3/performKycAml</td>
+<td><code>performKycAml</code></td>
+<td>POST /v3/performKycAml</td>
 <td>✅ 200 OK</td>
 <td>KYC + AML auto-approved</td>
 </tr>
 <tr>
-<td>createAccount</td>
-<td>POST …/v3/createAccount</td>
+<td><code>createAccount</code></td>
+<td>POST /v3/createAccount</td>
 <td>✅ 200 OK</td>
-<td>Escrow Account created</td>
+<td>Escrow account created</td>
 </tr>
 <tr>
-<td>getEscrowBalance</td>
-<td>GET …/v3/escrow/balance</td>
+<td><code>getEscrowBalance</code></td>
+<td>GET /v3/escrow/balance</td>
 <td>✅ 200 OK</td>
 <td>Balance retrieval verified</td>
 </tr>
 </tbody>
 </table>
-<p>🗂 All working test files:</p>
+<p><strong>Working test files</strong></p>
 <pre><code>/Users/lestersawyer/projects/dapp-standalone/src/lib/
  ├── escrowTest.ts
  ├── kycAmlTest.ts
@@ -738,26 +739,28 @@
 <tbody>
 <tr>
 <td>Escrow Provider</td>
-<td>✅ Sandbox complete</td>
-<td>Next step: Pre-Live Certification (UI demo video).</td>
+<td>✅ Sandbox Complete</td>
+<td>Next → Pre-Live Certification (UI demo video).</td>
 </tr>
 <tr>
 <td>Broker-Dealer</td>
 <td>✅ Engaged</td>
-<td>Provided compliance checklist and tracking sandbox results.</td>
+<td>Andes Capital reviewing sandbox report and UI workflow.</td>
 </tr>
 <tr>
-<td>Cap-Table / TA Provider</td>
-<td>⚙️ Optional</td>
-<td>Retained as fallback; PAYG replacements explored.</td>
+<td>Transfer Agent / Cap-Table</td>
+<td>🧱 In Progress</td>
+<td>Replaced Kore with custom on-chain <code>TransferAgent.sol</code>; PAYG alternatives (Eqvista, Dealmaker) under evaluation.</td>
 </tr>
 </tbody>
 </table>
-<p>Regulatory alignment:
-- <strong>Escrow →</strong> Active sandbox validation complete<br />
-- <strong>KYC/AML →</strong> Verified via live test<br />
-- <strong>Broker-Dealer →</strong> Reviewing sandbox success report<br />
-- <strong>TA / Cap-Table →</strong> Modular integration planned</p>
+<p><strong>Regulatory Alignment</strong></p>
+<ul>
+<li>Escrow → Active sandbox validation complete  </li>
+<li>KYC/AML → Auto-approved via North Capital  </li>
+<li>Broker-Dealer → Checklist verified &amp; awaiting demo  </li>
+<li>Transfer Agent → On-chain logic + optional API TA integration planned  </li>
+</ul>
 <hr />
 <h2 id="4-front-end-ui-progress">💻 4. Front-End / UI Progress<a class="headerlink" href="#4-front-end-ui-progress" title="Permanent link">&para;</a></h2>
 <table>
@@ -777,27 +780,32 @@
 <tr>
 <td>Theme System</td>
 <td>✅ Implemented</td>
-<td>Flowbite ThemeProvider toggles dark/light; gold/gray/black palette.</td>
+<td>Polished black background, gold accents, gray text; light/dark toggle via Flowbite ThemeProvider.</td>
 </tr>
 <tr>
 <td>Navbar / Sidebar</td>
 <td>✅ Polished</td>
-<td>Theme-aware logo; active link highlight in Sidebar.</td>
+<td>Responsive logo, active link states, breadcrumb display.</td>
 </tr>
 <tr>
 <td>Dashboard Cards / AvatarGroup</td>
 <td>✅ Working</td>
-<td>Displays investor placeholders.</td>
+<td>Investor and issuer summaries render via mock data pending subgraph hook-in.</td>
+</tr>
+<tr>
+<td>Shareholder Portal</td>
+<td>🧩 Design Phase</td>
+<td>Will read <code>GovernanceBoard</code> events and cast votes on-chain.</td>
 </tr>
 <tr>
 <td>Settings Page</td>
-<td>⚙️ In progress</td>
-<td>Preparing for wallet connect, KYC status, and theme toggle cards.</td>
+<td>⚙️ In Progress</td>
+<td>Wallet connect, KYC status cards, theme preferences.</td>
 </tr>
 <tr>
 <td>Investor Onboarding Flow</td>
 <td>🧩 Designing</td>
-<td>Simulates <code>createParty → performKycAml → createAccount</code> visually before connecting live API calls.</td>
+<td>Visual simulation of <code>createParty → performKycAml → createAccount</code> before live API link.</td>
 </tr>
 </tbody>
 </table>
@@ -826,10 +834,22 @@
 <td>Revenue-share token</td>
 </tr>
 <tr>
+<td>Transfer Agent</td>
+<td>TA</td>
+<td>⏳ Pending Deployment</td>
+<td>On-chain investor verification + Cap-Table</td>
+</tr>
+<tr>
+<td>Governance Board</td>
+<td>GBRD</td>
+<td>⏳ Pending Deployment</td>
+<td>AGM + eVote module</td>
+</tr>
+<tr>
 <td>Factory</td>
 <td>—</td>
 <td>—</td>
-<td>Deploys modular compliance + token instances</td>
+<td>Deploys token and compliance instances</td>
 </tr>
 </tbody>
 </table>
@@ -849,25 +869,25 @@
 </tr>
 <tr>
 <td>Netlify builds</td>
-<td>✅ Successful automatic deploys</td>
+<td>✅ Successful auto-deploys</td>
 </tr>
 <tr>
 <td>MkDocs site</td>
-<td>✅ Up to date — reflects BD &amp; compliance progress</td>
+<td>✅ Updated with TA upgrade section</td>
 </tr>
 <tr>
-<td>.env hygiene</td>
-<td>✅ Local only (API keys excluded)</td>
+<td>Environment variables</td>
+<td>✅ Clean — no API keys checked in</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <h2 id="7-compliance-readiness-summary">🔐 7. Compliance Readiness Summary<a class="headerlink" href="#7-compliance-readiness-summary" title="Permanent link">&para;</a></h2>
-<p>✅ Sandbox fully validated<br />
-✅ All escrow &amp; KYC/AML endpoints passing<br />
-✅ BD checklist submitted and verified<br />
-⚙️ <strong>Next milestone:</strong> UI demo recording for Pre-Live Certification<br />
-🎯 <strong>Post-certification:</strong> Production API keys + BD sign-off</p>
+<p>✅ All sandbox tests passing (KYC/AML + Escrow)<br />
+✅ Broker-Dealer checklist reviewed<br />
+✅ TransferAgent upgrade initiated  </p>
+<p>⚙️ <strong>Next Milestone:</strong> UI demo recording for Pre-Live Certification<br />
+🎯 <strong>Post-Certification:</strong> Production API keys + BD sign-off + TA launch on Sepolia  </p>
 <hr />
 <h2 id="8-upcoming-milestones">🪜 8. Upcoming Milestones<a class="headerlink" href="#8-upcoming-milestones" title="Permanent link">&para;</a></h2>
 <table>
@@ -881,7 +901,7 @@
 <tbody>
 <tr>
 <td>Investor Onboarding UI</td>
-<td>Simulated front-end flow</td>
+<td>Simulated front-end flow (connected to sandbox)</td>
 <td>🔜 Immediate</td>
 </tr>
 <tr>
@@ -891,7 +911,7 @@
 </tr>
 <tr>
 <td>BD Review / Approval</td>
-<td>BD + Escrow sign-off</td>
+<td>Formal sign-off with North Capital + Andes</td>
 <td>⏳ After Demo</td>
 </tr>
 <tr>
@@ -904,10 +924,16 @@
 <td>Real-time token + escrow metrics</td>
 <td>🎯 Post-Certification</td>
 </tr>
+<tr>
+<td>TA &amp; Governance Board Deployment</td>
+<td>On-chain Cap-Table + AGM voting</td>
+<td>🎯 December 2025</td>
+</tr>
 </tbody>
 </table>
-<p>✅ <strong>Total Project Status:</strong> ~88 % complete<br />
-🧭 <em>Entering final pre-production stage: investor onboarding + certification.</em></p>
+<hr />
+<p>✅ <strong>Total Project Status:</strong> ≈ 88 % → 91 % complete<br />
+🧭 <strong>Now entering final pre-production stage — investor onboarding UI, TransferAgent deployment, and Pre-Live Certification.</strong></p>
 
 
 
