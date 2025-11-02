@@ -1,95 +1,43 @@
----
-layout: default
-title: R. Block Nation – Funding Portal Packet
----
+# Partner Home
 
-# R. Block Nation | Funding Portal Partnership Packet
-
-Welcome to the official compliance and partner resource site for **R. Block Nation**.
-This portal provides structured access to key documents for **funding portal partners**, legal advisors, and compliance professionals evaluating the platform's Regulation CF raise.
+Welcome to the **R. Block Nation Partner Portal**, the primary workspace for broker-dealer, legal, and compliance collaboration.
 
 ---
 
-## 🚀 Raise Overview
-
-- **Offering Type:** Regulation CF (Crowdfunding)
-- **Securities Offered:** Non-voting, tokenized Class B equity
-- **Raise Target:** Up to **$1.2M gross**, with approximately **$1M net** to the issuer
-- **Escrow Provider:** North Capital (FINRA-regulated)
-- **Platform Backend:** Settlemint (tokenization, smart contracts)
-- **Compliance Platform:** Kore (cap table, document vault, onboarding)
-
-> 📌 This raise will be hosted via a **white-labeled, FINRA-regulated funding portal**, embedded into R. Block Nation’s own UI and domain. The offering serves both as a live investment and a proof-of-concept for tokenized capital formation.
+## 🔗 Quick Access
+| Resource | Purpose |
+|-----------|----------|
+| [Packet Summary](packet-summary.md) | Condensed overview of Reg CF + Reg A+ readiness |
+| [Required Documents](required-documents.md) | All core filings, agreements, and proofs |
+| [Compliance Stack](../ForInvestors/compliance-stack.md) | KYC, AML, escrow, and tokenization details |
+| [Issuer Pipeline](../Internal/IssuerPipeline.md) | Issuer review workflow and timeline |
+| [Platform Roadmap](../Internal/ProgressReport.md) | Upcoming phases and milestones |
 
 ---
 
-## 📄 Document Index
+## 🧩 System Architecture
+The platform integrates three functional layers:
 
-- [Valuation Roadmap](../TokenDocs/valuation-roadmap.md)
-- [Reg CF Use of Proceeds](../ForInvestors/RegCF-use-of-proceeds.md)
-- [North Capital Brief](bd-north-capital-brief.md)
-- [Kore Onboarding Brief](kore-brief.md)
-- [Kore Onboarding Checklist](KoreOnboardingChecklist.md)
-- [BD Intro Letter](BDIntroLetter.md)
-- [Issuer Pipeline Overview](../IssuerPipeline.md)
----
-
-## 🔐 Reg CF Equity & Token Structure Overview
-
-### Class B Tokenized Equity (Reg CF Investors)
-
-- **Security Type:** Non-voting, tokenized Class B membership interests
-- **Cap Table Allocation:** 23.08% allocated to Reg CF investors
-- **Valuation Cap:** ~$4.33M (based on $1M net raise)
-- **Lockup Period:** 12 months (per Reg CF rules)
-- **Ownership Benefits:** Pro-rata share in platform value or rev share participation
-
-### Founder & Governance
-
-- **Founder Ownership:** 76.92% (Lester Sawyer, Class A)
-- **Governance Rights:** Class A only
-- **Advisor Equity:** Up to 5% from founder’s pool
-- **Minimum Founder Control:** Founder retains ≥ 51% post-raise
-
-### Platform Roadmap & Future Offerings
-
-- Reg CF raise is the first live campaign on the platform
-- System is designed to support **future Reg A and Reg D** offerings
-- Settlemint manages smart contracts + token operations
-- Kore provides compliance, cap table, and shareholder tools
+1. **Frontend & Workflow Layer** — React + Tailwind investor/issuer UI  
+2. **Smart-Contract Layer** — Verified Reg CF / Reg A+ contracts on Sepolia  
+3. **Compliance Layer** — Integrated KYC / AML / Escrow / TA providers
 
 ---
 
-## 📎 Internal Compliance Materials (Available Upon Request)
+## 🪜 Regulatory Plan
+R. Block Nation will host compliant raises under BD supervision.  
+- **Year 1:** Reg CF raises fund concurrent Reg A+ readiness and Jobs Act compliance.  
+- **Year 2:** Tokenization monetization expands across issuers; explore FP registration if economically justified.  
+- **Year 3:** Potential in-house FP/BD licensing or continuing under supervising BD.
 
-The following materials are prepared for due diligence and available to authorized funding portal partners:
-
-- Platform Roadmap (token lifecycle + onboarding logic)
-- Articles of Organization (converted to Markdown)
-- EIN Confirmation Letter
-- Cap Table Overview (.CSV format)
-- Revenue Model (unit economics + allocation logic)
-
-To request access, contact:  
-📧 **contact@rblockholdings.com**
+All activity remains within the **regulatory scope of the JOBS Act**, **FINRA**, and **SEC Reg CF / A+ / D** frameworks.
 
 ---
 
-## 🔒 Notice
-
-These materials are for internal partner review only.  
-Do not distribute without written consent from **R. Block Share Holdings, LLC**.
-
-Questions or requests:  
-📧 **contact@rblockholdings.com**
-
----
-
-## ⚖️ Disclaimer
-
-> This page includes references to exempt securities offerings under Regulation Crowdfunding (Reg CF) and potential Regulation A+ offerings. Tokens issued through this platform are subject to transfer restrictions, investor verification, and escrow requirements under U.S. securities law.  
->  
-> All offerings integrate KoreConX (compliance stack) and North Capital (escrow, KYC/AML).  
->  
-> **This is not legal or investment advice. Investing involves risk, including the potential loss of capital.**
+## 🧾 Current Progress
+- SettleMint ATK backend fully functional  
+- KYC / AML / Escrow sandbox validation passed  
+- BD checklist and Pre-Live readiness complete  
+- Front-end onboarding UI finalized  
+- Awaiting certification demo review
 

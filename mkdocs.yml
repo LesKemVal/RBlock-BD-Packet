@@ -1,100 +1,50 @@
-site_name: "R. Block Nation — Broker-Dealer Partner Docs"
-site_description: Tokenized Equity Platform | Reg CF Launch Packet
-site_author: Lester Sawyer
-site_url: https://leskemval.github.io/RBlock-BD-Packet/
-
-use_directory_urls: true
+site_name: "R. Block BD & Compliance Packet"
 
 theme:
   name: material
-  logo: assets/images/logo.png
-  favicon: assets/favicon.ico
+  features:
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
   palette:
     scheme: slate
-    primary: blue
-    accent: light blue
-  features:
-    - navigation.tabs
-    - navigation.top
-    - content.code.copy
-    - search.highlight
-    - search.share
+    primary: black
+    accent: gold
 
 nav:
   - Home: index.md
-  - Start Here: start-here.md
-
   - For Investors:
-      - Overview:
-          - Investor Overview: ForInvestors/overview.md
-          - Investor FAQs: ForInvestors/InvestorFAQs.md
-          - Onboarding Checklist: ForInvestors/OnboardingChecklist.md
-          - Investment Highlights: ForInvestors/InvestmentHighlights.md
-          - Investor Flow: ForInvestors/investor-flow.md
-          - Reg CF Timeline: ForInvestors/Reg-CF-Timeline.md
-
-      - Capital Strategy:
-          - Offering Breakdown: ForInvestors/offering-breakdown.md
-          - Raise Strategy: ForInvestors/RaiseStrategy.md
-          - Dual Raise Overview: ForInvestors/dual-raise-overview.md
-          - CF vs. Reg A vs. Reg D: ForInvestors/cf-vs-regA-vs-regD.md
-          - CF Overview: ForInvestors/CF-Overview.md
-          - Use of Proceeds: ForInvestors/RegCF-use-of-proceeds.md
-          - REGCFToken Overview: ForInvestors/RegCFToken.md
-          - Subscription Agreement (Preview): ForInvestors/SubscriptionAgreementPreview.md
-          - Subscription Agreement: ForInvestors/SubscriptionAgreement.md
-
-      - Valuation & Capital:
-          - Valuation Goal: ForInvestors/valuation-goal.md
-          - Valuation Strategy: ForInvestors/valuation-strategy.md
-          - Capital Stack Comparison: ForInvestors/capital-stack-comparison.md
-          - Cap Table: ForInvestors/CapTable.md
-          - Compliance Stack Overview: ForInvestors/compliance-stack.md
-
-      - Token Economics:
-          - Tokenomics Summary: ForInvestors/TokenomicsSummary.md
-          - Tokenomics Deep Dive: ForInvestors/Tokenomics.md
-          - BFTKN Overview: ForInvestors/BFTKN.md
-          - Token Comparison: ForInvestors/TokenComparison.md
-
-      - Marketing & Outreach:
-          - Reg CF Marketing Strategy: ForInvestors/RegCF-marketing-strategy.md
-
-      - Risks & Disclaimers:
-          - Risks and Disclaimers: ForInvestors/RisksAndDisclaimers.md
-
+      - Compliance Stack: ForInvestors/compliance-stack.md
   - For Partners:
-      - BD Intro Letter: ForPartners/BDIntroLetter.md
-      - Kore Onboarding Brief: ForPartners/kore-brief.md
-      - North Capital Brief: ForPartners/bd-north-capital-brief.md
-      - Valuation Strategy Brief: ForPartners/valuation-strategy-brief.md
-      - Onboarding Checklist: ForPartners/KoreOnboardingChecklist.md
-      - Issuer Packet Summary: ForPartners/packet-summary.md
-      - Required Docs: ForPartners/required-documents.md
-      - Escalation Procedures: ForPartners/portal-escalation-procedures.md
-      - Partner Deck Summary: ForPartners/partner-deck.md
+      - Partner Home: ForPartners/PartnerHome.md
+      - Packet Summary: ForPartners/packet-summary.md
+  - Internal:
+      - Progress Report (Nov 2025): Internal/ProgressReport.md
+      - BD Compliance Alignment (Nov 2025): Internal/BD-Compliance-Alignment.md
 
-  - CF Proof-of-Concept Packet:
-      - Overview: ForPartners/CF-POC-Packet/index.md
-      - "Raise #1 — Buildout": ForPartners/CF-POC-Packet/raise-1-buildout.md
-      - "Raise #2 — Scale": ForPartners/CF-POC-Packet/raise-2-scale.md
-      - Roles & Oversight (WSP): ForPartners/CF-POC-Packet/roles-and-oversight.md
-      - Compliance Readiness: ForPartners/CF-POC-Packet/compliance-readiness.md
-      - Data Room / Diligence: ForPartners/CF-POC-Packet/data-room-checklist.md
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+  - codehilite
+  - attr_list
+  - def_list
+  - md_in_html
 
-  - Token Docs:
-      - Bonding Curve Explainer: TokenDocs/BondingCurveExplainer.md
-      - Cap Table Logic: TokenDocs/cap-table-overview.md
-      - Valuation Roadmap: TokenDocs/valuation-roadmap.md
 
-plugins:
-  - search
-  - pdf-export:
-      verbose: true
-      combined: true
-      media_type: print
-      enabled_if_env: ENABLE_PDF_EXPORT
+# ------------------------------
+# INTERNAL DOCUMENTATION SECTION
+# ------------------------------
 
-extra_css:
-  - assets/extra.css
+nav:
+  - Internal:
+      - Progress Report (Nov 2025): Internal/ProgressReport.md
+      - BD Compliance Alignment: Internal/BD-Compliance-Alignment.md
+      - Issuer Pipeline: Internal/IssuerPipeline.md
+      - Platform Roadmap: Internal/PlatformRoadmap/index.md
 
+# ------------------------------
+# END INTERNAL DOCS
+# ------------------------------

@@ -1,52 +1,51 @@
----
-layout: default
-title: R. Block Nation – BD Packet
----
-
 # R. Block Nation | BD & Compliance Packet
 
-Welcome to the official BD and Compliance resource site for **R. Block Nation**.  
-This portal provides structured access to critical documents for broker-dealers, legal partners, and compliance professionals evaluating the platform's Reg CF infrastructure.
+Welcome to the official **BD and Compliance resource site** for R. Block Nation.  
+This portal provides structured access to critical documents for broker-dealers, legal partners, and compliance professionals evaluating the platform’s **Reg CF infrastructure**.
 
 ---
 
 ## 🤝 Progress in Partnership
+R. Block Nation has advanced from concept to a fully supervised environment under a **FINRA-regulated Broker-Dealer relationship**.  
+This milestone confirms the platform’s readiness for compliant deployment and partner-level review.
 
-R. Block Nation has advanced from concept to a fully supervised environment under a **FINRA-regulated Broker-Dealer relationship with Andes Capital**.  
-This milestone confirms the platform’s readiness for compliant deployment and partnership-level review.
-
-All required methods for **KYC**, **AML**, and **Escrow** have been successfully validated in the sandbox environment.  
-The project is now formally **ready for Pre-Live Certification and Broker-Dealer review**.
-
-### Mission & Focus
-Our mission is to expand compliant access to capital for small businesses and investors across diverse communities.  
-Guided by broker-dealer supervision, we continue to invest in education, transparency, and outreach — dedicating meaningful marketing and learning resources to under-served founders and retail investor markets.
+All required methods for **KYC, AML, and Escrow** have been successfully validated in sandbox.  
+The project is now formally ready for **Pre-Live Certification and BD review**.
 
 ---
 
-## 📄 Document Index
+## 🎯 Mission & Focus
+Our mission is to **expand compliant access to capital** for small businesses and investors across diverse communities.  
+Under BD supervision, R. Block Nation continues to invest in **education, transparency, and outreach** — dedicating resources to under-served founders and retail investors.
 
-- [Valuation Roadmap](./valuation-roadmap.md)
-- [Reg CF Use of Proceeds](./cf-use-of-proceeds.md)
-- [North Capital Brief](./bd-north-capital-brief.md)
-- [Kore Onboarding Brief](./kore-brief.md)
-- [Kore Onboarding Checklist](./KoreOnboardingChecklist.md)
-- [BD Intro Letter](./BDIntroLetter.md)
-- [Issuer Pipeline Overview](./IssuerPipeline.md)
-- [Revenue Model](./RevenueModel.md)
-- [RBCB Contract Explainer](./contracts/RBCB-Contract-Explainer.md)
-- [Multi-Token Architecture](./contracts/MultiToken-Architecture.md)
-- [Form C (Draft)](./FormC-Draft.md)
-- [Articles of Organization (PDF)](./ArticlesOfOrg.pdf)
-- [EIN Letter (PDF)](./EINLetter.pdf)
+---
+
+## 📄 Active Document Index
+| Section | Description |
+|----------|--------------|
+| [Partner Home](ForPartners/PartnerHome.md) | Central page for BD & compliance partners |
+| [Packet Summary](ForPartners/packet-summary.md) | Overview of the BD review packet |
+| [Required Documents](ForPartners/required-documents.md) | Key documentation checklist |
+| [Compliance Stack](ForInvestors/compliance-stack.md) | Technical & regulatory architecture |
+| [Issuer Pipeline](Internal/IssuerPipeline.md) | Issuer onboarding & review workflow |
+| [Platform Roadmap](Internal/ProgressReport.md) | Build-out milestones and feature map |
+
+---
+
+## 🧱 Platform Progress Summary
+See full technical and compliance progress in:  
+📄 [Progress Report (October 2025)](Internal/ProgressReport.md)
+
+✅ Sandbox certification passed  
+✅ BD checklist submitted  
+✅ Escrow & KYC validated  
+⚙️ Next: UI demo certification + production transition
 
 ---
 
 ## 🔒 Notice
+These materials are for **internal partner review only**.  
+Do not distribute without written consent from **R. Block Share Holdings, LLC**.  
 
-These materials are for internal partner review only.  
-Do not distribute without written consent from **R. Block Share Holdings, LLC**.
-
-For questions or access to additional documents, contact:  
-📧 **lester@rblockshareholdings.com**
-
+For questions or access to additional materials, contact:  
+📧 lester@rblockshareholdings.com  
