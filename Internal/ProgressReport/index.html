@@ -69,11 +69,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#r-block-nation-r-block-holdings-progress-to-date-november-2025" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -435,21 +430,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Progress Report (Nov 2025)
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -462,97 +442,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-core-platform-architecture" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧱 1. Core Platform Architecture
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-technical-validation-sandbox" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ 2. Technical Validation (Sandbox)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-compliance-broker-dealer-coordination" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧩 3. Compliance &amp; Broker-Dealer Coordination
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-front-end-ui-progress" class="md-nav__link">
-    <span class="md-ellipsis">
-      💻 4. Front-End / UI Progress
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-smart-contract-layer-sepolia" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔗 5. Smart Contract Layer (Sepolia)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#6-git-deployment" class="md-nav__link">
-    <span class="md-ellipsis">
-      📦 6. Git / Deployment
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#7-compliance-readiness-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔐 7. Compliance Readiness Summary
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8-upcoming-milestones" class="md-nav__link">
-    <span class="md-ellipsis">
-      🪜 8. Upcoming Milestones
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -605,317 +494,24 @@
 
 
 
-<h1 id="r-block-nation-r-block-holdings-progress-to-date-november-2025">R. Block Nation / R. Block Holdings — Progress To-Date (November 2025)<a class="headerlink" href="#r-block-nation-r-block-holdings-progress-to-date-november-2025" title="Permanent link">&para;</a></h1>
-<hr />
-<h2 id="1-core-platform-architecture">🧱 1. Core Platform Architecture<a class="headerlink" href="#1-core-platform-architecture" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Layer</th>
-<th>Status</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Backend (SettleMint Asset Tokenization Kit)</td>
-<td>✅ Completed &amp; Stable</td>
-<td>Smart contracts, subgraph, and local Docker Graph Node fully operational.</td>
-</tr>
-<tr>
-<td>Smart Contracts</td>
-<td>✅ Deployed on Sepolia</td>
-<td><code>RegCFToken</code>, <code>BFTKN</code>, and <code>Factory</code> verified. Upgrading to include <code>TransferAgent</code> and <code>GovernanceBoard</code> for on-chain TA + Cap-Table logic.</td>
-</tr>
-<tr>
-<td>Subgraph</td>
-<td>✅ Operational</td>
-<td>Endpoint <code>http://localhost:8000/subgraphs/name/atk/graphql</code> indexes Reg CF + Reg A token events and investor verification updates.</td>
-</tr>
-<tr>
-<td>Frontend (React 18 + Vite + Tailwind + Flowbite)</td>
-<td>✅ MVP Complete</td>
-<td>Fully routed, theme-adaptive UI with dashboard, AGM portal, and compliance registry sections.</td>
-</tr>
-<tr>
-<td>Compliance Layer (Escrow &amp; KYC/AML)</td>
-<td>✅ Sandbox Validated</td>
-<td>North Capital TransactAPI methods confirmed operational for all endpoints.</td>
-</tr>
-<tr>
-<td>Hosting &amp; DNS</td>
-<td>✅ Configured</td>
-<td>Production → <a href="https://www.rblocknation.com">https://www.rblocknation.com</a><br>Docs → <a href="https://leskemval.github.io/R.BlockShares">https://leskemval.github.io/R.BlockShares</a></td>
-</tr>
-<tr>
-<td>Repositories</td>
-<td>✅ Synced</td>
-<td><code>LesKemVal/asset-tokenization-kit</code> · <code>LesKemVal/Broker-Dealer-Compliance-Readiness</code> · <code>LesKemVal/R.BlockShares</code></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="2-technical-validation-sandbox">⚙️ 2. Technical Validation (Sandbox)<a class="headerlink" href="#2-technical-validation-sandbox" title="Permanent link">&para;</a></h2>
-<p>All major TransactAPI methods validated via TypeScript test scripts.</p>
-<table>
-<thead>
-<tr>
-<th>Method</th>
-<th>Endpoint</th>
-<th>Status</th>
-<th>Result</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>createParty</code></td>
-<td>PUT /v3/createParty</td>
-<td>✅ 200 OK</td>
-<td>Party ID created</td>
-</tr>
-<tr>
-<td><code>performKycAml</code></td>
-<td>POST /v3/performKycAml</td>
-<td>✅ 200 OK</td>
-<td>KYC + AML auto-approved</td>
-</tr>
-<tr>
-<td><code>createAccount</code></td>
-<td>POST /v3/createAccount</td>
-<td>✅ 200 OK</td>
-<td>Escrow account created</td>
-</tr>
-<tr>
-<td><code>getEscrowBalance</code></td>
-<td>GET /v3/escrow/balance</td>
-<td>✅ 200 OK</td>
-<td>Balance retrieval verified</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Working test files</strong></p>
-<div class="codehilite"><pre><span></span><code>/Users/lestersawyer/projects/dapp-standalone/src/lib/
- ├── escrowTest.ts
- ├── kycAmlTest.ts
- └── escrowAccountTest.ts
-</code></pre></div>
+  <h1>Progress Report (Nov 2025)</h1>
 
-<hr />
-<h2 id="3-compliance-broker-dealer-coordination">🧩 3. Compliance &amp; Broker-Dealer Coordination<a class="headerlink" href="#3-compliance-broker-dealer-coordination" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Partner Type</th>
-<th>Status</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Escrow Provider</td>
-<td>✅ Sandbox Complete</td>
-<td>Next → Pre-Live Certification (UI demo video).</td>
-</tr>
-<tr>
-<td>Broker-Dealer</td>
-<td>✅ Engaged</td>
-<td>Andes Capital reviewing sandbox report and UI workflow.</td>
-</tr>
-<tr>
-<td>Transfer Agent / Cap-Table</td>
-<td>🧱 In Progress</td>
-<td>Replaced Kore with custom on-chain <code>TransferAgent.sol</code>; PAYG alternatives (Eqvista, Dealmaker) under evaluation.</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Regulatory Alignment</strong></p>
 <ul>
-<li>Escrow → Active sandbox validation complete  </li>
-<li>KYC/AML → Auto-approved via North Capital  </li>
-<li>Broker-Dealer → Checklist verified &amp; awaiting demo  </li>
-<li>Transfer Agent → On-chain logic + optional API TA integration planned  </li>
+<li>Internal:<ul>
+<li>Progress Report (Nov 2025): Internal/ProgressReport.md</li>
+<li>BD Compliance Alignment (Nov 2025): Internal/BD-Compliance-Alignment.md</li>
 </ul>
-<hr />
-<h2 id="4-front-end-ui-progress">💻 4. Front-End / UI Progress<a class="headerlink" href="#4-front-end-ui-progress" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Area</th>
-<th>Status</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Routing</td>
-<td>✅ Complete</td>
-<td><code>/home</code>, <code>/investors</code>, <code>/issuers</code>, <code>/compliance</code>, <code>/settings</code>, <code>/platform</code>, <code>/team</code>, <code>/contact</code> active.</td>
-</tr>
-<tr>
-<td>Theme System</td>
-<td>✅ Implemented</td>
-<td>Polished black background, gold accents, gray text; light/dark toggle via Flowbite ThemeProvider.</td>
-</tr>
-<tr>
-<td>Navbar / Sidebar</td>
-<td>✅ Polished</td>
-<td>Responsive logo, active link states, breadcrumb display.</td>
-</tr>
-<tr>
-<td>Dashboard Cards / AvatarGroup</td>
-<td>✅ Working</td>
-<td>Investor and issuer summaries render via mock data pending subgraph hook-in.</td>
-</tr>
-<tr>
-<td>Shareholder Portal</td>
-<td>🧩 Design Phase</td>
-<td>Will read <code>GovernanceBoard</code> events and cast votes on-chain.</td>
-</tr>
-<tr>
-<td>Settings Page</td>
-<td>⚙️ In Progress</td>
-<td>Wallet connect, KYC status cards, theme preferences.</td>
-</tr>
-<tr>
-<td>Investor Onboarding Flow</td>
-<td>🧩 Designing</td>
-<td>Visual simulation of <code>createParty → performKycAml → createAccount</code> before live API link.</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="5-smart-contract-layer-sepolia">🔗 5. Smart Contract Layer (Sepolia)<a class="headerlink" href="#5-smart-contract-layer-sepolia" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Contract</th>
-<th>Symbol</th>
-<th>Address</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Reg CF Token</td>
-<td>REGCFToken</td>
-<td><code>0x769780C2BA4492Ac4B0C3C38fbD0B2CB4bb9Ba5f</code></td>
-<td>Retail equity token</td>
-</tr>
-<tr>
-<td>Reg A Token</td>
-<td>BFTKN</td>
-<td><code>0x9F2bc4CC40f7e39866F7DcBFe0127E9Dbc925858</code></td>
-<td>Revenue-share token</td>
-</tr>
-<tr>
-<td>Transfer Agent</td>
-<td>TA</td>
-<td>⏳ Pending Deployment</td>
-<td>On-chain investor verification + Cap-Table</td>
-</tr>
-<tr>
-<td>Governance Board</td>
-<td>GBRD</td>
-<td>⏳ Pending Deployment</td>
-<td>AGM + eVote module</td>
-</tr>
-<tr>
-<td>Factory</td>
-<td>—</td>
-<td>—</td>
-<td>Deploys token and compliance instances</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="6-git-deployment">📦 6. Git / Deployment<a class="headerlink" href="#6-git-deployment" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Action</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Git commits / pushes</td>
-<td>✅ Routine to main branches</td>
-</tr>
-<tr>
-<td>Netlify builds</td>
-<td>✅ Successful auto-deploys</td>
-</tr>
-<tr>
-<td>MkDocs site</td>
-<td>✅ Updated with TA upgrade section</td>
-</tr>
-<tr>
-<td>Environment variables</td>
-<td>✅ Clean — no API keys checked in</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="7-compliance-readiness-summary">🔐 7. Compliance Readiness Summary<a class="headerlink" href="#7-compliance-readiness-summary" title="Permanent link">&para;</a></h2>
-<p>✅ All sandbox tests passing (KYC/AML + Escrow)<br />
-✅ Broker-Dealer checklist reviewed<br />
-✅ TransferAgent upgrade initiated  </p>
-<p>⚙️ <strong>Next Milestone:</strong> UI demo recording for Pre-Live Certification<br />
-🎯 <strong>Post-Certification:</strong> Production API keys + BD sign-off + TA launch on Sepolia  </p>
-<hr />
-<h2 id="8-upcoming-milestones">🪜 8. Upcoming Milestones<a class="headerlink" href="#8-upcoming-milestones" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Phase</th>
-<th>Deliverable</th>
-<th>Target</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Investor Onboarding UI</td>
-<td>Simulated front-end flow (connected to sandbox)</td>
-<td>🔜 Immediate</td>
-</tr>
-<tr>
-<td>Pre-Live Certification</td>
-<td>Screen-capture demo + repo submission</td>
-<td>🔜 Next</td>
-</tr>
-<tr>
-<td>BD Review / Approval</td>
-<td>Formal sign-off with North Capital + Andes</td>
-<td>⏳ After Demo</td>
-</tr>
-<tr>
-<td>Production Transition</td>
-<td>Live API keys + investor onboarding</td>
-<td>🎯 November 2025</td>
-</tr>
-<tr>
-<td>Graph Integration</td>
-<td>Real-time token + escrow metrics</td>
-<td>🎯 Post-Certification</td>
-</tr>
-<tr>
-<td>TA &amp; Governance Board Deployment</td>
-<td>On-chain Cap-Table + AGM voting</td>
-<td>🎯 December 2025</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<p>✅ <strong>Total Project Status:</strong> ≈ 88 % → 91 % complete<br />
-🧭 <strong>Now entering final pre-production stage — investor onboarding UI, TransferAgent deployment, and Pre-Live Certification.</strong></p>
-<hr />
-<p>📎 <strong>Next:</strong> <a href="/Internal/BD-Compliance-Alignment/">Internal Compliance &amp; Broker-Dealer Alignment →</a></p>
+</li>
+</ul>
 
 
 
 
 
 
+
+  
+  
 
 
 
