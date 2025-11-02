@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#r-block-nation-internal-compliance-broker-dealer-alignment-november-2025" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -451,6 +456,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    BD Compliance Alignment (Nov 2025)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -463,6 +483,115 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧭 Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-written-supervisory-procedures-wsp-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧾 1. Written Supervisory Procedures (WSP) Mapping
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-books-records-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗂 2. Books &amp; Records Capture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-data-protection-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 3. Data Protection &amp; Access Control
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-reg-cf-vs-reg-a-structural-separation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧩 4. Reg CF vs. Reg A Structural Separation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-communication-supervision" class="md-nav__link">
+    <span class="md-ellipsis">
+      📜 5. Communication Supervision
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-sandbox-certification-preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 6. Sandbox Certification Preparation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-broker-dealer-visibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏛 7. Broker-Dealer Visibility
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-live-certification-walk-through" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎬 Pre-Live Certification Walk-Through
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -492,69 +621,127 @@
 
 
 
-  <h1>BD Compliance Alignment (Nov 2025)</h1>
-
-<p>R. Block Nation — Internal Compliance &amp; Broker-Dealer Alignment (November 2025)¶
-🧭 Overview</p>
-<p>This page provides Andes Capital and other broker-dealer partners with a clear view of the internal compliance architecture, audit controls, and supervisory procedures currently active within the R. Block Nation ecosystem.
-All items below have been verified internally in preparation for Pre-Live Certification under broker-dealer supervision.</p>
-<p>🧾 1. Written Supervisory Procedures (WSP) Mapping</p>
-<p>R. Block Nation’s compliance framework maps each operational function to applicable SEC and FINRA rules:</p>
-<p>Function    Regulatory Basis    Enforcement Mechanism
-Investor Onboarding / KYC / AML SEC Rule 227.304    North Capital TransactAPI (performKycAml)
-Escrow Management   SEC Rule 15c2-4 North Capital Escrow API (createAccount / balance)
-Books &amp; Records Retention   FINRA Rule 4511 Immutable Subgraph + Evervault archive (5-year retention)
-Transfer Agent Function SEC Rules 17Ad-1 &amp; 17Ad-4   TransferAgent.sol contract + IPFS metadata
-Advertising &amp; Communications    FINRA Rule 2210 / CF 203    Archived via SMTP + IPFS hashing
-Shareholder Governance  Reg A § 251 / CF 204    GovernanceBoard.sol on-chain voting</p>
-<p>Full WSP mapping document stored under
-/Internal/ProgressReport/</p>
-<p>🗂 2. Books &amp; Records Capture</p>
-<p>Immutable on-chain audit trail — every event (KYC verified, escrow funded, token issued) is indexed by The Graph Node and timestamped for audit retrieval.</p>
-<p>Redundant storage — Postgres + Evervault + IPFS backup ensures tamper-evident records.</p>
-<p>Retention policy: five-year digital preservation per FINRA 4511.</p>
-<p>Data access controls: restricted API keys + read-only BD dashboard visibility.</p>
-<p>🧠 3. Data Protection &amp; Access Control</p>
-<p>Role-based AccessControl (BD_SUPERVISOR_ROLE, ISSUER_ROLE, INVESTOR_ROLE) implemented at contract level.</p>
-<p>All PII encrypted at rest through Evervault; wallet data remains on-chain only.</p>
-<p>GDPR / CCPA disclosures and data-erasure procedures drafted and posted in the Terms directory.</p>
-<p>🧩 4. Reg CF vs. Reg A Structural Separation</p>
-<p>Distinct contract namespaces: RegCFToken.sol and BFTKN.sol.</p>
-<p>Dedicated subgraph entities and schemas for each regulation type.</p>
-<p>UI segmentation ensures CF and A+ offerings are never cross-displayed to investors.</p>
-<p>Compliance flags within each contract prevent mis-issuance or cross-sale.</p>
-<p>📜 5. Communication Supervision</p>
-<p>All system emails and announcements routed through Evervault SMTP and archived to IPFS.</p>
-<p>Communication IDs hash-linked to transaction events for FINRA 2210 audit retrieval.</p>
-<p>Internal policy: no public posting or investor communication occurs without record capture.</p>
-<p>Broker-Dealer visibility: read-only access to all archived threads and platform logs.</p>
-<p>🔍 6. Sandbox Certification Preparation</p>
-<p>Validated API Tests stored in /src/lib/:</p>
-<p>kycAmlTest.ts — Auto-approved status proof</p>
-<p>escrowTest.ts — Balance verification</p>
-<p>escrowAccountTest.ts — Account creation confirmation</p>
-<p>Pre-Live Checklist: each UI action triggers and logs a real API response for certification review.</p>
-<p>Mock Investors: demonstrate positive, negative, and pending KYC scenarios for testing.</p>
-<p>🏛 7. Broker-Dealer Visibility</p>
-<p>BD Dashboard provides read-only access to investor activity, issuer approvals, and token issuances.</p>
-<p>Offering documents and escrow agreements are stored in an encrypted vault with BD API pull rights.</p>
-<p>Audit trail automatically exports to CSV and JSON for FINRA or SEC review.</p>
-<p>BD_SUPERVISOR_ROLE smart-contract permission ensures no offering goes live without BD sign-off.</p>
-<p>🎬 Pre-Live Certification Walk-Through</p>
-<p>A recorded 8-minute walk-through will be provided to Andes Capital demonstrating:</p>
-<p>Investor onboarding flow (createParty → performKycAml → createAccount)</p>
-<p>Compliance dashboard and books-and-records capture</p>
-<p>Token issuance and subgraph event verification</p>
-<p>BD visibility and oversight controls</p>
-<p>Closing and next steps for production API transition</p>
-<p>The video link will be shared privately for internal compliance review and certification files.</p>
-<p>✅ Summary</p>
-<p>R. Block Nation’s compliance infrastructure now meets all core requirements for broker-dealer supervision and Reg CF / Reg A onboarding.
-With North Capital handling KYC/AML and escrow and on-chain Transfer Agent logic replacing third-party dependencies, the platform is ready for final certification and production approval under Andes Capital’s oversight.</p>
-<p>📄 Last Updated</p>
-<p>November 1, 2025 — Prepared by Lester Sawyer, Founder, R. Block Nation
-<a href="/Internal/ProgressReport/">← Back to Progress Report (Nov 2025)</a></p>
+<h1 id="r-block-nation-internal-compliance-broker-dealer-alignment-november-2025">R. Block Nation — Internal Compliance &amp; Broker-Dealer Alignment (November 2025)<a class="headerlink" href="#r-block-nation-internal-compliance-broker-dealer-alignment-november-2025" title="Permanent link">&para;</a></h1>
 <hr />
+<h2 id="overview">🧭 Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>This page provides Andes Capital and other broker-dealer partners with a clear view of the internal compliance architecture, audit controls, and supervisory procedures currently active within the <strong>R. Block Nation</strong> ecosystem.  </p>
+<p>All items below have been verified internally in preparation for <strong>Pre-Live Certification</strong> under broker-dealer supervision.</p>
+<hr />
+<h2 id="1-written-supervisory-procedures-wsp-mapping">🧾 1. Written Supervisory Procedures (WSP) Mapping<a class="headerlink" href="#1-written-supervisory-procedures-wsp-mapping" title="Permanent link">&para;</a></h2>
+<p>R. Block Nation’s compliance framework maps each operational function to applicable SEC and FINRA rules:</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Regulatory Basis</th>
+<th>Enforcement Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Investor Onboarding / KYC / AML</td>
+<td>SEC Rule 227.304</td>
+<td>North Capital TransactAPI (<code>performKycAml</code>)</td>
+</tr>
+<tr>
+<td>Escrow Management</td>
+<td>SEC Rule 15c2-4</td>
+<td>North Capital Escrow API (<code>createAccount</code> / <code>balance</code>)</td>
+</tr>
+<tr>
+<td>Books &amp; Records Retention</td>
+<td>FINRA Rule 4511</td>
+<td>Immutable Subgraph + Evervault archive (5-year retention)</td>
+</tr>
+<tr>
+<td>Transfer Agent Function</td>
+<td>SEC Rules 17Ad-1 &amp; 17Ad-4</td>
+<td><code>TransferAgent.sol</code> contract + IPFS metadata</td>
+</tr>
+<tr>
+<td>Advertising &amp; Communications</td>
+<td>FINRA Rule 2210 / CF 203</td>
+<td>Archived via SMTP + IPFS hashing</td>
+</tr>
+<tr>
+<td>Shareholder Governance</td>
+<td>Reg A § 251 / CF 204</td>
+<td><code>GovernanceBoard.sol</code> on-chain voting</td>
+</tr>
+</tbody>
+</table>
+<p>📄 <em>Full WSP mapping document stored under</em><br />
+<code>/Internal/ProgressReport/</code></p>
+<hr />
+<h2 id="2-books-records-capture">🗂 2. Books &amp; Records Capture<a class="headerlink" href="#2-books-records-capture" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Immutable on-chain audit trail</strong> — every event (KYC verified, escrow funded, token issued) is indexed by The Graph Node and timestamped for audit retrieval.  </li>
+<li><strong>Redundant storage</strong> — Postgres + Evervault + IPFS backup ensures tamper-evident records.  </li>
+<li><strong>Retention policy:</strong> Five-year digital preservation per FINRA 4511.  </li>
+<li><strong>Data access controls:</strong> Restricted API keys + read-only BD dashboard visibility.</li>
+</ul>
+<hr />
+<h2 id="3-data-protection-access-control">🧠 3. Data Protection &amp; Access Control<a class="headerlink" href="#3-data-protection-access-control" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Role-based <code>AccessControl</code> (<code>BD_SUPERVISOR_ROLE</code>, <code>ISSUER_ROLE</code>, <code>INVESTOR_ROLE</code>) implemented at the contract level.  </li>
+<li>All PII encrypted at rest through Evervault; wallet data remains on-chain only.  </li>
+<li>GDPR / CCPA disclosures and data-erasure procedures drafted and posted in the <strong>Terms</strong> directory.</li>
+</ul>
+<hr />
+<h2 id="4-reg-cf-vs-reg-a-structural-separation">🧩 4. Reg CF vs. Reg A Structural Separation<a class="headerlink" href="#4-reg-cf-vs-reg-a-structural-separation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Distinct contract namespaces: <code>RegCFToken.sol</code> and <code>BFTKN.sol</code>.  </li>
+<li>Dedicated subgraph entities and schemas for each regulation type.  </li>
+<li>UI segmentation ensures CF and A+ offerings are never cross-displayed to investors.  </li>
+<li>Compliance flags within each contract prevent mis-issuance or cross-sale.</li>
+</ul>
+<hr />
+<h2 id="5-communication-supervision">📜 5. Communication Supervision<a class="headerlink" href="#5-communication-supervision" title="Permanent link">&para;</a></h2>
+<ul>
+<li>All system emails and announcements routed through Evervault SMTP and archived to IPFS.  </li>
+<li>Communication IDs hash-linked to transaction events for FINRA 2210 audit retrieval.  </li>
+<li>Internal policy: no public posting or investor communication occurs without record capture.  </li>
+<li>Broker-Dealer visibility: read-only access to all archived threads and platform logs.</li>
+</ul>
+<hr />
+<h2 id="6-sandbox-certification-preparation">🔍 6. Sandbox Certification Preparation<a class="headerlink" href="#6-sandbox-certification-preparation" title="Permanent link">&para;</a></h2>
+<p><strong>Validated API Tests stored in <code>/src/lib/</code>:</strong></p>
+<p>kycAmlTest.ts — Auto-approved status proof
+escrowTest.ts — Balance verification
+escrowAccountTest.ts — Account creation confirmation</p>
+<ul>
+<li>Pre-Live Checklist: Each UI action triggers and logs a real API response for certification review.  </li>
+<li>Mock Investors: Demonstrate positive, negative, and pending KYC scenarios for testing.</li>
+</ul>
+<hr />
+<h2 id="7-broker-dealer-visibility">🏛 7. Broker-Dealer Visibility<a class="headerlink" href="#7-broker-dealer-visibility" title="Permanent link">&para;</a></h2>
+<ul>
+<li>BD Dashboard provides read-only access to investor activity, issuer approvals, and token issuances.  </li>
+<li>Offering documents and escrow agreements are stored in an encrypted vault with BD API pull rights.  </li>
+<li>Audit trail automatically exports to CSV and JSON for FINRA or SEC review.  </li>
+<li><code>BD_SUPERVISOR_ROLE</code> smart-contract permission ensures no offering goes live without BD sign-off.</li>
+</ul>
+<hr />
+<h2 id="pre-live-certification-walk-through">🎬 Pre-Live Certification Walk-Through<a class="headerlink" href="#pre-live-certification-walk-through" title="Permanent link">&para;</a></h2>
+<p>A recorded <strong>8-minute walk-through</strong> will be provided to Andes Capital demonstrating:</p>
+<ul>
+<li>Investor onboarding flow (<code>createParty</code> → <code>performKycAml</code> → <code>createAccount</code>)  </li>
+<li>Compliance dashboard and books-and-records capture  </li>
+<li>Token issuance and subgraph event verification  </li>
+<li>BD visibility and oversight controls  </li>
+<li>Closing and next steps for production API transition  </li>
+</ul>
+<p>The video link will be shared privately for internal compliance review and certification files.</p>
+<hr />
+<h2 id="summary">✅ Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>R. Block Nation’s compliance infrastructure now meets all core requirements for broker-dealer supervision and Reg CF / Reg A onboarding.  </p>
+<p>With North Capital handling KYC/AML and escrow, and on-chain Transfer Agent logic replacing third-party dependencies, the platform is ready for <strong>final certification and production approval</strong> under Andes Capital’s oversight.</p>
+<hr />
+<p>📄 <strong>Last Updated:</strong><br />
+<strong>November 1, 2025</strong> — Prepared by <em>Lester Sawyer, Founder, R. Block Nation</em></p>
+<hr />
+<p><a href="../ProgressReport.md">← Back to Progress Report (Nov 2025)</a><br />
+<a href="#r-block-nation--internal-compliance--broker-dealer-alignment-november-2025">Back to top</a></p>
 
 
 
