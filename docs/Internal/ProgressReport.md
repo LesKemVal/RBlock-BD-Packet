@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="../assets/spacing.css">
+
 # R. Block Nation / R. Block Holdings — Progress To-Date (November 2025)
 
 ---
@@ -11,14 +13,14 @@
 | **Subgraph** | ✅ Operational | Endpoint: [http://localhost:8000/subgraphs/name/atk/graphql](http://localhost:8000/subgraphs/name/atk/graphql) — Indexes Reg CF + Reg A token events and investor verification updates. |
 | **Frontend (React 18 + Vite + Tailwind + Flowbite)** | ✅ MVP Complete | Fully routed, theme-adaptive UI with dashboard, AGM portal, and compliance registry sections. |
 | **Compliance Layer (Escrow & KYC/AML)** | ✅ Sandbox Validated | North Capital TransactAPI methods confirmed operational for all endpoints. |
-| **Hosting & DNS** | ✅ Configured | Production: [rblocknation.com](https://www.rblocknation.com)<br>Docs: leskemval.github.io/R.BlockShares |
+| **Hosting & DNS** | ✅ Configured | Production: [rblocknation.com](https://www.rblocknation.com) <br> Docs: leskemval.github.io/R.BlockShares |
 | **Repositories** | ✅ Synced | LesKemVal/asset-tokenization-kit · LesKemVal/Broker-Dealer-Compliance-Readiness · LesKemVal/R.BlockShares |
 
 ---
 
 ## ⚙️ 2. Technical Validation (Sandbox)
 
-All major **TransactAPI** methods validated via TypeScript test scripts.  
+All major **TransactAPI** methods validated via TypeScript test scripts.
 
 <br>
 
@@ -31,13 +33,15 @@ All major **TransactAPI** methods validated via TypeScript test scripts.
 
 <br>
 
-**Working test files:**  
+**Working test files:**
 
 /Users/lestersawyer/projects/dapp-standalone/src/lib/
 ├── escrowTest.ts
 ├── kycAmlTest.ts
 └── escrowAccountTest.ts
 
+yaml
+Copy code
 
 ---
 
@@ -103,6 +107,8 @@ All major **TransactAPI** methods validated via TypeScript test scripts.
 ✅ Broker-Dealer checklist reviewed  
 ✅ TransferAgent upgrade initiated  
 
+<br>
+
 **Next Milestone:** UI demo recording for Pre-Live Certification  
 
 <br>
@@ -131,3 +137,19 @@ All major **TransactAPI** methods validated via TypeScript test scripts.
 ---
 
 [← Back to Top](#r-block-nation--r-block-holdings--progress-to-date-november-2025)
+
+
+---
+
+[→ View Internal Compliance & BD Alignment (Nov 2025)](../BD-Compliance-Alignment/)
+[→ View Smart Contract Upgrades (Phase 2)](../SmartContract-Upgrades/)
+
+---
+
+## 🔗 Related Certification Documents (2025-11-09)
+- [Pre-Live Certification Packet](./PreLive_Certification_Packet_2025-11-09.md)
+- [RBlockNation Compliance-to-RWA Guarantee](./RBlockNation_ComplianceGuarantee_2025-11-09.md)
+- [BD Readiness Checklist](./BD_Readiness_Checklist_2025-11-09.md)
+
+These documents confirm that R. Block Nation’s ATK stack, subgraph, and compliance APIs
+have reached **BD-ready / RWA-ready** status for final verification.
